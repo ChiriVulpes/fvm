@@ -91,6 +91,10 @@ export declare interface DeepsightDropTableDropDefinition {
 	 * `DestinyInventoryItemDefinition` hashes representing a list of items required for this drop to drop.
 	 */
 	requiresItems?: number[];
+	/**
+	 * `true` if this item is only available for purchase in an end-of-activity cache.
+	 */
+	purchaseOnly?: true;
 }
 
 export declare interface DeepsightDropTableRotationsDefinition {
