@@ -15,7 +15,7 @@ void (async () => {
 	const maxAttempts = 1;
 	for (let attempts = 0; !manifest && attempts < maxAttempts; attempts++) {
 		const abortController = new AbortController();
-		setTimeout(abortController.abort, 20000); // 20 seconds max for a request
+		setTimeout(() => abortController.abort(), 20000); // 20 seconds max for a request
 		manifest = await fetch("https://www.bungie.net/Platform/Destiny2/Manifest/", { signal: abortController.signal })
 			.then(response => response.status === 200 ? response.json()
 				: { type: "error", code: response.status, message: response.statusText })
