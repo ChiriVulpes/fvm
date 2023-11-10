@@ -59,11 +59,17 @@ export declare const enum DeepsightPlugTypePerk {
 export declare const enum DeepsightPlugTypeMod {
 	None,
 	Armor,
+	ArmorEmpty,
 	Weapon,
+	WeaponEmpty,
 	Ghost,
+	GhostEmpty,
+	Universal,
+	UniversalEmpty,
 	Deprecated,
 	Fallback,
-	EmptySocket,
+	ArmorLocked,
+	ArmorExotic,
 }
 
 export declare const enum DeepsightPlugTypeSubclass {
@@ -76,12 +82,18 @@ export declare const enum DeepsightPlugTypeSubclass {
 	Melee,
 	ClassAbility,
 	Movement,
+	SuperEmpty,
+	AspectEmpty,
+	GrenadeEmpty,
+	MeleeEmpty,
+	ClassAbilityEmpty,
+	MovementEmpty,
 }
 
 export declare const enum DeepsightPlugTypeCosmetic {
 	None,
 	Shader,
-	Ornament,
+	OrnamentWeapon,
 	Memento,
 	Emote,
 	TransmatEffect,
@@ -96,6 +108,11 @@ export declare const enum DeepsightPlugTypeCosmetic {
 	Radiance,
 	OrnamentDefault,
 	MementoEmpty,
+	OrnamentArmor,
+	OrnamentArmorExotic,
+	OrnamentWeaponExotic,
+	OrnamentMask,
+	ShaderDefault,
 }
 
 export declare const enum DeepsightPlugTypeMasterwork {
