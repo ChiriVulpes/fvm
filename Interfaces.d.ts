@@ -158,7 +158,16 @@ export declare interface DeepsightWallpaperDefinition {
 }
 
 export interface DeepsightTierTypeDefinition {
+	/**
+	 * A `DestinyItemTierTypeDefinition` hash.
+	 */
 	hash: number;
+	/**
+	 * The `TierType` of this tier, as appears in `DestinyInventoryItemDefinition`'s `inventory.tierType`.
+	 */
 	tierType: number;
+	/**
+	 * Partial display properties. Not all fields are guaranteed to be provided.
+	 */
 	displayProperties: DeepsightDisplayPropertiesDefinition;
 }
