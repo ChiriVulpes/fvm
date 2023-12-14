@@ -156,3 +156,9 @@ export declare interface DeepsightWallpaperDefinition {
 	 */
 	wallpapers: string[];
 }
+
+export interface DeepsightTierTypeDefinition {
+	hash: number;
+	tierType: number;
+	displayProperties: DeepsightDisplayPropertiesDefinition;
+}
