@@ -36197,12 +36197,12 @@ export declare const enum ItemCategoryHashes {
 }
 
 export declare const enum ItemTierTypeHashes {
-	Basic1801258597 = 1801258597,
+	BasicQuest = 1801258597,
 	Rare = 2127292149,
-	Common = 2395677314,
+	Uncommon = 2395677314,
 	Exotic = 2759499571,
-	Basic3340296461 = 3340296461,
-	Basic3772930460 = 3772930460,
+	Common = 3340296461,
+	BasicCurrency = 3772930460,
 	Legendary = 4008398120,
 }
 
