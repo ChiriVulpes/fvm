@@ -61,6 +61,7 @@ export enum DeepsightPlugTypeMod {
 	Armor,
 	ArmorEmpty,
 	Weapon,
+	WeaponAdept,
 	WeaponEmpty,
 	Ghost,
 	GhostEmpty,
