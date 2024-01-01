@@ -204,7 +204,7 @@ void (async () => {
 			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now());
 		}
 
-		const recentPGCR = await PGCR.getNewerThan(lastDailyReset, searchStart, searchEnd);
+		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(20), searchStart, searchEnd);
 		if (recentPGCR) {
 			needsUpdate = true;
 			versions.lastDailyReset = lastDailyReset;
