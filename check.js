@@ -207,6 +207,8 @@ void (async () => {
 		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(20), searchStart, searchEnd);
 		if (recentPGCR) {
 			needsUpdate = true;
+			versions.deepsight++;
+			versions.updated = new Date().toISOString().slice(0, -5) + "Z";
 			versions.lastDailyReset = lastDailyReset;
 			versions.lastWeeklyReset = lastWeeklyReset;
 			versions.lastTrialsReset = lastTrialsReset;
