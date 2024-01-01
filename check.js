@@ -1,6 +1,12 @@
 /* eslint-disable @typescript-eslint/no-var-requires, no-undef, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-assignment */
 const fs = require("fs/promises");
 
+const ENDPOINT_PGCR = "https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport";
+
+const apiKey = process.env.DEEPSIGHT_MANIFEST_API_KEY;
+if (!apiKey)
+	throw new Error("No API key set");
+
 async function getDestinyManifestVersion () {
 	let manifest;
 	const maxAttempts = 1;
@@ -80,7 +86,7 @@ class PGCR {
 	 * @param {number} id
 	 */
 	static async getPGCR (id) {
-		return fetch(`https://stats.bungie.net/Destiny2/Stats/PostGameCarnageReport/${id}/`, {
+		return fetch(`${ENDPOINT_PGCR}/${id}/`, {
 			headers: {
 				"X-API-Key": /** @type {string} */(apiKey),
 			},
@@ -153,10 +159,6 @@ class Time {
 
 ////////////////////////////////////
 // Check time!
-
-const apiKey = process.env.DEEPSIGHT_MANIFEST_API_KEY;
-if (!apiKey)
-	throw new Error("No API key set");
 
 const ESTIMATED_PGCRS_PER_SECOND = 69; // technically it's closer to 70 but this is nicer
 const REFERENCE_PGCR_RETRIEVAL_DELAY = Time.minutes(30);
