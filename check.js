@@ -214,7 +214,7 @@ void (async () => {
 				instanceId: recentPGCR.activityDetails.instanceId,
 				period: recentPGCR.period,
 			};
-			await fs.writeFile("versions.json", JSON.stringify(versions, null, "\t"));
+			await fs.writeFile("versions.json", JSON.stringify(versions, null, "\t") + "\n");
 		}
 	}
 
