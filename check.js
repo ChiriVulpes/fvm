@@ -66,7 +66,7 @@ class PGCR {
 
 			if (response?.Response?.period) {
 				if (new Date(response.Response.period).getTime() > targetTime)
-					return response;
+					return response.Response;
 
 				searchStart = mid + 1;
 			} else {
