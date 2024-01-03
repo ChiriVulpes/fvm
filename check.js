@@ -57,11 +57,19 @@ class PGCR {
 	 */
 	static async getNewerThan (targetTime, searchStart = 14008975359, searchEnd = 137438953470) {
 		let attempts = 0;
+		let lastMid = 0;
 		while (true) {
 			attempts++;
 			console.log("[PGCR Search] Current range:", searchStart, searchEnd, "Query count:", attempts);
 
 			const mid = Math.floor((searchStart + searchEnd) / 2);
+			if (mid === lastMid) {
+				console.log("[PGCR Search] Failed to find a recent PGCR, range was invalid.");
+				return undefined;
+			}
+
+			lastMid = mid;
+
 			const response = await this.getPGCR(mid).then(response => response.json());
 
 			if (response?.Response?.period) {
@@ -74,7 +82,7 @@ class PGCR {
 			}
 
 			if (attempts >= 100) {
-				console.log("[PGCR Search] Failed to find a recent PGCR.");
+				console.log("[PGCR Search] Failed to find a recent PGCR, too many attempts.");
 				return undefined;
 			}
 
