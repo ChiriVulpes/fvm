@@ -120,8 +120,9 @@ class Time {
 	}
 
 	static get nextWeeklyReset () {
-		const daysRemaining = (2 - new Date().getUTCDay() + 7) % 7;
-		return this.nextDailyReset + daysRemaining * this.days(1);
+		const now = Date.now();
+		const week = now + (this.days(7) - (now % this.days(7))) - this.days(1) - this.hours(7);
+		return week < Date.now() ? week + this.days(7) : week;
 	}
 
 	/**
@@ -129,6 +130,13 @@ class Time {
 	 */
 	static days (days) {
 		return days * 1000 * 60 * 60 * 24;
+	}
+
+	/**
+	 * @param {number} hours
+	 */
+	static hours (hours) {
+		return hours * 1000 * 60 * 60;
 	}
 
 	/**
@@ -200,8 +208,8 @@ void (async () => {
 		if (lastRefPGCR) {
 			const refId = +lastRefPGCR.instanceId;
 			const refTime = new Date(lastRefPGCR.period).getTime();
-			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset);
-			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now());
+			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset) * 2;
+			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 3;
 		}
 
 		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(20), searchStart, searchEnd);
