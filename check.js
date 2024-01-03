@@ -60,8 +60,6 @@ class PGCR {
 		let lastMid = 0;
 		while (true) {
 			attempts++;
-			console.log("[PGCR Search] Current range:", searchStart, searchEnd, "Query count:", attempts);
-
 			const mid = Math.floor((searchStart + searchEnd) / 2);
 			if (mid === lastMid) {
 				console.log("[PGCR Search] Failed to find a recent PGCR, range was invalid.");
@@ -70,6 +68,7 @@ class PGCR {
 
 			lastMid = mid;
 
+			console.log("[PGCR Search] Query:", mid, "Current range:", searchStart, searchEnd, "Query count:", attempts);
 			const response = await this.getPGCR(mid).then(response => response.json());
 
 			if (response?.Response?.period) {
@@ -216,8 +215,8 @@ void (async () => {
 		if (lastRefPGCR) {
 			const refId = +lastRefPGCR.instanceId;
 			const refTime = new Date(lastRefPGCR.period).getTime();
-			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset) * 2;
-			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 10;
+			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset) * 10;
+			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 50;
 		}
 
 		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(20), searchStart, searchEnd);
