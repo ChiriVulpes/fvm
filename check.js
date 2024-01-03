@@ -215,8 +215,8 @@ void (async () => {
 		if (lastRefPGCR) {
 			const refId = +lastRefPGCR.instanceId;
 			const refTime = new Date(lastRefPGCR.period).getTime();
-			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset) * 50;
-			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 50;
+			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset) - ESTIMATED_PGCRS_PER_SECOND * (Time.days(1) / Time.seconds(1));
+			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 20;
 		}
 
 		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(20), searchStart, searchEnd);
