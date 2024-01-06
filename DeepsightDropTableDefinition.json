@@ -1,6 +1,6 @@
 {
 	"313828469": {
-		"recordHash": 4038749769,
+		"hash": 313828469,
 		"displayProperties": {
 			"icon": "./image/png/activity/gotd.png",
 			"name": "Ghosts of the Deep",
@@ -15,9 +15,17 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
 				"displayProperties": {
-					"name": "Hive Ritual",
-					"description": "Break the Ritual"
+					"name": "Locate the Ritual Site",
+					"description": "Find the Lucent Hive ritual site."
+				}
+			},
+			{
+				"phaseHash": 160562459,
+				"displayProperties": {
+					"name": "Break the Ritual",
+					"description": "Unravel the Lucent Hive ritual."
 				},
 				"dropTable": {
 					"322717029": {},
@@ -30,9 +38,48 @@
 				}
 			},
 			{
+				"phaseHash": 3491633841,
+				"traversal": true,
 				"displayProperties": {
-					"name": "Ecthar, the Shield of Savathûn",
-					"description": "Defeat the Shield of Savathûn"
+					"name": "Explore the Arcology",
+					"description": "Explore the New Pacific Arcology in search of the Lucent Hive."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Explore the Arcology",
+					"description": "Continue deeper into the New Pacific Arcology."
+				}
+			},
+			{
+				"phaseHash": 2368968549,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Dive",
+					"description": "Reach the seafloor."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Reach the Wreckage",
+					"description": "Traverse the seafloor to reach the wrecked Lucent Hive ship."
+				}
+			},
+			{
+				"phaseHash": 3040454024,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Explore the Wreckage",
+					"description": "Search the depths of the wrecked Lucent Hive ship."
+				}
+			},
+			{
+				"phaseHash": 3469402858,
+				"displayProperties": {
+					"name": "Defeat the Shield of Savathûn",
+					"description": "Defeat Ecthar, the Shield of Savathûn."
 				},
 				"dropTable": {
 					"42941848": {},
@@ -45,9 +92,25 @@
 				}
 			},
 			{
+				"phaseHash": 3828564565,
+				"traversal": true,
 				"displayProperties": {
-					"name": "Šimmumah ur-Nokru",
-					"description": "Defeat Šimmumah ur-Nokru"
+					"name": "Go Deeper",
+					"description": "Continue exploring the wrecked Hive ship."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Reach the Ritual Heart",
+					"description": "Find the source of the Lucent Hive ritual."
+				}
+			},
+			{
+				"phaseHash": 2189312851,
+				"displayProperties": {
+					"name": "Defeat Šimmumah ur-Nokru",
+					"description": "Defeat the lightforged necromancer, Šimmumah ur-Nokru."
 				},
 				"dropTable": {
 					"42941848": {},
@@ -70,12 +133,134 @@
 		],
 		"master": {
 			"activityHash": 2716998124
+		}
+	},
+	"910380154": {
+		"hash": 910380154,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/9d6744eed9fa9b55f8190ce975f1872d.png",
+			"name": "Deep Stone Crypt",
+			"description": "The chains of legacy must be broken."
 		},
-		"hash": 313828469
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Locate the Deep Stone Crypt",
+					"description": "Survive the cold while locating the Deep Stone Crypt."
+				}
+			},
+			{
+				"phaseHash": 2776463390,
+				"displayProperties": {
+					"name": "Crypt Security",
+					"directive": "Disable Crypt Security",
+					"description": "Destroy the Crypt's power system to disable security."
+				},
+				"dropTable": {
+					"79460168": {},
+					"756445218": {},
+					"1021060724": {},
+					"1264765761": {},
+					"1392919471": {},
+					"1887490701": {},
+					"2343515647": {},
+					"2558289743": {},
+					"2902277629": {},
+					"2956588906": {}
+				}
+			},
+			{
+				"phaseHash": 3847348336,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Locate Eramis's Followers",
+					"description": "Push deeper into the Crypt and locate Eramis's followers."
+				}
+			},
+			{
+				"phaseHash": 416127450,
+				"displayProperties": {
+					"name": "Atraks-1",
+					"directive": "Defeat Atraks-1",
+					"description": "Take down the Fallen Exo Atraks-1."
+				},
+				"dropTable": {
+					"79460168": {},
+					"756445218": {},
+					"1021060724": {},
+					"1264765761": {},
+					"1887490701": {},
+					"2343515647": {},
+					"2558289743": {},
+					"2902277629": {},
+					"2956588906": {},
+					"2990047042": {},
+					"4248569242": {}
+				}
+			},
+			{
+				"phaseHash": 1370965191,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Locate the Nuclear Contingency Chamber",
+					"description": "Reach the nuclear contingency chamber."
+				}
+			},
+			{
+				"phaseHash": 1858926029,
+				"displayProperties": {
+					"name": "Descent",
+					"directive": "Prevent Europa's Destruction",
+					"description": "Disarm the Nuclear Descent Protocol."
+				},
+				"dropTable": {
+					"79460168": {},
+					"751162931": {},
+					"1021060724": {},
+					"1887490701": {},
+					"2343515647": {},
+					"2902277629": {},
+					"2956588906": {},
+					"3281285075": {},
+					"3975122240": {},
+					"4001862073": {}
+				}
+			},
+			{
+				"traversal": true,
+				"phaseHash": 1594577984,
+				"displayProperties": {
+					"name": "Emerge from the Wreckage",
+					"description": "Make your way out of the wreckage of the Morning Star."
+				}
+			},
+			{
+				"phaseHash": 4035296150,
+				"displayProperties": {
+					"name": "Taniks, the Abomination",
+					"directive": "Defeat Taniks, the Abomination",
+					"description": "Defeat Taniks for good."
+				},
+				"dropTable": {
+					"751162931": {},
+					"756445218": {},
+					"893751566": {},
+					"1264765761": {},
+					"1462908657": {},
+					"2399110176": {},
+					"2558289743": {},
+					"3015085684": {},
+					"3366545721": {},
+					"3975122240": {},
+					"4001862073": {},
+					"4230965989": {}
+				}
+			}
+		]
 	},
 	"1042180643": {
-		"rotationActivityHash": 3823237780,
-		"recordHash": 3804486505,
+		"hash": 1042180643,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/e48d301e674a19f17c5cb249a2da0173.png",
 			"name": "Garden of Salvation",
@@ -83,10 +268,18 @@
 		},
 		"encounters": [
 			{
-				"phaseHash": 2001,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Track the Unknown Artifact's Signal",
+					"description": "Enter the Black Garden to track the Unknown Artifact's signal."
+				}
+			},
+			{
+				"phaseHash": 2158557525,
 				"displayProperties": {
 					"name": "Evade the Consecrated Mind",
-					"description": "Track the Unknown Artifact's Signal"
+					"directive": "Track the Unknown Artifact's Signal",
+					"description": "Evade the Consecrated Mind and continue tracking the Unknown Artifact's signal."
 				},
 				"dropTable": {
 					"275145509": {},
@@ -97,10 +290,19 @@
 				}
 			},
 			{
-				"phaseHash": 2002,
+				"phaseHash": 473429890,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Track the Unknown Artifact's Signal",
+					"description": "Make your way through the Undergrowth to continue tracking the Unknown Artifact's signal."
+				}
+			},
+			{
+				"phaseHash": 3736477924,
 				"displayProperties": {
 					"name": "Summon the Consecrated Mind",
-					"description": "Draw out the Consecrated Mind"
+					"directive": "Draw out the Consecrated Mind",
+					"description": "Find a way to draw the Consecrated Mind out of hiding."
 				},
 				"dropTable": {
 					"964752083": {},
@@ -111,10 +313,19 @@
 				}
 			},
 			{
-				"phaseHash": 2003,
+				"phaseHash": 328479441,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Draw Out the Consecrated Mind",
+					"description": "Draw out and defeat the Consecrated Mind to continue tracking the Unknown Artifact's signal."
+				}
+			},
+			{
+				"phaseHash": 1024471091,
 				"displayProperties": {
 					"name": "Consecrated Mind, Sol Inherent",
-					"description": "Subdue the Consecrated Mind"
+					"directive": "Subdue the Consecrated Mind",
+					"description": "Defeat the Consecrated Mind to continue tracking the Unknown Artifact's signal."
 				},
 				"dropTable": {
 					"48643186": {},
@@ -125,10 +336,19 @@
 				}
 			},
 			{
-				"phaseHash": 2004,
+				"phaseHash": 2740950389,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Track the Unknown Artifact's Signal",
+					"description": "Follow the Unknown Artifact's signal up to the Boundless Horizon to discover where it leads."
+				}
+			},
+			{
+				"phaseHash": 523815399,
 				"displayProperties": {
 					"name": "Sanctified Mind, Sol Inherent",
-					"description": "Defeat the Sanctified Mind"
+					"directive": "Defeat the Sanctified Mind",
+					"description": "Defeat the Sanctified Mind to discover the final destination of the Unknown Artifact's signal."
 				},
 				"dropTable": {
 					"407842012": {},
@@ -143,210 +363,13 @@
 					}
 				}
 			}
-		],
-		"hash": 1042180643
-	},
-	"1077850348": {
-		"recordHash": 969826320,
-		"displayProperties": {
-			"name": "Prophecy",
-			"description": "Enter the realm of the Nine and ask the question: \"What is the nature of the Darkness?\"",
-			"icon": "/common/destiny2_content/icons/8a3f7ac8bedf90190a101bbfdc981742.png"
-		},
-		"encounters": [
-			{
-				"displayProperties": {
-					"name": "Phalanx Echo",
-					"description": "Defeat the Phalanx Echo"
-				},
-				"dropTable": {
-					"1219883244": {},
-					"1476654960": {},
-					"1717940633": {},
-					"1900280383": {},
-					"2022923313": {},
-					"2966633380": {},
-					"3155320806": {},
-					"3326850591": {}
-				}
-			},
-			{
-				"displayProperties": {
-					"name": "Hexahedron",
-					"description": "Escape"
-				},
-				"dropTable": {
-					"507038823": {},
-					"818644818": {},
-					"1406846351": {},
-					"1626503676": {},
-					"4194072668": {}
-				}
-			},
-			{
-				"displayProperties": {
-					"name": "Kell Echo",
-					"description": "Defeat the Kell Echo"
-				},
-				"dropTable": {
-					"100226755": {},
-					"178689419": {},
-					"508076356": {},
-					"1361912510": {},
-					"1571337215": {},
-					"1581574297": {},
-					"1652467433": {},
-					"1658294130": {},
-					"1717940633": {},
-					"1781294872": {},
-					"1900280383": {},
-					"2234240008": {},
-					"2288398391": {},
-					"2295111683": {},
-					"2481758391": {},
-					"2487240821": {},
-					"2570653206": {},
-					"2602907742": {},
-					"2623956730": {},
-					"2701727616": {},
-					"2855157553": {},
-					"2966633380": {},
-					"3075372781": {},
-					"3242850062": {},
-					"3976073347": {},
-					"4121885325": {}
-				}
-			}
-		],
-		"hash": 1077850348
-	},
-	"1191701339": {
-		"rotationActivityHash": 2381413764,
-		"recordHash": 4270724598,
-		"encounters": [
-			{
-				"phaseHash": 3172054256,
-				"displayProperties": {
-					"name": "Cataclysm",
-					"description": "Survive the Onslaught"
-				},
-				"dropTable": {
-					"135029084": {},
-					"630432767": {},
-					"824228793": {},
-					"1491665733": {},
-					"2445962586": {},
-					"2597227950": {},
-					"2787963735": {},
-					"2972949637": {},
-					"3475635982": {},
-					"3608027009": {},
-					"3810243376": {},
-					"4123705451": {}
-				}
-			},
-			{
-				"phaseHash": 2224793617,
-				"displayProperties": {
-					"name": "Scission",
-					"description": "Enter the Root"
-				},
-				"dropTable": {
-					"135029084": {},
-					"231031173": {},
-					"630432767": {},
-					"807905267": {},
-					"824228793": {},
-					"1471212226": {},
-					"2445962586": {},
-					"2597227950": {},
-					"2787963735": {},
-					"2972949637": {},
-					"3608027009": {},
-					"3702434452": {},
-					"3846650177": {}
-				}
-			},
-			{
-				"phaseHash": 2184227225,
-				"displayProperties": {
-					"name": "Macrocosm",
-					"description": "Defeat the Explicator"
-				},
-				"dropTable": {
-					"231031173": {},
-					"484515708": {},
-					"621315878": {},
-					"807905267": {},
-					"824228793": {},
-					"1471212226": {},
-					"2138394740": {},
-					"2597227950": {},
-					"2787963735": {},
-					"2915322487": {},
-					"2972949637": {},
-					"3702434452": {},
-					"3846650177": {}
-				}
-			},
-			{
-				"phaseHash": 2779782231,
-				"displayProperties": {
-					"name": "Nezarec",
-					"description": "Defeat Nezarec"
-				},
-				"dropTable": {
-					"135029084": {},
-					"231031173": {},
-					"484515708": {},
-					"621315878": {},
-					"807905267": {},
-					"1471212226": {},
-					"1491665733": {},
-					"2138394740": {},
-					"2915322487": {},
-					"2972949637": {},
-					"3371017761": {},
-					"3475635982": {},
-					"3702434452": {},
-					"3810243376": {},
-					"3846650177": {},
-					"4123705451": {}
-				}
-			}
-		],
-		"master": {
-			"activityHash": 2918919505
-		},
-		"rotations": {
-			"anchor": 1680022800000,
-			"masterDrops": [
-				1986287028,
-				3493494807,
-				342514437,
-				495442100,
-				2890082420,
-				522366885
-			],
-			"challenges": [
-				766975360,
-				138641527,
-				2070303007,
-				1616571513
-			]
-		},
-		"hash": 1191701339,
-		"displayProperties": {
-			"description": "A sinister threat has taken root.",
-			"name": "Root of Nightmares",
-			"icon": "/common/destiny2_content/icons/f2b6ec58e14244e4972705897667c246.png"
-		}
+		]
 	},
 	"1262462921": {
-		"recordHash": 2401440736,
+		"hash": 1262462921,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/241785dc00e0bf32e30d0031e299cefd.png",
-			"name": "Spire of the Watcher: Normal",
+			"name": "Spire of the Watcher",
 			"description": "Machinations run wild in this dust-ridden ruin. Bring them to heel."
 		},
 		"dropTable": {
@@ -357,9 +380,33 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
 				"displayProperties": {
-					"name": "Spire Ascent",
-					"description": "Ascend the Spire"
+					"name": "Temporal Disturbance",
+					"description": "A temporal disturbance crackles with Arc energy, the same type of energy that powers the Seraph complex. A savvy Guardian could utilize this."
+				}
+			},
+			{
+				"phaseHash": 3852545214,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Reestablish Power",
+					"description": "The complex is locked down from the inside out. Continue routing Arc power from the temporal disturbance to open a path into the Seraph complex."
+				}
+			},
+			{
+				"phaseHash": 201188049,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Begin the Ascent",
+					"description": "Venture deeper into the complex and ascend the Spire. Open up a route to the Pillory signal's source."
+				}
+			},
+			{
+				"phaseHash": 1483068591,
+				"displayProperties": {
+					"name": "Ascend the Spire",
+					"description": "Open a route via the grav lift to the Spire peak, where the Pillory signal is being sourced."
 				},
 				"dropTable": {
 					"8293111": {},
@@ -373,9 +420,18 @@
 				}
 			},
 			{
+				"phaseHash": 2027998024,
+				"traversal": true,
 				"displayProperties": {
-					"name": "Akelous, the Siren's Current",
-					"description": "Silence the Siren"
+					"name": "Ascend the Spire",
+					"description": "Climb the Spire and reach the source of the Pillory signal."
+				}
+			},
+			{
+				"phaseHash": 1779644342,
+				"displayProperties": {
+					"name": "Silence the Siren",
+					"description": "Destroy Akelous, the Siren's Current before it can complete the Pillory protocol and imprison Rasputin's subminds."
 				},
 				"dropTable": {
 					"506181038": {},
@@ -388,9 +444,26 @@
 				}
 			},
 			{
+				"phaseHash": 3603277873,
+				"traversal": true,
 				"displayProperties": {
-					"name": "Persys, Primordial Ruin",
-					"description": "Prompt Critical"
+					"name": "Descend",
+					"description": "The Sol Divisive have initiated a reactor meltdown! Descend through the Spire server stack and find a way to stop it."
+				}
+			},
+			{
+				"phaseHash": 3934781543,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Pillory Stack Containment",
+					"description": "The meltdown is triggering lockdowns in the Spire's Pillory server stack. Initiate an override with Arc linkages to negate the lockdowns."
+				}
+			},
+			{
+				"phaseHash": 2676434388,
+				"displayProperties": {
+					"name": "Prompt Critical",
+					"description": "Destroy Persys, Primordial Ruin and prevent the complex's reactor core meltdown from causing irreparable damage."
 				},
 				"dropTable": {
 					"8293111": {},
@@ -416,17 +489,38 @@
 		],
 		"master": {
 			"activityHash": 2296818662
-		},
-		"hash": 1262462921
+		}
 	},
 	"1374392663": {
-		"recordHash": 3047702042,
+		"hash": 1374392663,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/0e515c7cf25a2f2350b788e6f5b7f8eb.png",
+			"name": "King's Fall",
+			"description": "Long live the King…"
+		},
 		"encounters": [
+			{
+				"phaseHash": 829896467,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Open the Portal",
+					"description": "Gain access to the Dreadnaught's inner sanctum."
+				}
+			},
+			{
+				"phaseHash": 3831927225,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Cross the Expanse",
+					"description": "Continue traversing the Dreadnaught."
+				}
+			},
 			{
 				"phaseHash": 1406613360,
 				"displayProperties": {
 					"name": "Basilica",
-					"description": "Power the Glyph"
+					"directive": "Power the Glyph",
+					"description": "Power the Hive glyph to lower the barrier and gain deeper access to the Dreadnaught."
 				},
 				"dropTable": {
 					"169689932": {},
@@ -446,7 +540,8 @@
 				"phaseHash": 2115142089,
 				"displayProperties": {
 					"name": "Warpriest",
-					"description": "Defeat the Warpriest"
+					"directive": "Defeat the Warpriest",
+					"description": "Defeat Oryx's Warpriest before he destroys you."
 				},
 				"dropTable": {
 					"169689932": {},
@@ -460,10 +555,19 @@
 				}
 			},
 			{
+				"phaseHash": 3983340187,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Traverse the Catacombs",
+					"description": "Find a way out of the Dreadnaught tunnels."
+				}
+			},
+			{
 				"phaseHash": 3738629258,
 				"displayProperties": {
 					"name": "Golgoroth",
-					"description": "Defeat Golgoroth"
+					"directive": "Defeat Golgoroth",
+					"description": "Neutralize the Ogre to advance deeper into the Dreadnaught."
 				},
 				"dropTable": {
 					"26254737": {},
@@ -478,10 +582,19 @@
 				}
 			},
 			{
+				"phaseHash": 3897367839,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Traverse the Edge",
+					"description": "Find Oryx, the Taken King."
+				}
+			},
+			{
 				"phaseHash": 2951654489,
 				"displayProperties": {
-					"name": "Daughters",
-					"description": "Defeat the Daughters of Oryx"
+					"name": "The Daughters",
+					"directive": "Defeat the Daughters of Oryx",
+					"description": "Oryx's daughters are his last line of defense. Silence them."
 				},
 				"dropTable": {
 					"169689932": {},
@@ -498,8 +611,9 @@
 			{
 				"phaseHash": 1089000747,
 				"displayProperties": {
-					"name": "Oryx, the Taken King",
-					"description": "Defeat Oryx, the Taken King"
+					"name": "Oryx",
+					"directive": "Defeat Oryx, the Taken King",
+					"description": "Defeat Oryx to end his threat to the solar system, and to you."
 				},
 				"dropTable": {
 					"26254737": {},
@@ -527,33 +641,53 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
-			"anchor": 1696957200000,
+			"anchor": "2023-10-10T17:00:00Z",
 			"challenges": [
 				3577304467,
 				2159250954,
 				2890753840,
 				2936050162,
 				4152669757
-			]
+			],
+			"interval": "weekly",
+			"current": 12,
+			"next": "2024-01-09T17:00:00Z"
 		},
-		"hash": 1374392663,
-		"displayProperties": {
-			"description": "Long live the King…",
-			"name": "King's Fall",
-			"icon": "/common/destiny2_content/icons/0e515c7cf25a2f2350b788e6f5b7f8eb.png"
-		}
+		"availability": "rotator",
+		"endTime": "2024-01-09T17:00:00Z"
 	},
 	"1441982566": {
-		"recordHash": 2168422218,
+		"hash": 1441982566,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/b84b6ea72dd05de7123aa2ae87ba0d6a.png",
+			"name": "Vow of the Disciple",
+			"description": "The disciple beckons…"
+		},
 		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Approach, Children…",
+					"description": "Through mud and mire you trudge, seeking that which lies in the bog. Does it drown? Or rise? Perhaps you will decide."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "You Search and Search and Search…",
+					"description": "Listen not to those who supply cautions. It is insulting to you, oh children of Light. Let strength be your guide."
+				}
+			},
 			{
 				"phaseHash": 580855089,
 				"displayProperties": {
 					"name": "Acquisition",
-					"description": "Truth. Symbolize. Is. Materialize. Everywhere."
+					"directive": "Truth. Symbolize. Is. Materialize. Everywhere.",
+					"description": "Your eyes are always closed. Do you not see what's right in front of you? Those who fail to see the truth will drown in it."
 				},
 				"dropTable": {
 					"362541459": {},
@@ -571,10 +705,18 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "You Exhaust Me",
+					"description": "Life is but a pointed game, pointing you in pointless directions towards pointless goals."
+				}
+			},
+			{
 				"phaseHash": 1942966197,
 				"displayProperties": {
 					"name": "Collection",
-					"description": "Do Not Disrupt the Caretaker"
+					"directive": "Do Not Disrupt the Caretaker",
+					"description": "SCORN. They eat away at the decay within a shell of. SCORN. Truth exists all around outside the shell of. SCORN."
 				},
 				"dropTable": {
 					"362541459": {},
@@ -593,10 +735,18 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "You Are Directionless…",
+					"description": "They say purpose questioned is healthy. Perhaps aimlessness does not plague you. Futility, however…"
+				}
+			},
+			{
 				"phaseHash": 196663595,
 				"displayProperties": {
 					"name": "Exhibition",
-					"description": "Nothing More than Meaningless Trinkets"
+					"directive": "Nothing More than Meaningless Trinkets",
+					"description": "Did you think you were the observer? Or did you believe you pulled the strings? Now's your chance—with artifacts of fate, you can make them dance."
 				},
 				"dropTable": {
 					"365727964": {},
@@ -610,10 +760,18 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Apocalypse is on Your Horizon",
+					"description": "The end is near by your own hand, children. Come, sit beside me before you drown."
+				}
+			},
+			{
 				"phaseHash": 3840791265,
 				"displayProperties": {
 					"name": "Dominion",
-					"description": "DROWNDROWNDROWN"
+					"directive": "DROWNDROWNDROWN",
+					"description": "The Upended is alive. You have no more tasks ahead. Lie down and embrace the darkness beyond your final days."
 				},
 				"dropTable": {
 					"362541459": {},
@@ -644,24 +802,20 @@
 			}
 		},
 		"rotations": {
-			"anchor": 1696352400000,
+			"anchor": "2023-10-03T17:00:00Z",
 			"challenges": [
 				2672226122,
 				3425521520,
 				2255984700,
 				2098788044
-			]
-		},
-		"hash": 1441982566,
-		"displayProperties": {
-			"description": "The disciple beckons…",
-			"name": "Vow of the Disciple",
-			"icon": "/common/destiny2_content/icons/b84b6ea72dd05de7123aa2ae87ba0d6a.png"
+			],
+			"interval": "weekly",
+			"current": 13,
+			"next": "2024-01-09T17:00:00Z"
 		}
 	},
 	"1661734046": {
-		"rotationActivityHash": 2122313384,
-		"recordHash": 2899839432,
+		"hash": 1661734046,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_56d1f52f0cb40248a990408d7ac84bd3.png",
 			"name": "Last Wish",
@@ -694,60 +848,254 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Dreaming City",
+					"description": "Access the Dreaming City and begin your pursuit of Riven, the last known Ahamkara."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find Riven",
+					"description": "Head higher into the Dreaming City and pursue Riven."
+				}
+			},
+			{
 				"phaseHash": 1126840038,
 				"displayProperties": {
 					"name": "Kalli, the Corrupted",
-					"description": "Defeat Kalli"
+					"directive": "Defeat Kalli",
+					"description": "Defeat the corrupted Kalli to free her from Taken influence."
 				}
 			},
 			{
-				"phaseHash": 1126840038,
+				"phaseHash": 3370459802,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find Riven",
+					"description": "Head higher into the Dreaming City and pursue Riven."
+				}
+			},
+			{
+				"phaseHash": 1040714588,
 				"displayProperties": {
 					"name": "Shuro Chi, the Corrupted",
-					"description": "Defeat Shuro Chi"
+					"directive": "Defeat Shuro Chi",
+					"description": "Defeat the corrupted Shuro Chi to free her from Taken influence."
 				}
 			},
 			{
-				"phaseHash": 1126840038,
+				"phaseHash": 1349075536,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find Riven",
+					"description": "Head higher into the Dreaming City and pursue Riven."
+				}
+			},
+			{
+				"phaseHash": 4249034918,
 				"displayProperties": {
 					"name": "Morgeth, the Spirekeeper",
-					"description": "Defeat Morgeth, the Spirekeeper"
+					"directive": "Defeat Morgeth, the Spirekeeper",
+					"description": "Defeat Morgeth."
 				}
 			},
 			{
-				"phaseHash": 1126840038,
+				"phaseHash": 2169047898,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find Riven",
+					"description": "Head higher into the Dreaming City and pursue Riven."
+				}
+			},
+			{
+				"phaseHash": 436847112,
 				"displayProperties": {
 					"name": "The Vault",
-					"description": "Unlock the Way Forward"
+					"directive": "Unlock the Way Forward",
+					"description": "Find a way to open the door barring your path."
 				}
 			},
 			{
-				"phaseHash": 1126840038,
+				"phaseHash": 2879343438,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find Riven",
+					"description": "Head higher into the Dreaming City and pursue Riven."
+				}
+			},
+			{
+				"phaseHash": 2392610624,
 				"displayProperties": {
 					"name": "Riven of a Thousand Voices",
-					"description": "Slay Riven"
+					"directive": "Slay Riven",
+					"description": "Destroy Riven, the last known Ahamkara."
 				},
 				"dropTable": {
 					"3314893283": {}
 				}
 			},
 			{
+				"phaseHash": 378163510,
 				"displayProperties": {
 					"name": "Queenswalk",
-					"description": "Take the Stone to the Techeun"
+					"directive": "Take the Stone to the Techeun",
+					"description": "Escape the spire and get the Heart Stone to the Techeun."
 				},
 				"dropTable": {
 					"2069224589": {}
 				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Queenswalk",
+					"directive": "Deliver the Heart of Wishes",
+					"description": "Take the Heart of Wishes to the Techeun."
+				}
+			}
+		]
+	},
+	"2004855007": {
+		"hash": 2004855007,
+		"displayProperties": {
+			"icon": "./image/png/activity/warlords.png",
+			"name": "Warlord's Ruin",
+			"description": "Nestled deep in the mountains of the EDZ, Scorn lay claim to a Dark Age castle containing dangerous relics, and a blighted vengeance festers in the dirt."
+		},
+		"dropTable": {
+			"652593750": {},
+			"1316592242": {},
+			"2572175997": {},
+			"3381450498": {}
+		},
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "The Climb",
+					"description": "You've arrived at the end of a trail of Dark Ether. Press forward, climb the ridgeline path, and discover what remains hidden in stormy peaks."
+				}
+			},
+			{
+				"phaseHash": 2065920306,
+				"displayProperties": {
+					"name": "Mysterious Challenger",
+					"description": "A corrupted Knight stands between you and answers. Meet their challenge, leave them broken, but beware latent curses."
+				},
+				"dropTable": {
+					"220527011": {},
+					"601360799": {},
+					"839344841": {},
+					"1717830540": {},
+					"1864873008": {},
+					"2792429007": {},
+					"3007862180": {},
+					"3668817296": {}
+				}
+			},
+			{
+				"phaseHash": 3236820808,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Imprisoned!",
+					"description": "A dying wish has imprisoned you within a ruined cell. Use your wits, and find a method of escape."
+				}
+			},
+			{
+				"phaseHash": 3446399378,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Venture Deeper",
+					"description": "The Scorn are numerous, but a whisper still calls from deeper within the castle. Press on, across the ramparts, O vengeance mine."
+				}
+			},
+			{
+				"phaseHash": 3561038507,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Buried Ruins",
+					"description": "Navigate the ruined undercroft of the castle, and mind your footing."
+				}
+			},
+			{
+				"phaseHash": 2152475930,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Outward",
+					"description": "Find a path outside; search for and uncover a long-defunct entrance to the main castle grounds."
+				}
+			},
+			{
+				"phaseHash": 1306680929,
+				"displayProperties": {
+					"name": "Wailing Tempest",
+					"description": "Wish for warmth, brave the frigid winds, and silence the Locus of Wailing Grief that sustains them."
+				},
+				"dropTable": {
+					"787709443": {},
+					"822042719": {},
+					"839344841": {},
+					"1450838966": {},
+					"2806569825": {},
+					"3012281579": {},
+					"3788388762": {},
+					"3981499770": {}
+				}
+			},
+			{
+				"phaseHash": 1531676752,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Follow the Whispers",
+					"description": "The whispers grow stronger. Their grief quelled, their vengeance almost sated. All that remains is to end the source of this corruption."
+				}
+			},
+			{
+				"phaseHash": 3742397155,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Vengeful Peak",
+					"description": "Discover the source of the Scorn, the whispers, and cleanse the Keep of corruption."
+				}
+			},
+			{
+				"phaseHash": 2741345805,
+				"displayProperties": {
+					"name": "Quell the Corruption",
+					"description": "\"You have taken my vengeance. My task is done, Naeem's wish fulfilled. Come then, slay me. Let it end.\" —Hefnd"
+				},
+				"dropTable": {
+					"220527011": {},
+					"601360799": {},
+					"787709443": {},
+					"822042719": {},
+					"1450838966": {},
+					"1717830540": {},
+					"1864873008": {},
+					"2792429007": {},
+					"2806569825": {},
+					"3007862180": {},
+					"3012281579": {},
+					"3668817296": {},
+					"3788388762": {},
+					"3886719505": {},
+					"3981499770": {}
+				}
 			}
 		],
-		"hash": 1661734046
+		"master": {
+			"activityHash": 2534833093,
+			"availability": "repeatable"
+		},
+		"availability": "repeatable"
 	},
 	"2032534090": {
-		"recordHash": 633466487,
+		"hash": 2032534090,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
-			"name": "Shattered Throne",
+			"name": "The Shattered Throne",
 			"description": "Strike back at the curse that plagues the Dreaming City."
 		},
 		"dropTable": {
@@ -776,15 +1124,44 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
 				"displayProperties": {
-					"name": "Erebus",
-					"description": "Search for safe passage"
+					"name": "Cross the Ascendant Plane",
+					"description": "\"A throne world, shattered…\""
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Search for safe passage",
+					"description": "\"Show me your cunning…\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Journey to the spire",
+					"description": "\"There is no place better suited for you…\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Press onward",
+					"description": "\"Her plan will never come to pass…\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Cross the chasm",
+					"description": "\"Look down. Listen to the Deep call to you…\""
 				}
 			},
 			{
 				"displayProperties": {
 					"name": "Vorgeth, the Boundless Hunger",
-					"description": "Overcome the Keeper of Petitions"
+					"directive": "Overcome the Keeper of Petitions",
+					"description": "\"Shape your schemes into reality…\""
 				},
 				"dropTable": {
 					"814876684": {
@@ -798,17 +1175,204 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Press onward",
+					"description": "\"Come closer…\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Ascend",
+					"description": "\"Doomed are the hesitant…\""
+				}
+			},
+			{
 				"displayProperties": {
 					"name": "Dûl Incaru, the Eternal Return",
-					"description": "Face Dûl Incaru"
+					"directive": "Face Dûl Incaru",
+					"description": "\"Enter the infinite…\""
+				}
+			}
+		]
+	},
+	"2381413764": {
+		"hash": 2381413764,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/f2b6ec58e14244e4972705897667c246.png",
+			"name": "Root of Nightmares",
+			"description": "A sinister threat has taken root."
+		},
+		"encounters": [
+			{
+				"phaseHash": 1326836846,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find Nezarec",
+					"description": "Locate Nezarec's body in its encasement."
+				}
+			},
+			{
+				"phaseHash": 3172054256,
+				"displayProperties": {
+					"name": "Cataclysm",
+					"directive": "Survive the Onslaught",
+					"description": "Fight for control and stay alive."
+				},
+				"dropTable": {
+					"135029084": {},
+					"630432767": {},
+					"824228793": {},
+					"1491665733": {},
+					"2445962586": {},
+					"2597227950": {},
+					"2787963735": {},
+					"2972949637": {},
+					"3475635982": {},
+					"3608027009": {},
+					"3810243376": {},
+					"4123705451": {}
+				}
+			},
+			{
+				"phaseHash": 3920032267,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Root",
+					"description": "Continue exploring the Pyramid."
+				}
+			},
+			{
+				"phaseHash": 1848647602,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Root",
+					"description": "Reach the entrance of the root."
+				}
+			},
+			{
+				"phaseHash": 2224793617,
+				"displayProperties": {
+					"name": "Scission",
+					"directive": "Charge the Root",
+					"description": "Overcharge the root to fuel Nezarec's return."
+				},
+				"dropTable": {
+					"135029084": {},
+					"231031173": {},
+					"630432767": {},
+					"807905267": {},
+					"824228793": {},
+					"1471212226": {},
+					"2445962586": {},
+					"2597227950": {},
+					"2787963735": {},
+					"2972949637": {},
+					"3608027009": {},
+					"3702434452": {},
+					"3846650177": {}
+				}
+			},
+			{
+				"phaseHash": 2184227225,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Cross the Chasm",
+					"description": "Make your way across the chasm."
+				}
+			},
+			{
+				"phaseHash": 2046062211,
+				"displayProperties": {
+					"name": "Macrocosm",
+					"directive": "Defeat the Explicator",
+					"description": "Confront the Explicator and disrupt his influence."
+				},
+				"dropTable": {
+					"231031173": {},
+					"484515708": {},
+					"621315878": {},
+					"807905267": {},
+					"824228793": {},
+					"1471212226": {},
+					"2138394740": {},
+					"2597227950": {},
+					"2787963735": {},
+					"2915322487": {},
+					"2972949637": {},
+					"3702434452": {},
+					"3846650177": {}
+				}
+			},
+			{
+				"phaseHash": 3604501642,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Charge the Root",
+					"description": "Overcharge the root to fuel Nezarec's return."
+				}
+			},
+			{
+				"phaseHash": 3008487717,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Return to Nezarec",
+					"description": "Locate Nezarec at the place of his newfound power."
+				}
+			},
+			{
+				"phaseHash": 2779782231,
+				"displayProperties": {
+					"name": "Defeat Nezarec",
+					"description": "Lay Nezarec to his final rest."
+				},
+				"dropTable": {
+					"135029084": {},
+					"231031173": {},
+					"484515708": {},
+					"621315878": {},
+					"807905267": {},
+					"1471212226": {},
+					"1491665733": {},
+					"2138394740": {},
+					"2915322487": {},
+					"2972949637": {},
+					"3371017761": {},
+					"3475635982": {},
+					"3702434452": {},
+					"3810243376": {},
+					"3846650177": {},
+					"4123705451": {}
 				}
 			}
 		],
-		"hash": 2032534090
+		"master": {
+			"activityHash": 2918919505
+		},
+		"rotations": {
+			"anchor": "2023-03-28T17:00:00Z",
+			"masterDrops": [
+				1986287028,
+				3493494807,
+				342514437,
+				495442100,
+				2890082420,
+				522366885
+			],
+			"challenges": [
+				766975360,
+				138641527,
+				2070303007,
+				1616571513
+			],
+			"interval": "weekly",
+			"current": 40,
+			"next": "2024-01-09T17:00:00Z"
+		}
 	},
 	"2582501063": {
-		"rotationActivityHash": 1375089621,
-		"recordHash": 469433408,
+		"hash": 2582501063,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
 			"name": "Pit of Heresy",
@@ -833,9 +1397,16 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Descend into the Pit of Heresy",
+					"description": "Delve below the Scarlet Keep and into the Pit of Heresy."
+				}
+			},
+			{
 				"displayProperties": {
 					"name": "Necropolis",
-					"description": ""
+					"description": "Turn the blades of the enemy against them."
 				},
 				"dropTable": {
 					"208088207": {},
@@ -863,12 +1434,26 @@
 					"3870811754": {},
 					"3924212056": {},
 					"4277547616": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Descend into the Pit of Heresy",
+					"description": "Head toward the Tunnels of Despair."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Tunnels of Despair",
+					"description": "Find a way through the Tunnels of Despair."
 				}
 			},
 			{
 				"displayProperties": {
 					"name": "Chamber of Suffering",
-					"description": ""
+					"description": "Endure the Chamber of Suffering."
 				},
 				"dropTable": {
 					"208088207": {},
@@ -899,15 +1484,30 @@
 				}
 			},
 			{
+				"traversal": true,
 				"displayProperties": {
-					"name": "Zulmak, Instrument of Torment",
-					"description": "Purge the tormentor"
+					"name": "Descend into the Pit of Heresy",
+					"description": "Descend into the Harrow and survive it."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "The Harrow",
+					"description": "The way is shut by dark powers, and the Hive keep it."
 				}
 			},
 			{
 				"displayProperties": {
-					"name": "Volar, the Tempted",
-					"description": "Defeat Volar, the Tempted"
+					"name": "Zulmak, Instrument of Torment",
+					"directive": "Purge the tormentor",
+					"description": "Slay Zulmak, Instrument of Torment."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Volmar, the Tempted",
+					"description": "Defeat Volmar, the Tempted"
 				},
 				"dropTable": {
 					"1395261499": {
@@ -915,11 +1515,10 @@
 					}
 				}
 			}
-		],
-		"hash": 2582501063
+		]
 	},
 	"2823159265": {
-		"recordHash": 1829136540,
+		"hash": 2823159265,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/de980f8f4a07662455dd7fa1b3aa2169.png",
 			"name": "Duality",
@@ -932,9 +1531,24 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Echo of Calus's Consciousness",
+					"description": "\"Once, I stood out overlooking a vast plain. Wildflowers and nettles blossomed at my feet. The future was full of promise and potential. Yet I upturned an overflowing chalice of shame at my feet, and let it puddle into rot.\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Navigate the Mindscape",
+					"description": "\"…and here, you see, etched on the bell? That is when I attained the title of emperor and began a thousand years of peace.\""
+				}
+			},
+			{
 				"displayProperties": {
 					"name": "Sorrow Bearer",
-					"description": "Defeat the Nightmare of Gahlran"
+					"directive": "Defeat the Nightmare of Gahlran",
+					"description": "\"You were born only to suffer, because I could not set aside that which I knew was a trap. My curiosity is a poison flowing through my veins, curdling my heart, rotting my mind. And yet, I do nothing to stop it.\""
 				},
 				"dropTable": {
 					"630469185": {},
@@ -948,9 +1562,31 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Dive Deeper",
+					"description": "\"Her memory curdles in my chest. Her first laugh, her first steps, her first kill. Poison. Poison. Poison.\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Navigate the Crypt",
+					"description": "\"I defiled them. The remains of countless dead. Honored servants of the empire, extended members of my lineage. I ripped their tombs open to harvest their genetic information… to build an army of unquestioning soldiers. What have I become?\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Find the Way",
+					"description": "\"I should have killed every member of the old guard when I had the chance. Mercy was my greatest failing, and they used mercy's edge to cut me down to my knees.\""
+				}
+			},
+			{
 				"displayProperties": {
 					"name": "Vault",
-					"description": "Unlock the Vault"
+					"directive": "Unlock the Vault",
+					"description": "\"I beg you, don't do this.\""
 				},
 				"dropTable": {
 					"561897072": {},
@@ -964,9 +1600,31 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Vault",
+					"description": "\"It hurts. It hurts. It hurts. It hurts.\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Navigate the Vault",
+					"description": "\"Cut it away. A knife through memory's flesh. Peel back what I was and replace it with scalding gold. I do not want this. I do not want this. I do not want this.\""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Dark Shrine",
+					"description": "\"For once in my life, I do not feel shame. I feel the caress of a thousand hands, hear the comforting hush of a thousand voices. 'Do not be afraid,' it whispers. 'We are your salvation.' Yes. Please. Save me from myself.\""
+				}
+			},
+			{
 				"displayProperties": {
 					"name": "Calus's Greatest Shame",
-					"description": "Defeat the Nightmare of Princess Caiatl"
+					"directive": "Defeat the Nightmare of Princess Caiatl",
+					"description": "\"Is this what I have done? Once, she looked at me with adoring eyes. I was her world, and she my stars. How have I made her into this? Have I been so blind? So selfish? What have I done?\""
 				},
 				"dropTable": {
 					"561897072": {},
@@ -991,16 +1649,45 @@
 				}
 			}
 		],
-		"hash": 2823159265
+		"master": {
+			"activityHash": 3012587626
+		}
 	},
-	"3711931140": {
-		"recordHash": 3114569402,
+	"3881495763": {
+		"hash": 3881495763,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/6d2ba4628f33a6884b5d32d62eac6a32.png",
+			"name": "Vault of Glass",
+			"description": "Beneath Venus, evil stirs…"
+		},
 		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Vault of Glass",
+					"description": "Enter the Vault of Glass and face what lies within."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Raise the Spire",
+					"description": "Find a way to open the Vault of Glass."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Delve Further",
+					"description": "Delve further into the Vault of Glass."
+				}
+			},
 			{
 				"phaseHash": 1327839050,
 				"displayProperties": {
 					"name": "Confluxes",
-					"description": "Defend all three Confluxes"
+					"directive": "Defend all three Confluxes",
+					"description": "Do not let the Vex reach the confluxes."
 				},
 				"dropTable": {
 					"471518543": {},
@@ -1018,7 +1705,8 @@
 				"phaseHash": 1327839048,
 				"displayProperties": {
 					"name": "Oracles",
-					"description": "Destroy the Oracles"
+					"directive": "Destroy the Oracles",
+					"description": "Silence the Oracles' song."
 				},
 				"dropTable": {
 					"123979037": {},
@@ -1036,7 +1724,8 @@
 				"phaseHash": 1327839049,
 				"displayProperties": {
 					"name": "The Templar",
-					"description": "Defeat the Templar"
+					"directive": "Defeat the Templar",
+					"description": "Defeat the Templar and its legions."
 				},
 				"dropTable": {
 					"471518543": {},
@@ -1051,10 +1740,32 @@
 				}
 			},
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "The Great Fall",
+					"description": "Survive the great fall."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "The Labyrinth",
+					"description": "Find a way through the Gorgons' Labyrinth."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "The Chasm",
+					"description": "Find a way to cross the chasm and reach the Glass Throne."
+				}
+			},
+			{
 				"phaseHash": 3793779770,
 				"displayProperties": {
 					"name": "Gatekeepers",
-					"description": "Awaken the Glass Throne"
+					"directive": "Awaken the Glass Throne",
+					"description": "Protect the timelines and awaken the Glass Throne."
 				},
 				"dropTable": {
 					"123979037": {},
@@ -1072,7 +1783,8 @@
 				"phaseHash": 3793779769,
 				"displayProperties": {
 					"name": "Atheon, Time's Conflux",
-					"description": "Destroy Atheon"
+					"directive": "Destroy Atheon",
+					"description": "Destroy Atheon, Time's Conflux."
 				},
 				"dropTable": {
 					"471518543": {},
@@ -1097,7 +1809,7 @@
 			}
 		},
 		"rotations": {
-			"anchor": 1697562000000,
+			"anchor": "2023-10-17T17:00:00Z",
 			"masterDrops": [
 				1216319404,
 				1921159786,
@@ -1111,108 +1823,14 @@
 				1572570117,
 				3135466059,
 				274420331
-			]
-		},
-		"hash": 3711931140,
-		"displayProperties": {
-			"description": "Beneath Venus, evil stirs…",
-			"name": "Vault of Glass",
-			"icon": "/common/destiny2_content/icons/6d2ba4628f33a6884b5d32d62eac6a32.png"
-		}
-	},
-	"3976949817": {
-		"rotationActivityHash": 910380154,
-		"recordHash": 3185876102,
-		"encounters": [
-			{
-				"phaseHash": 2776463390,
-				"displayProperties": {
-					"name": "Crypt Security",
-					"description": "Disable Crypt Security"
-				},
-				"dropTable": {
-					"79460168": {},
-					"756445218": {},
-					"1021060724": {},
-					"1264765761": {},
-					"1392919471": {},
-					"1887490701": {},
-					"2343515647": {},
-					"2558289743": {},
-					"2902277629": {},
-					"2956588906": {}
-				}
-			},
-			{
-				"phaseHash": 416127450,
-				"displayProperties": {
-					"name": "Atraks-1, Fallen Exo",
-					"description": "Defeat Atraks-1"
-				},
-				"dropTable": {
-					"79460168": {},
-					"756445218": {},
-					"1021060724": {},
-					"1264765761": {},
-					"1887490701": {},
-					"2343515647": {},
-					"2558289743": {},
-					"2902277629": {},
-					"2956588906": {},
-					"2990047042": {},
-					"4248569242": {}
-				}
-			},
-			{
-				"phaseHash": 1858926029,
-				"displayProperties": {
-					"name": "Descent",
-					"description": "Prevent Europa's Destruction"
-				},
-				"dropTable": {
-					"79460168": {},
-					"751162931": {},
-					"1021060724": {},
-					"1887490701": {},
-					"2343515647": {},
-					"2902277629": {},
-					"2956588906": {},
-					"3281285075": {},
-					"3975122240": {},
-					"4001862073": {}
-				}
-			},
-			{
-				"phaseHash": 4035296150,
-				"displayProperties": {
-					"name": "Taniks, the Abomination",
-					"description": "Defeat Taniks, the Abomination"
-				},
-				"dropTable": {
-					"751162931": {},
-					"756445218": {},
-					"893751566": {},
-					"1264765761": {},
-					"1462908657": {},
-					"2399110176": {},
-					"2558289743": {},
-					"3015085684": {},
-					"3366545721": {},
-					"3975122240": {},
-					"4001862073": {},
-					"4230965989": {}
-				}
-			}
-		],
-		"hash": 3976949817,
-		"displayProperties": {
-			"description": "The chains of legacy must be broken.",
-			"name": "Deep Stone Crypt",
-			"icon": "/common/destiny2_content/icons/9d6744eed9fa9b55f8190ce975f1872d.png"
+			],
+			"interval": "weekly",
+			"current": 11,
+			"next": "2024-01-09T17:00:00Z"
 		}
 	},
 	"4078656646": {
-		"recordHash": 1894646801,
+		"hash": 4078656646,
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/ed7e19a3231e2eca90ae271960c1ed9c.png",
 			"name": "Grasp of Avarice",
@@ -1224,9 +1842,41 @@
 		},
 		"encounters": [
 			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Investigate the Loot Cave",
+					"description": "Explore the Loot Cave in search of Wilhelm-7's lost fireteam."
+				}
+			},
+			{
+				"phaseHash": 588023047,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Tempt the Icon of Excess",
+					"description": "Claim Cursed Engrams from combatants and tempt the Icon of Excess."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Explore the Caves and Facility",
+					"description": "Push deeper through the caves and the ruined facility."
+				}
+			},
+			{
+				"phaseHash": 3362674177,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Navigate the Facility",
+					"description": "Navigate through the ruins of the facility."
+				}
+			},
+			{
+				"phaseHash": 2867024332,
 				"displayProperties": {
 					"name": "Phry'zhia, The Insatiable",
-					"description": "Defeat Phry'zhia, The Insatiable"
+					"directive": "Defeat Phry'zhia, The Insatiable",
+					"description": "Turn the cycle of greed against your enemies."
 				},
 				"dropTable": {
 					"337875583": {},
@@ -1238,9 +1888,35 @@
 				}
 			},
 			{
+				"phaseHash": 1049410082,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Continue Through the Ruined Facility",
+					"description": "Follow Wilhelm-7's path deeper through the wreckage."
+				}
+			},
+			{
+				"phaseHash": 2989884184,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Disarm the Mines",
+					"description": "Reach the mines and disarm them before time runs out."
+				}
+			},
+			{
+				"phaseHash": 497054074,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Navigate the Caves",
+					"description": "Explore the caves to find the source of the Fallen."
+				}
+			},
+			{
+				"phaseHash": 4063391552,
 				"displayProperties": {
 					"name": "Fallen Shield",
-					"description": "Destroy the Shield"
+					"directive": "Destroy the Shield",
+					"description": "Fire Servitor remains at the Fallen shield."
 				},
 				"dropTable": {
 					"549825413": {},
@@ -1252,9 +1928,19 @@
 				}
 			},
 			{
+				"phaseHash": 163634132,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Reach the Great Sphere",
+					"description": "Find a way to enter the Great Sphere."
+				}
+			},
+			{
+				"phaseHash": 4056788414,
 				"displayProperties": {
 					"name": "Captain Avarokk the Covetous",
-					"description": "Defeat Captain Avarokk the Covetous"
+					"directive": "Defeat Avarokk the Covetous",
+					"description": "Turn the cycle of greed against Captain Avarokk the Covetous."
 				},
 				"dropTable": {
 					"235827225": {},
@@ -1278,18 +1964,172 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203
+			"activityHash": 1112917203,
+			"availability": "rotator"
 		},
-		"hash": 4078656646
+		"availability": "rotator",
+		"endTime": "2024-01-09T17:00:00Z"
+	},
+	"4148187374": {
+		"hash": 4148187374,
+		"rotationActivityHash": 1077850348,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/8a3f7ac8bedf90190a101bbfdc981742.png",
+			"name": "Prophecy",
+			"description": "Enter the realm of the Nine and ask the question: \"What is the nature of the Darkness?\""
+		},
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Seek the Nine",
+					"description": "Seek an audience with the Nine."
+				}
+			},
+			{
+				"phaseHash": 2400102494,
+				"displayProperties": {
+					"name": "Defeat the Phalanx Echo",
+					"description": "Confront the Phalanx Echo, a part of the Nine's answer to your question."
+				},
+				"dropTable": {
+					"1219883244": {},
+					"1476654960": {},
+					"1717940633": {},
+					"1900280383": {},
+					"2022923313": {},
+					"2966633380": {},
+					"3155320806": {},
+					"3326850591": {}
+				}
+			},
+			{
+				"phaseHash": 1692344396,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Sink",
+					"description": "Descend."
+				}
+			},
+			{
+				"phaseHash": 382168380,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Wasteland",
+					"description": "Navigate the expanse of the wasteland."
+				}
+			},
+			{
+				"phaseHash": 2132736886,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Escape the Wasteland",
+					"description": "Traverse deeper into this realm of the Nine."
+				}
+			},
+			{
+				"phaseHash": 3585780724,
+				"displayProperties": {
+					"name": "Escape",
+					"description": "Find a way forward."
+				},
+				"dropTable": {
+					"507038823": {},
+					"818644818": {},
+					"1406846351": {},
+					"1626503676": {},
+					"4194072668": {}
+				}
+			},
+			{
+				"phaseHash": 3999204422,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Return to the Wasteland",
+					"description": "Cross the wasteland once more."
+				}
+			},
+			{
+				"phaseHash": 2229343072,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Deadsea",
+					"description": "Traverse the sea."
+				}
+			},
+			{
+				"phaseHash": 2543744318,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Traverse Deeper",
+					"description": "Face the final answer to your question."
+				}
+			},
+			{
+				"phaseHash": 3492117941,
+				"displayProperties": {
+					"name": "Defeat the Kell Echo",
+					"description": "Confront the Kell Echo, a part of the Nine's answer to your question."
+				},
+				"dropTable": {
+					"100226755": {},
+					"178689419": {},
+					"508076356": {},
+					"1361912510": {},
+					"1571337215": {},
+					"1581574297": {},
+					"1652467433": {},
+					"1717940633": {},
+					"1781294872": {},
+					"1900280383": {},
+					"2234240008": {},
+					"2288398391": {},
+					"2295111683": {},
+					"2481758391": {},
+					"2487240821": {},
+					"2570653206": {},
+					"2602907742": {},
+					"2623956730": {},
+					"2701727616": {},
+					"2855157553": {},
+					"2966633380": {},
+					"3075372781": {},
+					"3242850062": {},
+					"3976073347": {},
+					"4121885325": {}
+				}
+			},
+			{
+				"phaseHash": 3998734759,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Receive the Answer",
+					"description": "Collect your reward from the Nine."
+				}
+			}
+		]
 	},
 	"4179289725": {
-		"recordHash": 2045739672,
+		"hash": 4179289725,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/d89e12c918cb0c6b1087b073ad14d6c2.png",
+			"name": "Crota's End",
+			"description": "He waits in the dark below."
+		},
 		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Descend into the Hellmouth",
+					"description": "Find a safe path into the Hellmouth."
+				}
+			},
 			{
 				"phaseHash": 2890972472,
 				"displayProperties": {
 					"name": "The Abyss",
-					"description": "Traverse the Abyss"
+					"directive": "Traverse the Abyss",
+					"description": "Uncover the illuminated path in the darkness."
 				},
 				"dropTable": {
 					"427348780": {},
@@ -1310,7 +2150,8 @@
 				"phaseHash": 3768812794,
 				"displayProperties": {
 					"name": "Oversoul Throne Bridge",
-					"description": "Cross the Bridge"
+					"directive": "Cross the Bridge",
+					"description": "Find a way across the chasm."
 				},
 				"dropTable": {
 					"175883909": {},
@@ -1328,10 +2169,19 @@
 				}
 			},
 			{
+				"phaseHash": 3580589436,
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter Crota's Chamber",
+					"description": "Breach the Hive barrier to access Crota's Chamber."
+				}
+			},
+			{
 				"phaseHash": 1463700798,
 				"displayProperties": {
 					"name": "Ir Yût, the Deathsinger",
-					"description": "Defeat Ir Yût, the Deathsinger"
+					"directive": "Reach the Summoning Crystal",
+					"description": "Defeat the Hive Wizard guarding the summoning crystal."
 				},
 				"dropTable": {
 					"120706239": {},
@@ -1352,7 +2202,8 @@
 				"phaseHash": 4240994016,
 				"displayProperties": {
 					"name": "Crota, Son of Oryx",
-					"description": "Defeat Crota, Son of Oryx"
+					"directive": "Defeat Crota",
+					"description": "Use Crota's most powerful weapon against him."
 				},
 				"dropTable": {
 					"120706239": {},
@@ -1382,22 +2233,87 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "repeatable"
 		},
 		"rotations": {
-			"anchor": 1697562000000,
+			"anchor": "2023-10-17T17:00:00Z",
 			"challenges": [
 				3636591526,
 				2768385440,
 				732074628,
 				3523029182
-			]
+			],
+			"interval": "weekly",
+			"current": 11,
+			"next": "2024-01-09T17:00:00Z"
 		},
-		"hash": 4179289725,
+		"availability": "repeatable"
+	},
+	"lostSector": {
+		"hash": 584726931,
 		"displayProperties": {
-			"description": "He waits in the dark below.",
-			"name": "Crota's End",
-			"icon": "/common/destiny2_content/icons/d89e12c918cb0c6b1087b073ad14d6c2.png"
-		}
+			"name": "Thrilladrome",
+			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
+		},
+		"rotations": {
+			"anchor": "2023-11-28T17:00:00Z",
+			"interval": "daily",
+			"drops": [
+				{
+					"5159537": {},
+					"176055472": {},
+					"867154247": {},
+					"2767393525": {},
+					"3678653083": {}
+				},
+				{
+					"222606050": {},
+					"358788212": {},
+					"1387420892": {},
+					"1456017061": {},
+					"2673925403": {}
+				},
+				{
+					"664109750": {},
+					"1106635211": {},
+					"2099894368": {},
+					"2850782006": {},
+					"3998080529": {}
+				},
+				{
+					"355382946": {},
+					"1331824604": {},
+					"1572351682": {},
+					"1606497639": {},
+					"3637669759": {}
+				}
+			],
+			"current": 39,
+			"next": "2024-01-07T17:00:00Z"
+		},
+		"availability": "rotator",
+		"endTime": "2024-01-07T17:00:00Z"
+	},
+	"nightfall": {
+		"hash": 1278918650,
+		"displayProperties": {
+			"description": "Infiltrate the Seraph bunker tucked under the dust of the Moon to reclaim fragments of the submind Malahayati's code.",
+			"name": "Heist Battleground: Moon",
+			"icon": "./image/png/activity/strike.png",
+			"hasIcon": true
+		},
+		"dropTable": {
+			"3667553455": {}
+		},
+		"master": {
+			"activityHash": 1639515809,
+			"dropTable": {
+				"1064132738": {}
+			}
+		},
+		"availability": "rotator",
+		"endTime": "2024-01-09T17:00:00Z"
 	}
 }

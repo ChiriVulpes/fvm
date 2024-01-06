@@ -1,3 +1,65 @@
+export type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
+
+export interface DeepsightManifest {
+	/**
+	 * This number increments whenever any other property changes (excluding Destiny2/Manifest)
+	 */
+	deepsight: number;
+	/**
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the last time any property has changed
+	 */
+	updated: ISOString;
+
+	DeepsightDropTableDefinition: number;
+	DeepsightMomentDefinition: number;
+	DeepsightPlugCategorisation: number;
+	DeepsightWallpaperDefinition: number;
+	DeepsightTierTypeDefinition: number;
+	Enums: number;
+	Interfaces: number;
+
+	/**
+	 * The version of the Destiny manifest the current deepsight manifest supports
+	 */
+	"Destiny2/Manifest": string;
+
+	/**
+	 * The last daily reset from when this manifest was last updated.  
+	 * 
+	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
+	 */
+	lastDailyReset: number;
+	/**
+	 * The last weekly reset from when this manifest was last updated.  
+	 * 
+	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
+	 */
+	lastWeeklyReset: number;
+	/**
+	 * The last Trials reset from when this manifest was last updated. When Trials is not active, this is the start of Trials on the previous week.
+	 * 
+	 * **Note that this does not take into account weeks when Trials is not active at all, such as when Iron Banner replaces it.**  
+	 * 
+	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
+	 */
+	lastTrialsReset: number;
+
+	/**
+	 * The `instanceId` and `period` datetime of a PGCR created since the last daily reset. 
+	 * 
+	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
+	 * 
+	 * For reference, the PGCR chosen is generally not notable in any way, 
+	 * it's simply the first PGCR that a binary search happened to stumble upon in the correct day.
+	 */
+	referencePostGameCarnageReportSinceDailyReset: DeepsightManifestReferencePGCR;
+}
+
+export declare interface DeepsightManifestReferencePGCR {
+	instanceId: `${bigint}`;
+	period: ISOString;
+}
+
 export declare interface DeepsightDisplayPropertiesDefinition {
 	name?: string;
 	description?: string;
@@ -15,12 +77,14 @@ export declare type BungieIconPath = `/${string}`;
 export declare interface DeepsightDropTableDefinition {
 	/**
 	 * `DestinyActivityDefinition` hash.
-	 * Refers to the version of the raid that's always available.
+	 * Refers to the version of the activity that's always available.
 	 */
 	hash: number;
 	/**
 	 * `DestinyActivityDefinition` hash.
-	 * Refers to the version of the raid that rotates in and has all challenges available (if different.)
+	 * Refers to the version of the activity that rotates in (if different.)
+	 * 
+	 * In the case of raids, this refers to the activity definition that lists all challenges available.
 	 */
 	rotationActivityHash?: number;
 	/**
@@ -47,17 +111,35 @@ export declare interface DeepsightDropTableDefinition {
 	 * If challenges or drops rotate, this field will be filled.
 	 */
 	rotations?: DeepsightDropTableRotationsDefinition;
+
+	/**
+	 * If this activity is only available for a certain period of time, this specifies whether it's available as a rotator or whether it's a repeatable activity (IE, the most recent ones)
+	 */
+	availability?: "rotator" | "repeatable";
+	/**
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the time when this activity will no longer be available
+	 */
+	endTime?: ISOString;
 }
 
 export declare interface DeepsightDropTableEncounterDefinition {
 	/**
 	 * Phase hashes are based on data from `characterProgressions.milestones[milestone hash].activities[activity index].phases`
 	 */
-	phaseHash: number;
+	phaseHash?: number;
+	/**
+	 * True if this is a traversal phase (not a real encounter)
+	 */
+	traversal?: true;
 	/**
 	 * Every encounter is guaranteed to have a partial display properties object.
 	 */
-	displayProperties: DeepsightDisplayPropertiesDefinition;
+	displayProperties: DeepsightDisplayPropertiesDefinition & {
+		/**
+		 * An alternative title for the encounter, generally wordier.
+		 */
+		directive?: string;
+	};
 	/**
 	 * Determines the way that this encounter's drop table should be applied to the base activity drop table.
 	 * - "replace" = this encounter-specific drop table should be used instead of the base drop table.
@@ -80,6 +162,10 @@ export declare interface DeepsightDropTableMasterDefinition {
 	 * A non-rotating drop table of items from the master activity.
 	 */
 	dropTable?: Record<number, DeepsightDropTableDropDefinition>;
+	/**
+	 * If this activity is only available for a certain period of time, this specifies whether it's available as a rotator or whether it's a repeatable activity (IE, the most recent ones)
+	 */
+	availability?: "rotator" | "repeatable";
 }
 
 export declare interface DeepsightDropTableDropDefinition {
@@ -99,21 +185,38 @@ export declare interface DeepsightDropTableDropDefinition {
 
 export declare interface DeepsightDropTableRotationsDefinition {
 	/**
-	 * Unix timestamp (ms) of a Destiny reset, referring to the following week's rotation.
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the time the rotations start from.
 	 */
-	anchor: number;
+	anchor: ISOString;
 	/**
-	 * `DestinyInventoryItemDefinition` hashes.
-	 * The first drop will be the active drop during the week of the anchor reset, then the next drop the next week,
+	 * Whether this rotation is daily or weekly.
+	 */
+	interval: "daily" | "weekly";
+	/**
+	 * The current index into `drops`, `masterDrops`, and `challenges`. This will no longer be valid when the interval ends.
+	 * 
+	 * This can't be used directly as an index into the arrays, and must first be normalised to the respective array's length.
+	 * IE: `drops[current % drops.length]`
+	 */
+	current: number;
+	/**
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the time the current rotation will change to the next one.
+	 */
+	next: ISOString;
+	/**
+	 * An array of drop table objects (containing all possible drops) or `DestinyInventoryItemDefinition` hashes (for a single drop).
+	 * 
+	 * The first item in the array will be the active drop(s) during the week of the anchor reset, then the next drop the next week,
 	 * and so on until all drops are exhausted. At that point, it cycles back to the first drop.
 	 */
-	drops?: number[];
+	drops?: (Record<number, DeepsightDropTableDropDefinition> | number)[];
 	/**
-	 * `DestinyInventoryItemDefinition` hashes.
-	 * The first drop will be the active drop during the week of the anchor reset, then the next drop the next week,
+	 *  An array of drop table objects (containing all possible drops) or `DestinyInventoryItemDefinition` hashes (for a single drop).
+	 * 
+	 * The first item in the array will be the active drop(s) during the week of the anchor reset, then the next drop the next week,
 	 * and so on until all drops are exhausted. At that point, it cycles back to the first drop.
 	 */
-	masterDrops?: number[];
+	masterDrops?: (Record<number, DeepsightDropTableDropDefinition> | number)[];
 	/**
 	 * `DestinyActivityModifierDefinition` hashes.
 	 * The first challenge will be the active challenge during the week of the anchor reset, then the next challenge the next week,
