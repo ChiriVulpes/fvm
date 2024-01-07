@@ -186,7 +186,7 @@ void (async () => {
 		const versionsString = await fs.readFile("versions.json", "utf8");
 		versions = JSON.parse(versionsString) ?? {};
 		savedVersion = versions["Destiny2/Manifest"];
-		savedLastDailyReset = versions.lastDailyReset ?? savedLastDailyReset;
+		savedLastDailyReset = new Date(versions.lastDailyReset ?? savedLastDailyReset).getTime();
 	} catch {
 		return;
 	}
@@ -224,9 +224,9 @@ void (async () => {
 			needsUpdate = true;
 			versions.deepsight++;
 			versions.updated = new Date().toISOString().slice(0, -5) + "Z";
-			versions.lastDailyReset = lastDailyReset;
-			versions.lastWeeklyReset = lastWeeklyReset;
-			versions.lastTrialsReset = lastTrialsReset;
+			versions.lastDailyReset = new Date(lastDailyReset).toISOString().slice(0, -5) + "Z";
+			versions.lastWeeklyReset = new Date(lastWeeklyReset).toISOString().slice(0, -5) + "Z";
+			versions.lastTrialsReset = new Date(lastTrialsReset).toISOString().slice(0, -5) + "Z";
 			versions.referencePostGameCarnageReportSinceDailyReset = {
 				instanceId: recentPGCR.activityDetails.instanceId,
 				period: recentPGCR.period,
