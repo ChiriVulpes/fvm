@@ -1,4 +1,4 @@
-import type { ActivityHashes, InventoryBucketHashes, InventoryItemHashes, StatHashes } from "./Enums";
+import type { ActivityHashes, DamageTypeHashes, InventoryBucketHashes, InventoryItemHashes, StatHashes } from "./Enums";
 
 export declare const enum DeepsightPlugCategory {
 	None,
@@ -189,7 +189,8 @@ export declare interface DeepsightPlugCategorisationMod extends DeepsightPlugCat
 }
 
 export declare interface DeepsightPlugCategorisationSubclass extends DeepsightPlugCategorisationGeneric<DeepsightPlugCategory.Subclass> {
-	subclasses: InventoryItemHashes[];
+	damageType?: DamageTypeHashes;
+	subclasses?: InventoryItemHashes[];
 }
 
 interface DeepsightPlugCategorisationMap {
