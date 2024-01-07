@@ -1,6 +1,6 @@
-export type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
+export declare type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
 
-export interface DeepsightManifest {
+export declare interface DeepsightManifest {
 	/**
 	 * This number increments whenever any other property changes (excluding Destiny2/Manifest)
 	 */
@@ -24,25 +24,26 @@ export interface DeepsightManifest {
 	"Destiny2/Manifest": string;
 
 	/**
-	 * The last daily reset from when this manifest was last updated.  
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the last daily reset from when this manifest was last updated.  
 	 * 
 	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
 	 */
-	lastDailyReset: number;
+	lastDailyReset: ISOString;
 	/**
-	 * The last weekly reset from when this manifest was last updated.  
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the last weekly reset from when this manifest was last updated.  
 	 * 
 	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
 	 */
-	lastWeeklyReset: number;
+	lastWeeklyReset: ISOString;
 	/**
-	 * The last Trials reset from when this manifest was last updated. When Trials is not active, this is the start of Trials on the previous week.
+	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the last Trials reset from when this manifest was last updated.
+	 * When Trials is not active, this is the start of Trials on the previous week.
 	 * 
 	 * **Note that this does not take into account weeks when Trials is not active at all, such as when Iron Banner replaces it.**  
 	 * 
 	 * **Note that this is only set after 30 minutes, at minimum, sometimes longer.**
 	 */
-	lastTrialsReset: number;
+	lastTrialsReset: ISOString;
 
 	/**
 	 * The `instanceId` and `period` datetime of a PGCR created since the last daily reset. 
