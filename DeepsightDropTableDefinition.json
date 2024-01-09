@@ -132,8 +132,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124
-		}
+			"activityHash": 2716998124,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2024-01-16T17:00:00Z"
 	},
 	"910380154": {
 		"hash": 910380154,
@@ -641,8 +644,7 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -654,11 +656,9 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 12,
-			"next": "2024-01-09T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-01-09T17:00:00Z"
+			"current": 13,
+			"next": "2024-01-16T17:00:00Z"
+		}
 	},
 	"1441982566": {
 		"hash": 1441982566,
@@ -810,8 +810,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 13,
-			"next": "2024-01-09T17:00:00Z"
+			"current": 14,
+			"next": "2024-01-16T17:00:00Z"
 		}
 	},
 	"1661734046": {
@@ -1348,7 +1348,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2918919505
+			"activityHash": 2918919505,
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1367,9 +1368,11 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 40,
-			"next": "2024-01-09T17:00:00Z"
-		}
+			"current": 41,
+			"next": "2024-01-16T17:00:00Z"
+		},
+		"availability": "rotator",
+		"endTime": "2024-01-16T17:00:00Z"
 	},
 	"2582501063": {
 		"hash": 2582501063,
@@ -1825,8 +1828,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 11,
-			"next": "2024-01-09T17:00:00Z"
+			"current": 12,
+			"next": "2024-01-16T17:00:00Z"
 		}
 	},
 	"4078656646": {
@@ -1964,11 +1967,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2024-01-09T17:00:00Z"
+			"activityHash": 1112917203
+		}
 	},
 	"4148187374": {
 		"hash": 4148187374,
@@ -2245,27 +2245,27 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 11,
-			"next": "2024-01-09T17:00:00Z"
+			"current": 12,
+			"next": "2024-01-16T17:00:00Z"
 		},
 		"availability": "repeatable"
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-09T17:00:00Z"
+		"endTime": "2024-01-16T17:00:00Z"
 	},
 	"lostSector": {
 		"hash": 144485114,
@@ -2307,17 +2307,17 @@
 					"3637669759": {}
 				}
 			],
-			"current": 41,
-			"next": "2024-01-09T17:00:00Z"
+			"current": 42,
+			"next": "2024-01-10T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-09T17:00:00Z"
+		"endTime": "2024-01-10T17:00:00Z"
 	},
 	"nightfall": {
-		"hash": 1278918650,
+		"hash": 808496216,
 		"displayProperties": {
-			"description": "Infiltrate the Seraph bunker tucked under the dust of the Moon to reclaim fragments of the submind Malahayati's code.",
-			"name": "Heist Battleground: Moon",
+			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
+			"name": "HyperNet Current",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
@@ -2325,12 +2325,12 @@
 			"3667553455": {}
 		},
 		"master": {
-			"activityHash": 1639515809,
+			"activityHash": 2389570605,
 			"dropTable": {
 				"1064132738": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-09T17:00:00Z"
+		"endTime": "2024-01-16T17:00:00Z"
 	}
 }
