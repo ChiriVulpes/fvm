@@ -89,10 +89,6 @@ export declare interface DeepsightDropTableDefinition {
 	 */
 	rotationActivityHash?: number;
 	/**
-	 * A record for completing this activity.
-	 */
-	recordHash?: number;
-	/**
 	 * Partial display properties. Not all fields are guaranteed to be provided.
 	 */
 	displayProperties?: DeepsightDisplayPropertiesDefinition;
@@ -121,6 +117,14 @@ export declare interface DeepsightDropTableDefinition {
 	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the time when this activity will no longer be available
 	 */
 	endTime?: ISOString;
+	/**
+	 * The type of activity as a string
+	 */
+	type: "nightfall" | "trials" | "dungeon" | "raid" | "lost-sector" | "exotic-mission";
+	/**
+	 * Partial display properties. Not all fields are guaranteed to be provided.
+	 */
+	typeDisplayProperties: DeepsightDisplayPropertiesDefinition;
 }
 
 export declare interface DeepsightDropTableEncounterDefinition {
