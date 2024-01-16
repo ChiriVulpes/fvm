@@ -132,11 +132,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2024-01-16T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -682,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 13,
-			"next": "2024-01-16T17:00:00Z"
+			"current": 14,
+			"next": "2024-01-23T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -843,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 14,
-			"next": "2024-01-16T17:00:00Z"
+			"current": 15,
+			"next": "2024-01-23T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1415,8 +1412,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1427,11 +1423,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 41,
-			"next": "2024-01-16T17:00:00Z"
+			"current": 42,
+			"next": "2024-01-23T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-01-16T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1725,8 +1719,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-01-23T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1906,8 +1903,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 12,
-			"next": "2024-01-16T17:00:00Z"
+			"current": 13,
+			"next": "2024-01-23T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2342,8 +2339,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 12,
-			"next": "2024-01-16T17:00:00Z"
+			"current": 13,
+			"next": "2024-01-23T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2355,21 +2352,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 3883295757,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"2188764214": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 4201846671,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-16T17:00:00Z",
+		"endTime": "2024-01-23T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2378,10 +2375,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 3981864036,
+		"hash": 4044885806,
 		"displayProperties": {
-			"name": "Bunker E15",
-			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Shocker",
+			"name": "Concealed Void",
+			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Arach-NO!",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"rotations": {
@@ -2417,11 +2414,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 48,
-			"next": "2024-01-16T17:00:00Z"
+			"current": 49,
+			"next": "2024-01-17T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-16T17:00:00Z",
+		"endTime": "2024-01-17T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2430,24 +2427,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 1859320492,
+		"hash": 1682266665,
 		"displayProperties": {
-			"description": "The Lucent Hive are using stolen Guardian Light for some wicked purpose. Breach their stronghold and uncover their plot.",
-			"name": "Legend PsiOps Battleground: Cosmodrome",
+			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
+			"name": "Birthplace of the Vile",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"1821529912": {}
+			"3125454907": {}
 		},
 		"master": {
-			"activityHash": 968118631,
+			"activityHash": 2766844306,
 			"dropTable": {
-				"267089201": {}
+				"2914913838": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-16T17:00:00Z",
+		"endTime": "2024-01-23T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
