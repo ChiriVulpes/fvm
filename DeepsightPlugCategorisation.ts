@@ -191,6 +191,7 @@ export interface DeepsightPlugCategorisationMod extends DeepsightPlugCategorisat
 export interface DeepsightPlugCategorisationSubclass extends DeepsightPlugCategorisationGeneric<DeepsightPlugCategory.Subclass> {
 	damageType?: DamageTypeHashes;
 	subclasses?: InventoryItemHashes[];
+	affectsClassStat?: true;
 }
 
 interface DeepsightPlugCategorisationMap {
