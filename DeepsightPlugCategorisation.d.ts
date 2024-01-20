@@ -180,12 +180,23 @@ export declare interface DeepsightPlugCategorisationMasterwork extends Deepsight
 	value?: number;
 }
 
+export declare interface DeepsightItemInvestmentStatDefinition {
+	statTypeHash: number;
+	/**
+	 * Either a static value, or an array of numbers which is how much the total value of stat is from the equipped copies of the mod.
+	 * IE, [30, 50, 60] for 1, 2, and 3 armour charge mods equipped.
+	 */
+	value: number | number[];
+	isConditionallyActive: boolean;
+}
+
 export declare interface DeepsightPlugCategorisationMod extends DeepsightPlugCategorisationGeneric<DeepsightPlugCategory.Mod> {
 	adept?: boolean;
 	bucketHash?: InventoryBucketHashes;
 	raid?: boolean;
 	artifice?: boolean;
 	activityHash?: ActivityHashes;
+	armourChargeStats?: DeepsightItemInvestmentStatDefinition[];
 }
 
 export declare interface DeepsightPlugCategorisationSubclass extends DeepsightPlugCategorisationGeneric<DeepsightPlugCategory.Subclass> {
