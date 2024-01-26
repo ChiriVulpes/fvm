@@ -232,6 +232,10 @@ void (async () => {
 				period: recentPGCR.period,
 			};
 			await fs.writeFile("versions.json", JSON.stringify(versions, null, "\t") + "\n");
+
+			const package = JSON.parse(await fs.readFile("package.json", "utf8"));
+			package.version = `1.0.${versions.deepsight}`;
+			await fs.writeFile("package.json", JSON.stringify(package, null, "\t"));
 		}
 	}
 
