@@ -1,4 +1,4 @@
-import type { ActivityHashes, DamageTypeHashes, InventoryBucketHashes, InventoryItemHashes, StatHashes } from "./Enums";
+import type { ActivityHashes, DamageTypeHashes, InventoryBucketHashes, InventoryItemHashes, StatHashes } from "@deepsight.gg/enums";
 
 export declare const enum DeepsightPlugCategory {
 	None,

@@ -1,3 +1,6 @@
+import type { DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorCategoryEntryDefinition, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, DictionaryComponentResponse, TierType } from "bungie-api-ts/destiny2";
+import type { ActivityHashes, ActivityModifierHashes, EventCardHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
+
 export declare type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
 
 export declare interface DeepsightManifest {
@@ -80,14 +83,14 @@ export declare interface DeepsightDropTableDefinition {
 	 * `DestinyActivityDefinition` hash.
 	 * Refers to the version of the activity that's always available.
 	 */
-	hash: number;
+	hash: ActivityHashes;
 	/**
 	 * `DestinyActivityDefinition` hash.
 	 * Refers to the version of the activity that rotates in (if different.)
 	 * 
 	 * In the case of raids, this refers to the activity definition that lists all challenges available.
 	 */
-	rotationActivityHash?: number;
+	rotationActivityHash?: ActivityHashes;
 	/**
 	 * Partial display properties. Not all fields are guaranteed to be provided.
 	 */
@@ -95,7 +98,7 @@ export declare interface DeepsightDropTableDefinition {
 	/**
 	 * A drop table used as the base drop table for all encounters. Encounter-specific drop tables may override this.
 	 */
-	dropTable?: Record<number, DeepsightDropTableDropDefinition>;
+	dropTable?: Partial<Record<InventoryItemHashes, DeepsightDropTableDropDefinition>>;
 	/**
 	 * If this activity has encounters, information about them will be here.
 	 */
@@ -155,18 +158,18 @@ export declare interface DeepsightDropTableEncounterDefinition {
 	/**
 	 * Encounter-specific drop table.
 	 */
-	dropTable?: Record<number, DeepsightDropTableDropDefinition>;
+	dropTable?: Partial<Record<InventoryItemHashes, DeepsightDropTableDropDefinition>>;
 }
 
 export declare interface DeepsightDropTableMasterDefinition {
 	/**
 	 * `DestinyActivityDefinition` hash for the master activity.
 	 */
-	activityHash: number;
+	activityHash: ActivityHashes;
 	/**
 	 * A non-rotating drop table of items from the master activity.
 	 */
-	dropTable?: Record<number, DeepsightDropTableDropDefinition>;
+	dropTable?: Partial<Record<InventoryItemHashes, DeepsightDropTableDropDefinition>>;
 	/**
 	 * If this activity is only available for a certain period of time, this specifies whether it's available as a rotator or whether it's a repeatable activity (IE, the most recent ones)
 	 */
@@ -177,11 +180,11 @@ export declare interface DeepsightDropTableDropDefinition {
 	/**
 	 * `DestinyInventoryItemDefinition` hash representing a quest item required for this drop to drop.
 	 */
-	requiresQuest?: number;
+	requiresQuest?: InventoryItemHashes;
 	/**
 	 * `DestinyInventoryItemDefinition` hashes representing a list of items required for this drop to drop.
 	 */
-	requiresItems?: number[];
+	requiresItems?: InventoryItemHashes[];
 	/**
 	 * `true` if this item is only available for purchase in an end-of-activity cache.
 	 */
@@ -214,24 +217,24 @@ export declare interface DeepsightDropTableRotationsDefinition {
 	 * The first item in the array will be the active drop(s) during the week of the anchor reset, then the next drop the next week,
 	 * and so on until all drops are exhausted. At that point, it cycles back to the first drop.
 	 */
-	drops?: (Record<number, DeepsightDropTableDropDefinition> | number)[];
+	drops?: (Partial<Record<InventoryItemHashes, DeepsightDropTableDropDefinition>> | InventoryItemHashes)[];
 	/**
 	 *  An array of drop table objects (containing all possible drops) or `DestinyInventoryItemDefinition` hashes (for a single drop).
 	 * 
 	 * The first item in the array will be the active drop(s) during the week of the anchor reset, then the next drop the next week,
 	 * and so on until all drops are exhausted. At that point, it cycles back to the first drop.
 	 */
-	masterDrops?: (Record<number, DeepsightDropTableDropDefinition> | number)[];
+	masterDrops?: (Partial<Record<InventoryItemHashes, DeepsightDropTableDropDefinition>> | InventoryItemHashes)[];
 	/**
 	 * `DestinyActivityModifierDefinition` hashes.
 	 * The first challenge will be the active challenge during the week of the anchor reset, then the next challenge the next week,
 	 * and so on until all challenges are exhausted. At that point, it cycles back to the first challenge.
 	 */
-	challenges?: number[];
+	challenges?: ActivityModifierHashes[];
 }
 
 export declare interface DeepsightMomentDefinition {
-	hash: number;
+	hash: MomentHashes;
 	id: string;
 	displayProperties: DeepsightDisplayPropertiesDefinition;
 	iconWatermark?: string;
@@ -239,16 +242,16 @@ export declare interface DeepsightMomentDefinition {
 	/**
 	 * For events, the event card hash. If there isn't an event card, `true`
 	 */
-	event?: true | number;
+	event?: true | EventCardHashes;
 	expansion?: true;
 	season?: number;
 	year?: number;
-	seasonHash?: number;
+	seasonHash?: SeasonHashes;
 	/**
 	 * Items that should be associated with this moment, but aren't according to the Destiny manifest (by icon watermark).
 	 * You should render these items with this moment's `iconWatermark`.
 	 */
-	itemHashes?: number[];
+	itemHashes?: InventoryItemHashes[];
 }
 
 /**
@@ -258,7 +261,7 @@ export declare interface DeepsightWallpaperDefinition {
 	/**
 	 * A `DeepsightMomentDefinition` hash.
 	 */
-	hash: number;
+	hash: MomentHashes;
 	/**
 	 * Wallpaper URLs. Each is an absolute (full) URL.
 	 */
@@ -269,13 +272,46 @@ export interface DeepsightTierTypeDefinition {
 	/**
 	 * A `DestinyItemTierTypeDefinition` hash.
 	 */
-	hash: number;
+	hash: ItemTierTypeHashes;
 	/**
 	 * The `TierType` of this tier, as appears in `DestinyInventoryItemDefinition`'s `inventory.tierType`.
 	 */
-	tierType: number;
+	tierType: TierType;
 	/**
 	 * Partial display properties. Not all fields are guaranteed to be provided.
 	 */
 	displayProperties: DeepsightDisplayPropertiesDefinition;
+}
+
+export interface DeepsightVendorDefinition {
+	/**
+	 * A `DestinyVendorDefinition` hash.
+	 */
+	hash: VendorHashes;
+	/**
+	 * Partial display properties. Not all fields are guaranteed to be provided.
+	 */
+	displayProperties: DeepsightDisplayPropertiesDefinition;
+	/**
+	 * The current location of the vendor.
+	 */
+	location: DestinyVendorLocationDefinition;
+	/**
+	 * An array of `DestinyVendorGroupDefinition` hashes.
+	 */
+	groups: VendorGroupHashes[];
+	categories: DeepsightVendorCategoryEntryDefinition[];
+}
+
+export interface DeepsightVendorCategoryEntryDefinition extends Omit<DestinyVendorCategoryEntryDefinition, "vendorItemIndexes"> {
+	items: DeepsightVendorItemDefinition[];
+}
+
+export interface DeepsightVendorItemDefinition extends DestinyVendorItemDefinition {
+	displayProperties: DestinyDisplayPropertiesDefinition;
+	quantity: number;
+	overrideNextRefreshDate?: string;
+	apiPurchasable?: boolean;
+	costs?: DestinyItemQuantity[];
+	itemComponent: { [KEY in keyof DestinyItemComponentSetOfint32]: DestinyItemComponentSetOfint32[KEY] extends DictionaryComponentResponse<infer T> ? T : never };
 }
