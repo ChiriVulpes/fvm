@@ -235,7 +235,8 @@ void (async () => {
 
 			if (!process.env.DEEPSIGHT_MANIFEST_NO_INCREMENT_VERSION) {
 				const packageJson = JSON.parse(await fs.readFile("package.json", "utf8"));
-				packageJson.version = `1.0.${versions.deepsight}`;
+				const packageJsonVersionMinor = packageJson.version.slice(0, packageJson.version.lastIndexOf("."));
+				packageJson.version = `${packageJsonVersionMinor}.${versions.deepsight}`;
 				await fs.writeFile("package.json", JSON.stringify(packageJson, null, "\t"));
 			}
 		}
