@@ -233,9 +233,11 @@ void (async () => {
 			};
 			await fs.writeFile("versions.json", JSON.stringify(versions, null, "\t") + "\n");
 
-			const packageJson = JSON.parse(await fs.readFile("package.json", "utf8"));
-			packageJson.version = `1.0.${versions.deepsight}`;
-			await fs.writeFile("package.json", JSON.stringify(packageJson, null, "\t"));
+			if (!process.env.DEEPSIGHT_MANIFEST_NO_INCREMENT_VERSION) {
+				const packageJson = JSON.parse(await fs.readFile("package.json", "utf8"));
+				packageJson.version = `1.0.${versions.deepsight}`;
+				await fs.writeFile("package.json", JSON.stringify(packageJson, null, "\t"));
+			}
 		}
 	}
 
