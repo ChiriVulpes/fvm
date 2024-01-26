@@ -268,7 +268,7 @@ export declare interface DeepsightWallpaperDefinition {
 	wallpapers: string[];
 }
 
-export interface DeepsightTierTypeDefinition {
+export declare interface DeepsightTierTypeDefinition {
 	/**
 	 * A `DestinyItemTierTypeDefinition` hash.
 	 */
@@ -283,7 +283,7 @@ export interface DeepsightTierTypeDefinition {
 	displayProperties: DeepsightDisplayPropertiesDefinition;
 }
 
-export interface DeepsightVendorDefinition {
+export declare interface DeepsightVendorDefinition {
 	/**
 	 * A `DestinyVendorDefinition` hash.
 	 */
@@ -303,11 +303,11 @@ export interface DeepsightVendorDefinition {
 	categories: DeepsightVendorCategoryEntryDefinition[];
 }
 
-export interface DeepsightVendorCategoryEntryDefinition extends Omit<DestinyVendorCategoryEntryDefinition, "vendorItemIndexes"> {
+export declare interface DeepsightVendorCategoryEntryDefinition extends Omit<DestinyVendorCategoryEntryDefinition, "vendorItemIndexes"> {
 	items: DeepsightVendorItemDefinition[];
 }
 
-export interface DeepsightVendorItemDefinition extends DestinyVendorItemDefinition {
+export declare interface DeepsightVendorItemDefinition extends DestinyVendorItemDefinition {
 	displayProperties: DestinyDisplayPropertiesDefinition;
 	quantity: number;
 	overrideNextRefreshDate?: string;
