@@ -293,6 +293,10 @@ export declare interface DeepsightVendorDefinition {
 	 */
 	displayProperties: DeepsightDisplayPropertiesDefinition;
 	/**
+	 * A 1920x1080 background for this image, taken in-game, if the vendor has one.
+	 */
+	background?: DeepsightIconPath;
+	/**
 	 * The current location of the vendor.
 	 */
 	location: DestinyVendorLocationDefinition;
