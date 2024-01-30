@@ -66,6 +66,7 @@ export declare interface DeepsightManifestReferencePGCR {
 
 export declare interface DeepsightDisplayPropertiesDefinition {
 	name?: string;
+	subtitle?: string;
 	description?: string;
 	/**
 	 * Icon paths are guaranteed to either be via Bungie.net or deepsight.gg.
@@ -73,6 +74,12 @@ export declare interface DeepsightDisplayPropertiesDefinition {
 	 * - deepsight.gg icon paths always begin with `./` should be joined with `https://deepsight.gg`
 	 */
 	icon?: DeepsightIconPath | BungieIconPath;
+	/**
+	 * Icon paths are guaranteed to either be via Bungie.net or deepsight.gg.
+	 * - Bungie.net icon paths always begin with `/` and should be appended to `https://www.bungie.net`
+	 * - deepsight.gg icon paths always begin with `./` should be joined with `https://deepsight.gg`
+	 */
+	largeIcon?: DeepsightIconPath | BungieIconPath;
 }
 
 export declare type DeepsightIconPath = `./${string}`;
