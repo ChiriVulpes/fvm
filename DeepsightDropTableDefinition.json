@@ -264,6 +264,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-02-06T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -377,8 +379,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-01-30T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -510,11 +510,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662,
-			"availability": "rotator"
+			"activityHash": 2296818662
 		},
-		"availability": "rotator",
-		"endTime": "2024-01-30T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -684,8 +681,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 15,
-			"next": "2024-01-30T17:00:00Z"
+			"current": 16,
+			"next": "2024-02-06T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -845,8 +842,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 16,
-			"next": "2024-01-30T17:00:00Z"
+			"current": 17,
+			"next": "2024-02-06T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1429,8 +1426,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 43,
-			"next": "2024-01-30T17:00:00Z"
+			"current": 44,
+			"next": "2024-02-06T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1585,6 +1582,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-02-06T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1906,8 +1905,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 14,
-			"next": "2024-01-30T17:00:00Z"
+			"current": 15,
+			"next": "2024-02-06T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2342,8 +2341,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 14,
-			"next": "2024-01-30T17:00:00Z"
+			"current": 15,
+			"next": "2024-02-06T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2355,21 +2354,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-30T17:00:00Z",
+		"endTime": "2024-02-06T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2417,42 +2416,16 @@
 					"3637669759": {}
 				}
 			],
-			"current": 62,
-			"next": "2024-01-30T17:00:00Z"
+			"current": 63,
+			"next": "2024-01-31T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-01-30T17:00:00Z",
+		"endTime": "2024-01-31T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
 			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
-	"nightfall": {
-		"hash": 808496216,
-		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
-			"icon": "./image/png/activity/strike.png",
-			"hasIcon": true
-		},
-		"dropTable": {
-			"192784503": {}
-		},
-		"master": {
-			"activityHash": 2039642510,
-			"dropTable": {
-				"496556698": {}
-			}
-		},
-		"availability": "rotator",
-		"endTime": "2024-01-30T17:00:00Z",
-		"type": "nightfall",
-		"typeDisplayProperties": {
-			"name": "Nightfall",
-			"description": "Join a fireteam of three and face the most feared minions of the Darkness.",
-			"icon": "/common/destiny2_content/icons/3642cf9e2acd174dcab5b5f9e3a3a45d.png"
 		}
 	}
 }
