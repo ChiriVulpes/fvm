@@ -2377,10 +2377,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 2983905030,
+		"hash": 144485114,
 		"displayProperties": {
-			"name": "Gilded Precept",
-			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Scorched Earth",
+			"name": "Scavenger's Den",
+			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Solar] Solar\n\nShields: [Arc] Arc\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"rotations": {
@@ -2426,6 +2426,32 @@
 			"name": "Lost Sector",
 			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
+		}
+	},
+	"nightfall": {
+		"hash": 661855681,
+		"displayProperties": {
+			"description": "Stem the tide of Taken flowing into the European Dead Zone from beneath the waves.",
+			"name": "Lake of Shadows",
+			"icon": "./image/png/activity/strike.png",
+			"hasIcon": true
+		},
+		"dropTable": {
+			"1151688091": {}
+		},
+		"master": {
+			"activityHash": 3109193568,
+			"dropTable": {
+				"672957262": {}
+			}
+		},
+		"availability": "rotator",
+		"endTime": "2024-02-06T17:00:00Z",
+		"type": "nightfall",
+		"typeDisplayProperties": {
+			"name": "Nightfall",
+			"description": "Join a fireteam of three and face the most feared minions of the Darkness.",
+			"icon": "/common/destiny2_content/icons/3642cf9e2acd174dcab5b5f9e3a3a45d.png"
 		}
 	}
 }
