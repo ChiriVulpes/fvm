@@ -8,27 +8,38 @@ if (!apiKey)
 	throw new Error("No API key set");
 
 async function getDestinyManifestVersion () {
-	let manifest;
+	return apiRequest("Manifest/").then(response => response?.version);
+}
+
+async function hasProfileCharacter () {
+	return apiRequest("3/Profile/4611686018494087946/Character/2305843009532315461/?components=200").then(response => !!response?.character?.data);
+}
+
+/**
+ * @param {string} endpoint
+ */
+async function apiRequest (endpoint) {
+	let response;
 	const maxAttempts = 1;
-	for (let attempts = 0; !manifest && attempts < maxAttempts; attempts++) {
+	for (let attempts = 0; !response && attempts < maxAttempts; attempts++) {
 		const abortController = new AbortController();
 		setTimeout(() => abortController.abort(), 20000); // 20 seconds max for a request
-		manifest = await fetch("https://www.bungie.net/Platform/Destiny2/Manifest/", { signal: abortController.signal })
+		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, { signal: abortController.signal })
 			.then(response => response.status === 200 ? response.json()
 				: { type: "error", code: response.status, message: response.statusText })
 			.catch(err => ({ type: "error", message: err.message }))
 			.then(json => {
-				const manifest = json.Response;
-				if (!manifest)
-					console.warn(`Bungie API did not return a valid manifest: ${JSON.stringify(json)}`);
+				const response = json.Response;
+				if (!response)
+					console.warn(`/${endpoint} did not return a valid response: ${JSON.stringify(json)}`);
 				return json.Response;
 			});
 
-		if (!manifest)
+		if (!response)
 			await sleep(1000);
 	}
 
-	return manifest?.version;
+	return response;
 }
 
 class PGCR {
@@ -198,6 +209,10 @@ void (async () => {
 	if (!bungieVersion)
 		// always skip manifest update if manifest is unavailable
 		throw new Error("Unable to get current manifest version, API may be disabled or unavailable");
+
+	const hasCharacter = await hasProfileCharacter();
+	if (!hasCharacter)
+		throw new Error("Skipping this build, API may be disabled or unavailable");
 
 	const lastDailyReset = Time.lastDailyReset;
 	const lastWeeklyReset = Time.lastWeeklyReset;
