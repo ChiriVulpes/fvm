@@ -188,6 +188,7 @@ void (async () => {
 		savedVersion = versions["Destiny2/Manifest"];
 		savedLastDailyReset = new Date(versions.lastDailyReset ?? savedLastDailyReset).getTime();
 	} catch {
+		console.warn("No saved versions, triggering rebuild");
 		return;
 	}
 
@@ -198,16 +199,12 @@ void (async () => {
 		// always skip manifest update if manifest is unavailable
 		throw new Error("Unable to get current manifest version, API may be disabled or unavailable");
 
-	if (savedVersion !== bungieVersion) {
-		needsUpdate = true;
-		return;
-	}
-
 	const lastDailyReset = Time.lastDailyReset;
 	const lastWeeklyReset = Time.lastWeeklyReset;
 	const lastTrialsReset = Time.lastTrialsReset;
 
 	if (lastDailyReset !== savedLastDailyReset && Date.now() - lastDailyReset > REFERENCE_PGCR_RETRIEVAL_DELAY) {
+		console.log("New reference PGCR required");
 		let searchStart;
 		let searchEnd;
 
@@ -223,6 +220,7 @@ void (async () => {
 		if (recentPGCR) {
 			needsUpdate = true;
 			versions.deepsight++;
+			console.log(`Updated to v${versions.deepsight}`);
 			versions.updated = new Date().toISOString().slice(0, -5) + "Z";
 			versions.lastDailyReset = new Date(lastDailyReset).toISOString().slice(0, -5) + "Z";
 			versions.lastWeeklyReset = new Date(lastWeeklyReset).toISOString().slice(0, -5) + "Z";
@@ -240,6 +238,12 @@ void (async () => {
 				await fs.writeFile("package.json", JSON.stringify(packageJson, null, "\t"));
 			}
 		}
+	}
+
+	if (savedVersion !== bungieVersion) {
+		needsUpdate = true;
+		console.log("New Destiny 2 manifest! Saved version:", savedVersion, "New version:", bungieVersion);
+		return;
 	}
 
 	if (!needsUpdate)
