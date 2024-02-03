@@ -24,7 +24,12 @@ async function apiRequest (endpoint) {
 	for (let attempts = 0; !response && attempts < maxAttempts; attempts++) {
 		const abortController = new AbortController();
 		setTimeout(() => abortController.abort(), 20000); // 20 seconds max for a request
-		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, { signal: abortController.signal })
+		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, {
+			signal: abortController.signal,
+			headers: {
+				"X-API-Key": /** @type {string} */(apiKey),
+			},
+		})
 			.then(response => response.status === 200 ? response.json()
 				: { type: "error", code: response.status, message: response.statusText })
 			.catch(err => ({ type: "error", message: err.message }))
