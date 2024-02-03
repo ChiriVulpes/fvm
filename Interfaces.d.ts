@@ -1,4 +1,4 @@
-import type { DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorCategoryEntryDefinition, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, DictionaryComponentResponse, TierType } from "bungie-api-ts/destiny2";
+import type { DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from "bungie-api-ts/destiny2";
 import type { ActivityHashes, ActivityModifierHashes, EventCardHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
 
 export declare type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
@@ -312,9 +312,13 @@ export declare interface DeepsightVendorDefinition {
 	 */
 	groups: VendorGroupHashes[];
 	categories: DeepsightVendorCategoryEntryDefinition[];
+	/**
+	 * The last moment this vendor was active in.
+	 */
+	moment?: MomentHashes;
 }
 
-export declare interface DeepsightVendorCategoryEntryDefinition extends Omit<DestinyVendorCategoryEntryDefinition, "vendorItemIndexes"> {
+export declare interface DeepsightVendorCategoryEntryDefinition extends DestinyDisplayCategoryDefinition {
 	items: DeepsightVendorItemDefinition[];
 }
 
@@ -324,5 +328,5 @@ export declare interface DeepsightVendorItemDefinition extends DestinyVendorItem
 	overrideNextRefreshDate?: string;
 	apiPurchasable?: boolean;
 	costs?: DestinyItemQuantity[];
-	itemComponent: { [KEY in keyof DestinyItemComponentSetOfint32]: DestinyItemComponentSetOfint32[KEY] extends DictionaryComponentResponse<infer T> ? T : never };
+	itemComponent: DestinyItemComponentSetOfint32;
 }
