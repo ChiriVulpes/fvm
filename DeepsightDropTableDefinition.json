@@ -679,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 17,
-			"next": "2024-02-13T17:00:00Z"
+			"current": 18,
+			"next": "2024-02-20T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -829,7 +829,8 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -840,9 +841,11 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 18,
-			"next": "2024-02-13T17:00:00Z"
+			"current": 19,
+			"next": "2024-02-20T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-02-20T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1247,8 +1250,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-02-13T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1426,8 +1427,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 45,
-			"next": "2024-02-13T17:00:00Z"
+			"current": 46,
+			"next": "2024-02-20T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1884,8 +1885,7 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -1904,11 +1904,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 16,
-			"next": "2024-02-13T17:00:00Z"
+			"current": 17,
+			"next": "2024-02-20T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-02-13T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2199,6 +2197,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-02-20T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2342,8 +2342,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 16,
-			"next": "2024-02-13T17:00:00Z"
+			"current": 17,
+			"next": "2024-02-20T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2355,21 +2355,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-02-13T17:00:00Z",
+		"endTime": "2024-02-20T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2377,48 +2377,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 176316743,
-		"displayProperties": {
-			"name": "Javelin-4",
-			"description": "Warsat Launch Facility, Io",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"1401300690": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1973107014": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2421180981": {},
-			"2443507405": {},
-			"2738601016": {},
-			"3403647252": {},
-			"3658188704": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"4005780578": {},
-			"4248997900": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-02-13T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 55186256,
+		"hash": 1344654779,
 		"displayProperties": {
-			"name": "Skydock IV",
-			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Void] Void\n\nModifiers: Pestilence",
+			"name": "The Quarry",
+			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"rotations": {
@@ -2454,11 +2417,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 76,
-			"next": "2024-02-13T17:00:00Z"
+			"current": 77,
+			"next": "2024-02-14T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-02-13T17:00:00Z",
+		"endTime": "2024-02-14T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2467,24 +2430,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 224295651,
+		"hash": 1278918650,
 		"displayProperties": {
-			"description": "Hunt down one of Queen Mara's most trusted advisors and free her from Taken possession.",
-			"name": "The Corrupted",
+			"description": "Infiltrate the Seraph bunker tucked under the dust of the Moon to reclaim fragments of the submind Malahayati's code.",
+			"name": "Heist Battleground: Moon",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2450917538": {}
+			"3667553455": {}
 		},
 		"master": {
-			"activityHash": 2416314393,
+			"activityHash": 1639515809,
 			"dropTable": {
-				"1891996599": {}
+				"1064132738": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-02-13T17:00:00Z",
+		"endTime": "2024-02-20T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
