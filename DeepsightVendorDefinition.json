@@ -924,13 +924,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Defeat combatants while in Vanguard playlists.",
-							"name": "Vanguardian",
+							"description": "Defeat combatants with Heavy ammo. Sword final blows in Vanguard playlists grant additional progress.",
+							"name": "Elegant Weaponry",
 							"icon": "/common/destiny2_content/icons/bb18ccceb48a99107334d07db842f951.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 144,
-						"itemHash": 1117014939,
+						"vendorItemIndex": 148,
+						"itemHash": 1355586781,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -966,14 +966,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -985,7 +985,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"144": {
+									"148": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -1030,12 +1030,140 @@
 							},
 							"objectives": {
 								"data": {
-									"144": {
+									"148": {
 										"objectives": [
 											{
-												"objectiveHash": 4125543234,
+												"objectiveHash": 4058762072,
 												"progress": 0,
-												"completionValue": 50,
+												"completionValue": 20,
+												"complete": false,
+												"visible": true
+											}
+										]
+									}
+								},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Defeat combatants with Heavy ammo. Rocket Launcher final blows in Vanguard playlists grant additional progress.",
+							"name": "Rocketing to Prominence",
+							"icon": "/common/destiny2_content/icons/bb18ccceb48a99107334d07db842f951.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 149,
+						"itemHash": 1467889597,
+						"quantity": 1,
+						"failureIndexes": [
+							22
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 33,
+						"originalCategoryIndex": 33,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {
+									"149": {
+										"damageType": 0,
+										"itemLevel": 0,
+										"quality": 0,
+										"isEquipped": false,
+										"canEquip": false,
+										"equipRequiredLevel": 0,
+										"unlockHashesRequiredToEquip": [
+											0
+										],
+										"cannotEquipReason": 0
+									}
+								},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {
+									"149": {
+										"objectives": [
+											{
+												"objectiveHash": 238063032,
+												"progress": 0,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -1101,7 +1229,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -1180,142 +1308,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants in Vanguard playlists with Solar abilities. Defeating scorched combatants and detonating ignitions grants additional progress.",
-							"name": "Rapid Combustion",
+							"description": "Defeat combatants in Vanguard playlists with Stasis abilities. Defeating frozen combatants grants additional progress.",
+							"name": "Shattering Revelation",
 							"icon": "/common/destiny2_content/icons/bb18ccceb48a99107334d07db842f951.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 154,
-						"itemHash": 4259131291,
-						"quantity": 1,
-						"failureIndexes": [
-							22,
-							6
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 6,
-						"seedOverride": 0,
-						"categoryIndex": 33,
-						"originalCategoryIndex": 33,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"154": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"154": {
-										"objectives": [
-											{
-												"objectiveHash": 667455298,
-												"progress": 0,
-												"completionValue": 50,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Defeat combatants in Vanguard playlists with Strand abilities. Defeating suspended combatants or defeating them with your grapple grants additional progress.",
-							"name": "Twisted Every Way",
-							"icon": "/common/destiny2_content/icons/bb18ccceb48a99107334d07db842f951.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 162,
-						"itemHash": 1115575054,
+						"vendorItemIndex": 158,
+						"itemHash": 1449991373,
 						"quantity": 1,
 						"failureIndexes": [
 							22,
@@ -1359,7 +1358,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -1371,7 +1370,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"162": {
+									"158": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -1416,10 +1415,10 @@
 							},
 							"objectives": {
 								"data": {
-									"162": {
+									"158": {
 										"objectives": [
 											{
-												"objectiveHash": 3682711439,
+												"objectiveHash": 194690920,
 												"progress": 0,
 												"completionValue": 50,
 												"complete": false,
@@ -3203,13 +3202,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Complete a Gambit match.",
-							"name": "All Right, All Right, All Right",
+							"description": "Defeat challenging enemies in Gambit.",
+							"name": "Elite Executioner",
 							"icon": "/common/destiny2_content/icons/e6e266c9debdd4772c386bece165f142.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 42,
-						"itemHash": 552709553,
+						"vendorItemIndex": 44,
+						"itemHash": 552709555,
 						"quantity": 1,
 						"failureIndexes": [
 							16
@@ -3252,7 +3251,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -3264,7 +3263,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"42": {
+									"44": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -3309,12 +3308,269 @@
 							},
 							"objectives": {
 								"data": {
-									"42": {
+									"44": {
 										"objectives": [
 											{
-												"objectiveHash": 329602286,
+												"objectiveHash": 1001901590,
 												"progress": 0,
-												"completionValue": 1,
+												"completionValue": 10,
+												"complete": false,
+												"visible": true
+											}
+										]
+									}
+								},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Use Solar abilities to defeat enemies in Gambit. Defeated Guardians are worth extra points.",
+							"name": "Sun Charred",
+							"icon": "/common/destiny2_content/icons/e6e266c9debdd4772c386bece165f142.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 48,
+						"itemHash": 552709559,
+						"quantity": 1,
+						"failureIndexes": [
+							16,
+							5
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 36,
+						"originalCategoryIndex": 36,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {
+									"48": {
+										"damageType": 0,
+										"itemLevel": 0,
+										"quality": 0,
+										"isEquipped": false,
+										"canEquip": false,
+										"equipRequiredLevel": 0,
+										"unlockHashesRequiredToEquip": [
+											0
+										],
+										"cannotEquipReason": 0
+									}
+								},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {
+									"48": {
+										"objectives": [
+											{
+												"objectiveHash": 2808237166,
+												"progress": 0,
+												"completionValue": 15,
+												"complete": false,
+												"visible": true
+											}
+										]
+									}
+								},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Defeat enemies in Gambit.",
+							"name": "Not Your Mama's Combat Drill",
+							"icon": "/common/destiny2_content/icons/e6e266c9debdd4772c386bece165f142.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 50,
+						"itemHash": 552709561,
+						"quantity": 1,
+						"failureIndexes": [
+							16
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 36,
+						"originalCategoryIndex": 36,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 0,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {
+									"50": {
+										"damageType": 0,
+										"itemLevel": 0,
+										"quality": 0,
+										"isEquipped": false,
+										"canEquip": false,
+										"equipRequiredLevel": 0,
+										"unlockHashesRequiredToEquip": [
+											0
+										],
+										"cannotEquipReason": 0
+									}
+								},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {
+									"50": {
+										"objectives": [
+											{
+												"objectiveHash": 1614586816,
+												"progress": 0,
+												"completionValue": 50,
 												"complete": false,
 												"visible": true
 											}
@@ -3380,7 +3636,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -3509,7 +3765,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -3637,7 +3893,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -3700,135 +3956,6 @@
 												"objectiveHash": 1240307486,
 												"progress": 0,
 												"completionValue": 5,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Defeat targets in Gambit matches with Strand abilities. Defeating Guardians grants additional progress.",
-							"name": "Pins and Needles",
-							"icon": "/common/destiny2_content/icons/e6e266c9debdd4772c386bece165f142.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 57,
-						"itemHash": 527367198,
-						"quantity": 1,
-						"failureIndexes": [
-							16,
-							5
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 6,
-						"seedOverride": 0,
-						"categoryIndex": 36,
-						"originalCategoryIndex": 36,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 6,
-						"purchasableScope": 6,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"57": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"57": {
-										"objectives": [
-											{
-												"objectiveHash": 1090999249,
-												"progress": 0,
-												"completionValue": 30,
 												"complete": false,
 												"visible": true
 											}
@@ -9487,7 +9614,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -9591,13 +9718,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Get precision kills in the EDZ.",
-							"name": "Deadeye",
+							"description": "Defeat multiple enemies with a single Super while in the EDZ.",
+							"name": "Superhuman",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 39,
-						"itemHash": 1946763995,
+						"vendorItemIndex": 34,
+						"itemHash": 3408756889,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -9640,7 +9767,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -9652,7 +9779,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"39": {
+									"34": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -9697,12 +9824,12 @@
 							},
 							"objectives": {
 								"data": {
-									"39": {
+									"34": {
 										"objectives": [
 											{
-												"objectiveHash": 2560474835,
+												"objectiveHash": 1933133154,
 												"progress": 0,
-												"completionValue": 10,
+												"completionValue": 3,
 												"complete": false,
 												"visible": true
 											}
@@ -9719,13 +9846,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Loot chests in the EDZ.",
-							"name": "Salzwerk Scavenger",
+							"description": "Get Super kills in the EDZ.",
+							"name": "Super Destructive",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 45,
-						"itemHash": 2903313662,
+						"vendorItemIndex": 35,
+						"itemHash": 685751430,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -9768,7 +9895,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -9780,7 +9907,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"45": {
+									"35": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -9825,12 +9952,12 @@
 							},
 							"objectives": {
 								"data": {
-									"45": {
+									"35": {
 										"objectives": [
 											{
-												"objectiveHash": 3602040801,
+												"objectiveHash": 2069682059,
 												"progress": 0,
-												"completionValue": 5,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -9847,13 +9974,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat enemies with Void damage in the EDZ.",
-							"name": "Touch the Void",
+							"description": "Defeat Cabal in the EDZ.",
+							"name": "Front Line Defense",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 46,
-						"itemHash": 4122700291,
+						"vendorItemIndex": 41,
+						"itemHash": 4153081286,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -9896,7 +10023,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -9908,7 +10035,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"46": {
+									"41": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -9953,10 +10080,10 @@
 							},
 							"objectives": {
 								"data": {
-									"46": {
+									"41": {
 										"objectives": [
 											{
-												"objectiveHash": 2300646051,
+												"objectiveHash": 4194834336,
 												"progress": 0,
 												"completionValue": 30,
 												"complete": false,
@@ -9975,13 +10102,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat enemies with Arc damage in the EDZ.",
-							"name": "Channel the Arc",
+							"description": "Complete public events in the EDZ. Heroic public events contribute the most progress.",
+							"name": "Public Works",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 47,
-						"itemHash": 2381486111,
+						"vendorItemIndex": 44,
+						"itemHash": 2479868260,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -10024,7 +10151,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -10036,7 +10163,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"47": {
+									"44": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -10081,12 +10208,12 @@
 							},
 							"objectives": {
 								"data": {
-									"47": {
+									"44": {
 										"objectives": [
 											{
-												"objectiveHash": 185839243,
+												"objectiveHash": 1814557003,
 												"progress": 0,
-												"completionValue": 30,
+												"completionValue": 6,
 												"complete": false,
 												"visible": true
 											}
@@ -15845,13 +15972,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Calibrate Swords against any target. Opposing Guardians and rapidly defeated targets grant the most efficient progress.",
-							"name": "Sword Calibration",
+							"description": "Calibrate Rocket Launchers against any target. Earn bonus progress against opposing Guardians and for additional targets defeated with each shot.",
+							"name": "Rocket Launcher Calibration",
 							"icon": "/common/destiny2_content/icons/d7515897c31ba1bfc5fa699054bafaf4.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 167,
-						"itemHash": 4240324233,
+						"vendorItemIndex": 166,
+						"itemHash": 179306417,
 						"quantity": 1,
 						"failureIndexes": [
 							15
@@ -15905,7 +16032,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"167": {
+									"166": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -15950,10 +16077,10 @@
 							},
 							"objectives": {
 								"data": {
-									"167": {
+									"166": {
 										"objectives": [
 											{
-												"objectiveHash": 3702141628,
+												"objectiveHash": 2498252692,
 												"progress": 0,
 												"completionValue": 100,
 												"complete": false,
@@ -15972,13 +16099,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Calibrate Kinetic weapons against any target. Earn bonus progress with precision and against opposing Guardians.",
-							"name": "Kinetic Calibration",
+							"description": "Calibrate Stasis weapons against any target. Earn bonus progress against opposing Guardians.",
+							"name": "Stasis Calibration",
 							"icon": "/common/destiny2_content/icons/d7515897c31ba1bfc5fa699054bafaf4.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 170,
-						"itemHash": 1869653095,
+						"vendorItemIndex": 173,
+						"itemHash": 1742928699,
 						"quantity": 1,
 						"failureIndexes": [
 							15
@@ -16014,7 +16141,7 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
@@ -16032,7 +16159,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"170": {
+									"173": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -16077,12 +16204,12 @@
 							},
 							"objectives": {
 								"data": {
-									"170": {
+									"173": {
 										"objectives": [
 											{
-												"objectiveHash": 2321691318,
+												"objectiveHash": 3557964386,
 												"progress": 0,
-												"completionValue": 100,
+												"completionValue": 80,
 												"complete": false,
 												"visible": true
 											}
@@ -16443,12 +16570,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Lunulata-4b",
-							"icon": "/common/destiny2_content/icons/f805d81b5d20407ef668588121a97706.jpg",
+							"name": "Whispering Slab",
+							"icon": "/common/destiny2_content/icons/ff8b7820f127aab0e82e170739cdb6d0.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 109,
-						"itemHash": 2513965917,
+						"vendorItemIndex": 26,
+						"itemHash": 211938782,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -16488,14 +16615,14 @@
 						},
 						"displayCategory": "Featured",
 						"inventoryBucketHash": 1498876634,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
+						"visibilityScope": 0,
+						"purchasableScope": 0,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T00:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T00:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -16511,9 +16638,9 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"109": {
-										"damageType": 6,
-										"damageTypeHash": 151347233,
+									"26": {
+										"damageType": 1,
+										"damageTypeHash": 3373582085,
 										"primaryStat": {
 											"statHash": 1480404414,
 											"value": 1600
@@ -16533,7 +16660,7 @@
 							},
 							"renderData": {
 								"data": {
-									"109": {
+									"26": {
 										"useCustomDyes": true,
 										"artRegions": {
 											"3": 0,
@@ -16546,35 +16673,35 @@
 							},
 							"stats": {
 								"data": {
-									"109": {
+									"26": {
 										"stats": {
 											"155624089": {
 												"statHash": 155624089,
-												"value": 69
+												"value": 48
 											},
 											"447667954": {
 												"statHash": 447667954,
-												"value": 580
+												"value": 616
 											},
 											"943549884": {
 												"statHash": 943549884,
-												"value": 83
+												"value": 75
 											},
 											"1345609583": {
 												"statHash": 1345609583,
-												"value": 82
+												"value": 75
 											},
 											"1591432999": {
 												"statHash": 1591432999,
-												"value": 30
+												"value": 37
 											},
 											"2714457168": {
 												"statHash": 2714457168,
-												"value": 7
+												"value": 10
 											},
 											"2715839340": {
 												"statHash": 2715839340,
-												"value": 49
+												"value": 55
 											},
 											"3555269338": {
 												"statHash": 3555269338,
@@ -16586,7 +16713,7 @@
 											},
 											"4188031367": {
 												"statHash": 4188031367,
-												"value": 60
+												"value": 70
 											}
 										}
 									}
@@ -16595,7 +16722,7 @@
 							},
 							"sockets": {
 								"data": {
-									"109": {
+									"26": {
 										"sockets": [
 											{
 												"plugHash": 2108556049,
@@ -16603,22 +16730,22 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 3768438372,
+												"plugHash": 3371775011,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3311977193,
+												"plugHash": 16392701,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 2621346526,
+												"plugHash": 2450788523,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3592538738,
+												"plugHash": 3108830275,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -16633,14 +16760,13 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 518224747,
+												"plugHash": 2203506848,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3988215619,
-												"isEnabled": true,
-												"isVisible": true
+												"isEnabled": false,
+												"isVisible": false
 											},
 											{
 												"plugHash": 2302094943,
@@ -16654,23 +16780,23 @@
 							},
 							"reusablePlugs": {
 								"data": {
-									"109": {
+									"26": {
 										"plugs": {
 											"1": [
 												{
-													"plugItemHash": 3768438372,
+													"plugItemHash": 3371775011,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 1784898267,
+													"plugItemHash": 852209214,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"2": [
 												{
-													"plugItemHash": 3311977193,
+													"plugItemHash": 16392701,
 													"canInsert": true,
 													"enabled": true
 												},
@@ -16682,14 +16808,14 @@
 											],
 											"3": [
 												{
-													"plugItemHash": 2621346526,
+													"plugItemHash": 2450788523,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"4": [
 												{
-													"plugItemHash": 3592538738,
+													"plugItemHash": 3108830275,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -16703,7 +16829,7 @@
 											],
 											"7": [
 												{
-													"plugItemHash": 518224744,
+													"plugItemHash": 2203506851,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -16715,7 +16841,7 @@
 							},
 							"plugObjectives": {
 								"data": {
-									"109": {
+									"26": {
 										"objectivesPerPlug": {
 											"2302094943": [
 												{
@@ -16733,7 +16859,7 @@
 							},
 							"talentGrids": {
 								"data": {
-									"109": {
+									"26": {
 										"talentGridHash": 521135891,
 										"nodes": [],
 										"isGridComplete": false
@@ -16751,10 +16877,10 @@
 							},
 							"perks": {
 								"data": {
-									"109": {
+									"26": {
 										"perks": [
 											{
-												"perkHash": 1717910801,
+												"perkHash": 2348883558,
 												"iconPath": "",
 												"isActive": true,
 												"visible": false
@@ -16772,20 +16898,14 @@
 												"visible": true
 											},
 											{
-												"perkHash": 4196339950,
-												"iconPath": "/common/destiny2_content/icons/421d6325598857bc63c1df0f25607cde.png",
+												"perkHash": 2964569971,
+												"iconPath": "/common/destiny2_content/icons/db2aa71ff6d808929bb0e668dcf0822e.png",
 												"isActive": true,
 												"visible": true
 											},
 											{
-												"perkHash": 1706638886,
-												"iconPath": "/common/destiny2_content/icons/ec2e3096ebd447bd6137735c9067b991.png",
-												"isActive": true,
-												"visible": true
-											},
-											{
-												"perkHash": 1697350647,
-												"iconPath": "/common/destiny2_content/icons/74c8d92641cdd221a65ccc0b0d131d45.png",
+												"perkHash": 841943131,
+												"iconPath": "/common/destiny2_content/icons/1e5843177c71ae3f2a4770d01a2f3813.png",
 												"isActive": true,
 												"visible": true
 											}
@@ -16851,7 +16971,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T00:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T00:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -16892,9 +17012,9 @@
 									"16": {
 										"useCustomDyes": true,
 										"artRegions": {
-											"3": 5,
+											"3": 2,
 											"5": 0,
-											"17": 5
+											"17": 2
 										}
 									}
 								},
@@ -16910,11 +17030,11 @@
 											},
 											"943549884": {
 												"statHash": 943549884,
-												"value": 32
+												"value": 41
 											},
 											"1240592695": {
 												"statHash": 1240592695,
-												"value": 45
+												"value": 44
 											},
 											"1345609583": {
 												"statHash": 1345609583,
@@ -16934,7 +17054,7 @@
 											},
 											"3555269338": {
 												"statHash": 3555269338,
-												"value": 20
+												"value": 15
 											},
 											"3871231066": {
 												"statHash": 3871231066,
@@ -16942,7 +17062,7 @@
 											},
 											"4043523819": {
 												"statHash": 4043523819,
-												"value": 64
+												"value": 74
 											},
 											"4188031367": {
 												"statHash": 4188031367,
@@ -16963,22 +17083,22 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 194952923,
+												"plugHash": 1409978311,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 689005463,
+												"plugHash": 1687452232,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 2869569095,
+												"plugHash": 280464955,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 1683379515,
+												"plugHash": 957782887,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -17017,38 +17137,38 @@
 										"plugs": {
 											"1": [
 												{
-													"plugItemHash": 194952923,
+													"plugItemHash": 1409978311,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 1409978311,
+													"plugItemHash": 1628165636,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"2": [
 												{
-													"plugItemHash": 689005463,
+													"plugItemHash": 1687452232,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 2680121939,
+													"plugItemHash": 2969185026,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"3": [
 												{
-													"plugItemHash": 2869569095,
+													"plugItemHash": 280464955,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"4": [
 												{
-													"plugItemHash": 1683379515,
+													"plugItemHash": 957782887,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -17125,20 +17245,20 @@
 												"visible": true
 											},
 											{
-												"perkHash": 1873974715,
+												"perkHash": 454745740,
 												"iconPath": "",
 												"isActive": true,
 												"visible": false
 											},
 											{
-												"perkHash": 2212600338,
-												"iconPath": "/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
+												"perkHash": 1747051996,
+												"iconPath": "/common/destiny2_content/icons/379796d2e74676d3790f0bd485ea03a9.png",
 												"isActive": true,
 												"visible": true
 											},
 											{
-												"perkHash": 2161792065,
-												"iconPath": "/common/destiny2_content/icons/45b57ce27fa0213218c7cb8f2253c517.png",
+												"perkHash": 3458972548,
+												"iconPath": "/common/destiny2_content/icons/ce16c9e2cbd73bb548af3e15bdfc7177.png",
 												"isActive": true,
 												"visible": true
 											}
@@ -17152,12 +17272,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Austringer",
-							"icon": "/common/destiny2_content/icons/e905d8c17ef5ead5c6f9cd107b4b6f09.jpg",
+							"name": "True Prophecy",
+							"icon": "/common/destiny2_content/icons/1a4382dd6c3cbc134f2d276c0ff63c7e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 96,
-						"itemHash": 3055790362,
+						"vendorItemIndex": 19,
+						"itemHash": 2742838700,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -17204,7 +17324,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T00:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T00:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -17220,7 +17340,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"96": {
+									"19": {
 										"damageType": 1,
 										"damageTypeHash": 3373582085,
 										"primaryStat": {
@@ -17242,11 +17362,11 @@
 							},
 							"renderData": {
 								"data": {
-									"96": {
+									"19": {
 										"useCustomDyes": true,
 										"artRegions": {
-											"3": 0,
-											"17": 0
+											"3": 2,
+											"17": 2
 										}
 									}
 								},
@@ -17254,31 +17374,31 @@
 							},
 							"stats": {
 								"data": {
-									"96": {
+									"19": {
 										"stats": {
 											"155624089": {
 												"statHash": 155624089,
-												"value": 69
+												"value": 25
 											},
 											"943549884": {
 												"statHash": 943549884,
-												"value": 42
+												"value": 33
 											},
 											"1240592695": {
 												"statHash": 1240592695,
-												"value": 51
+												"value": 61
 											},
 											"1345609583": {
 												"statHash": 1345609583,
-												"value": 75
+												"value": 67
 											},
 											"2714457168": {
 												"statHash": 2714457168,
-												"value": 13
+												"value": 20
 											},
 											"2715839340": {
 												"statHash": 2715839340,
-												"value": 100
+												"value": 93
 											},
 											"3555269338": {
 												"statHash": 3555269338,
@@ -17286,19 +17406,19 @@
 											},
 											"3871231066": {
 												"statHash": 3871231066,
-												"value": 11
+												"value": 12
 											},
 											"4043523819": {
 												"statHash": 4043523819,
-												"value": 84
+												"value": 92
 											},
 											"4188031367": {
 												"statHash": 4188031367,
-												"value": 46
+												"value": 3
 											},
 											"4284893193": {
 												"statHash": 4284893193,
-												"value": 140
+												"value": 120
 											}
 										}
 									}
@@ -17307,30 +17427,30 @@
 							},
 							"sockets": {
 								"data": {
-									"96": {
+									"19": {
 										"sockets": [
 											{
-												"plugHash": 1294026524,
+												"plugHash": 2757685314,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3661387068,
+												"plugHash": 1926090092,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 1968497646,
+												"plugHash": 2420895100,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 1168162263,
+												"plugHash": 2869569095,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 47981717,
+												"plugHash": 3523296417,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -17345,42 +17465,18 @@
 												"isVisible": true
 											},
 											{
-												"isEnabled": false,
-												"isVisible": false
-											},
-											{
-												"plugHash": 1905044254,
+												"plugHash": 4283235143,
 												"isEnabled": true,
 												"isVisible": true
+											},
+											{
+												"isEnabled": false,
+												"isVisible": false
 											},
 											{
 												"plugHash": 2302094943,
 												"isEnabled": true,
 												"isVisible": true
-											},
-											{
-												"isEnabled": false,
-												"isVisible": false
-											},
-											{
-												"plugHash": 2909846572,
-												"isEnabled": true,
-												"isVisible": false
-											},
-											{
-												"plugHash": 1961918267,
-												"isEnabled": true,
-												"isVisible": false
-											},
-											{
-												"plugHash": 2931483505,
-												"isEnabled": true,
-												"isVisible": true
-											},
-											{
-												"plugHash": 4043342755,
-												"isEnabled": true,
-												"isVisible": false
 											}
 										]
 									}
@@ -17389,23 +17485,23 @@
 							},
 							"reusablePlugs": {
 								"data": {
-									"96": {
+									"19": {
 										"plugs": {
 											"1": [
 												{
-													"plugItemHash": 3661387068,
+													"plugItemHash": 1926090092,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 1482024992,
+													"plugItemHash": 1926090090,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"2": [
 												{
-													"plugItemHash": 1968497646,
+													"plugItemHash": 2420895100,
 													"canInsert": true,
 													"enabled": true
 												},
@@ -17417,14 +17513,14 @@
 											],
 											"3": [
 												{
-													"plugItemHash": 1168162263,
+													"plugItemHash": 2869569095,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"4": [
 												{
-													"plugItemHash": 47981717,
+													"plugItemHash": 3523296417,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -17432,6 +17528,13 @@
 											"5": [
 												{
 													"plugItemHash": 4248210736,
+													"canInsert": true,
+													"enabled": true
+												}
+											],
+											"7": [
+												{
+													"plugItemHash": 4283235140,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -17443,7 +17546,7 @@
 							},
 							"plugObjectives": {
 								"data": {
-									"96": {
+									"19": {
 										"objectivesPerPlug": {
 											"2302094943": [
 												{
@@ -17461,7 +17564,7 @@
 							},
 							"talentGrids": {
 								"data": {
-									"96": {
+									"19": {
 										"talentGridHash": 521135891,
 										"nodes": [],
 										"isGridComplete": false
@@ -17479,7 +17582,7 @@
 							},
 							"perks": {
 								"data": {
-									"96": {
+									"19": {
 										"perks": [
 											{
 												"perkHash": 2348883558,
@@ -17488,34 +17591,28 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1907936296,
-												"iconPath": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+												"perkHash": 281733738,
+												"iconPath": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
 												"isActive": true,
 												"visible": true
 											},
 											{
-												"perkHash": 4144877249,
+												"perkHash": 2212600338,
+												"iconPath": "/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
+												"isActive": true,
+												"visible": true
+											},
+											{
+												"perkHash": 4120345915,
+												"iconPath": "/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
+												"isActive": true,
+												"visible": true
+											},
+											{
+												"perkHash": 2252751995,
 												"iconPath": "",
 												"isActive": true,
 												"visible": false
-											},
-											{
-												"perkHash": 4128177584,
-												"iconPath": "/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
-												"isActive": true,
-												"visible": true
-											},
-											{
-												"perkHash": 1387094580,
-												"iconPath": "/common/destiny2_content/icons/276e8ce23910c6ee2a6b88b076a2004c.png",
-												"isActive": true,
-												"visible": true
-											},
-											{
-												"perkHash": 1374399602,
-												"iconPath": "/common/destiny2_content/icons/b35084a1bd62b75098f489a6c689ad08.png",
-												"isActive": true,
-												"visible": true
 											}
 										]
 									}
@@ -17579,7 +17676,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T00:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T00:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -17634,15 +17731,15 @@
 										"stats": {
 											"155624089": {
 												"statHash": 155624089,
-												"value": 46
+												"value": 56
 											},
 											"943549884": {
 												"statHash": 943549884,
-												"value": 37
+												"value": 22
 											},
 											"1240592695": {
 												"statHash": 1240592695,
-												"value": 37
+												"value": 32
 											},
 											"1345609583": {
 												"statHash": 1345609583,
@@ -17650,11 +17747,11 @@
 											},
 											"2714457168": {
 												"statHash": 2714457168,
-												"value": 17
+												"value": 27
 											},
 											"2715839340": {
 												"statHash": 2715839340,
-												"value": 88
+												"value": 68
 											},
 											"3555269338": {
 												"statHash": 3555269338,
@@ -17662,7 +17759,7 @@
 											},
 											"3871231066": {
 												"statHash": 3871231066,
-												"value": 34
+												"value": 44
 											},
 											"4043523819": {
 												"statHash": 4043523819,
@@ -17670,7 +17767,7 @@
 											},
 											"4188031367": {
 												"statHash": 4188031367,
-												"value": 32
+												"value": 12
 											},
 											"4284893193": {
 												"statHash": 4284893193,
@@ -17691,17 +17788,17 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 839105230,
+												"plugHash": 3661387068,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 1968497646,
+												"plugHash": 2420895100,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3300816228,
+												"plugHash": 1428297954,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -17765,31 +17862,31 @@
 										"plugs": {
 											"1": [
 												{
-													"plugItemHash": 839105230,
+													"plugItemHash": 3661387068,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 1392496348,
+													"plugItemHash": 202670084,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"2": [
 												{
-													"plugItemHash": 1968497646,
+													"plugItemHash": 2420895100,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 3230963543,
+													"plugItemHash": 679225683,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"3": [
 												{
-													"plugItemHash": 3300816228,
+													"plugItemHash": 1428297954,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -17894,22 +17991,10 @@
 												"visible": true
 											},
 											{
-												"perkHash": 4144877249,
-												"iconPath": "",
-												"isActive": true,
-												"visible": false
-											},
-											{
-												"perkHash": 3527390035,
-												"iconPath": "/common/destiny2_content/icons/e4262099a1c2cea78b48a6680c5248c9.png",
+												"perkHash": 40708790,
+												"iconPath": "/common/destiny2_content/icons/8b9a4582016210723532907414759e69.png",
 												"isActive": true,
 												"visible": true
-											},
-											{
-												"perkHash": 1056770387,
-												"iconPath": "",
-												"isActive": true,
-												"visible": false
 											},
 											{
 												"perkHash": 3504933437,
@@ -17933,12 +18018,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Bump in the Night",
-							"icon": "/common/destiny2_content/icons/ccc08251c285bb980b1470e384707ef6.jpg",
+							"name": "Code Duello",
+							"icon": "/common/destiny2_content/icons/e331c2975fd1cdf02901a48abc111d17.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 103,
-						"itemHash": 1959650777,
+						"vendorItemIndex": 47,
+						"itemHash": 2496242052,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -17985,7 +18070,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T00:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T00:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -18001,9 +18086,9 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"103": {
-										"damageType": 6,
-										"damageTypeHash": 151347233,
+									"47": {
+										"damageType": 3,
+										"damageTypeHash": 1847026933,
 										"primaryStat": {
 											"statHash": 1480404414,
 											"value": 1600
@@ -18023,7 +18108,7 @@
 							},
 							"renderData": {
 								"data": {
-									"103": {
+									"47": {
 										"useCustomDyes": true,
 										"artRegions": {
 											"3": 0,
@@ -18036,31 +18121,31 @@
 							},
 							"stats": {
 								"data": {
-									"103": {
+									"47": {
 										"stats": {
 											"155624089": {
 												"statHash": 155624089,
-												"value": 23
+												"value": 58
 											},
 											"943549884": {
 												"statHash": 943549884,
-												"value": 29
+												"value": 64
 											},
 											"1345609583": {
 												"statHash": 1345609583,
-												"value": 33
+												"value": 62
 											},
 											"2523465841": {
 												"statHash": 2523465841,
-												"value": 69
+												"value": 47
 											},
 											"2714457168": {
 												"statHash": 2714457168,
-												"value": 7
+												"value": 3
 											},
 											"2715839340": {
 												"statHash": 2715839340,
-												"value": 100
+												"value": 52
 											},
 											"3555269338": {
 												"statHash": 3555269338,
@@ -18068,7 +18153,7 @@
 											},
 											"3614673599": {
 												"statHash": 3614673599,
-												"value": 20
+												"value": 100
 											},
 											"3871231066": {
 												"statHash": 3871231066,
@@ -18076,11 +18161,11 @@
 											},
 											"4188031367": {
 												"statHash": 4188031367,
-												"value": 88
+												"value": 45
 											},
 											"4284893193": {
 												"statHash": 4284893193,
-												"value": 25
+												"value": 15
 											}
 										}
 									}
@@ -18089,30 +18174,30 @@
 							},
 							"sockets": {
 								"data": {
-									"103": {
+									"47": {
 										"sockets": [
 											{
-												"plugHash": 3468089894,
+												"plugHash": 1019291327,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3809316345,
+												"plugHash": 1478423395,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 2985827016,
+												"plugHash": 2822142346,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 509074078,
+												"plugHash": 2869569095,
 												"isEnabled": true,
 												"isVisible": true
 											},
 											{
-												"plugHash": 3108830275,
+												"plugHash": 3927722942,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -18127,37 +18212,18 @@
 												"isVisible": true
 											},
 											{
-												"isEnabled": false,
-												"isVisible": false
-											},
-											{
-												"plugHash": 1250481499,
+												"plugHash": 3928770367,
 												"isEnabled": true,
 												"isVisible": true
+											},
+											{
+												"isEnabled": false,
+												"isVisible": false
 											},
 											{
 												"plugHash": 2240097604,
 												"isEnabled": true,
 												"isVisible": true
-											},
-											{
-												"isEnabled": false,
-												"isVisible": false
-											},
-											{
-												"plugHash": 2909846572,
-												"isEnabled": true,
-												"isVisible": false
-											},
-											{
-												"plugHash": 1961918267,
-												"isEnabled": true,
-												"isVisible": false
-											},
-											{
-												"plugHash": 4043342755,
-												"isEnabled": true,
-												"isVisible": false
 											}
 										]
 									}
@@ -18166,42 +18232,42 @@
 							},
 							"reusablePlugs": {
 								"data": {
-									"103": {
+									"47": {
 										"plugs": {
 											"1": [
 												{
-													"plugItemHash": 3809316345,
+													"plugItemHash": 1478423395,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 3525010810,
+													"plugItemHash": 3798852852,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"2": [
 												{
-													"plugItemHash": 2985827016,
+													"plugItemHash": 2822142346,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 3492396210,
+													"plugItemHash": 3796465595,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"3": [
 												{
-													"plugItemHash": 509074078,
+													"plugItemHash": 2869569095,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"4": [
 												{
-													"plugItemHash": 3108830275,
+													"plugItemHash": 3927722942,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -18209,6 +18275,13 @@
 											"5": [
 												{
 													"plugItemHash": 4248210736,
+													"canInsert": true,
+													"enabled": true
+												}
+											],
+											"7": [
+												{
+													"plugItemHash": 3928770364,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -18220,7 +18293,7 @@
 							},
 							"plugObjectives": {
 								"data": {
-									"103": {
+									"47": {
 										"objectivesPerPlug": {
 											"2240097604": [
 												{
@@ -18238,7 +18311,7 @@
 							},
 							"talentGrids": {
 								"data": {
-									"103": {
+									"47": {
 										"talentGridHash": 521135891,
 										"nodes": [],
 										"isGridComplete": false
@@ -18256,41 +18329,29 @@
 							},
 							"perks": {
 								"data": {
-									"103": {
+									"47": {
 										"perks": [
 											{
-												"perkHash": 1717910801,
+												"perkHash": 3486450016,
 												"iconPath": "",
 												"isActive": true,
 												"visible": false
 											},
 											{
-												"perkHash": 281733738,
-												"iconPath": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+												"perkHash": 1491015923,
+												"iconPath": "/common/destiny2_content/icons/34573143849cf910d2381554bb57a10d.png",
 												"isActive": true,
 												"visible": true
 											},
 											{
-												"perkHash": 682617678,
-												"iconPath": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
-												"isActive": false,
-												"visible": true
-											},
-											{
-												"perkHash": 93883218,
-												"iconPath": "/common/destiny2_content/icons/ed60dd27f28737cbfc77bf41c3784c01.png",
+												"perkHash": 2212600338,
+												"iconPath": "/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
 												"isActive": true,
 												"visible": true
 											},
 											{
-												"perkHash": 841943131,
-												"iconPath": "/common/destiny2_content/icons/1e5843177c71ae3f2a4770d01a2f3813.png",
-												"isActive": true,
-												"visible": true
-											},
-											{
-												"perkHash": 3093233047,
-												"iconPath": "/common/destiny2_content/icons/0e8f9374f41cca37c52fce1695184e18.png",
+												"perkHash": 576733858,
+												"iconPath": "/common/destiny2_content/icons/17820685693b8338ba983e6002e2af11.png",
 												"isActive": true,
 												"visible": true
 											}
@@ -18376,7 +18437,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"costs": [
 							{
 								"itemHash": 1022552290,
@@ -19888,13 +19949,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Complete public events in the Dreaming City. Heroic completions are worth more.",
-							"name": "Will of the People",
+							"description": "Defeat a boss in the Blind Well, Riven's Lair, or The Coil.",
+							"name": "Questing Beasts",
 							"icon": "/common/destiny2_content/icons/821fe96ce71be1b814eaf69e2815ce40.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 23,
-						"itemHash": 1647137083,
+						"vendorItemIndex": 22,
+						"itemHash": 1647137082,
 						"quantity": 1,
 						"failureIndexes": [
 							1,
@@ -19938,7 +19999,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -19950,7 +20011,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"23": {
+									"22": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -19995,12 +20056,12 @@
 							},
 							"objectives": {
 								"data": {
-									"23": {
+									"22": {
 										"objectives": [
 											{
-												"objectiveHash": 1461391360,
+												"objectiveHash": 3827112355,
 												"progress": 0,
-												"completionValue": 6,
+												"completionValue": 1,
 												"complete": false,
 												"visible": true
 											}
@@ -20017,13 +20078,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Rapidly defeat combatants. Combatants in Riven's Lair or The Coil are worth more.",
-							"name": "Rapid Lair Defense",
+							"description": "Defeat Scorn. Scorn defeated in Riven's Lair or The Coil are worth more.",
+							"name": "Lair Defense: Scorn",
 							"icon": "/common/destiny2_content/icons/821fe96ce71be1b814eaf69e2815ce40.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 31,
-						"itemHash": 1663914666,
+						"vendorItemIndex": 27,
+						"itemHash": 1647137087,
 						"quantity": 1,
 						"failureIndexes": [
 							1,
@@ -20067,7 +20128,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -20079,7 +20140,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"31": {
+									"27": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -20124,12 +20185,12 @@
 							},
 							"objectives": {
 								"data": {
-									"31": {
+									"27": {
 										"objectives": [
 											{
-												"objectiveHash": 291066835,
+												"objectiveHash": 4038557916,
 												"progress": 0,
-												"completionValue": 60,
+												"completionValue": 30,
 												"complete": false,
 												"visible": true
 											}
@@ -20146,13 +20207,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat targets with Bows or Hand Cannons. Combatants in Riven's Lair or The Coil and Guardians are worth more.",
-							"name": "Dragon's Sting",
+							"description": "Defeat targets with Super abilities. Combatants in Riven's Lair or The Coil and Guardians are worth more.",
+							"name": "Dragon's Might",
 							"icon": "/common/destiny2_content/icons/821fe96ce71be1b814eaf69e2815ce40.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 32,
-						"itemHash": 1663914665,
+						"vendorItemIndex": 37,
+						"itemHash": 1663914668,
 						"quantity": 1,
 						"failureIndexes": [
 							1,
@@ -20189,14 +20250,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
+						"visibilityScope": 0,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -20208,7 +20269,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"32": {
+									"37": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -20253,12 +20314,12 @@
 							},
 							"objectives": {
 								"data": {
-									"32": {
+									"37": {
 										"objectives": [
 											{
-												"objectiveHash": 862758410,
+												"objectiveHash": 2306750321,
 												"progress": 0,
-												"completionValue": 30,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -20325,7 +20386,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -20454,7 +20515,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -26514,13 +26575,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Open chests after completing Terminal Overload.",
-							"name": "Terminal Rewards",
+							"description": "Complete waves in Terminal Overload.",
+							"name": "Hacker's Paradise",
 							"icon": "/common/destiny2_content/icons/8825fc274662c2f058174ee85e1eb507.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 83,
-						"itemHash": 1403685367,
+						"vendorItemIndex": 81,
+						"itemHash": 1403685365,
 						"quantity": 1,
 						"failureIndexes": [
 							3,
@@ -26565,7 +26626,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -26577,7 +26638,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"83": {
+									"81": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -26622,12 +26683,12 @@
 							},
 							"objectives": {
 								"data": {
-									"83": {
+									"81": {
 										"objectives": [
 											{
-												"objectiveHash": 2438341316,
+												"objectiveHash": 3064004926,
 												"progress": 0,
-												"completionValue": 3,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -26644,13 +26705,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Neomuna, defeat combatants. Vex combatants grant additional progress.",
-							"name": "The Old Standby",
+							"description": "In Neomuna, defeat combatants with precision final blows. Vex combatants grant additional progress.",
+							"name": "Snipers of Myth",
 							"icon": "/common/destiny2_content/icons/d42e6ab4c9ca22b6a8b63ad7181e049f.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 57,
-						"itemHash": 901575777,
+						"vendorItemIndex": 58,
+						"itemHash": 901575776,
 						"quantity": 1,
 						"failureIndexes": [
 							3,
@@ -26695,7 +26756,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -26707,7 +26768,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"57": {
+									"58": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -26752,12 +26813,12 @@
 							},
 							"objectives": {
 								"data": {
-									"57": {
+									"58": {
 										"objectives": [
 											{
-												"objectiveHash": 2502611410,
+												"objectiveHash": 3392027661,
 												"progress": 0,
-												"completionValue": 90,
+												"completionValue": 60,
 												"complete": false,
 												"visible": true
 											}
@@ -26825,7 +26886,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -26904,13 +26965,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In a single life, defeat combatants in Neomuna using Sniper Rifles, Linear Fusion Rifles, Scout Rifles, or Rocket Launchers.",
-							"name": "Distant Doom",
+							"description": "In Neomuna, defeat combatants with Arc damage.",
+							"name": "Dearctivating Strike",
 							"icon": "/common/destiny2_content/icons/d42e6ab4c9ca22b6a8b63ad7181e049f.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 68,
-						"itemHash": 3846956453,
+						"vendorItemIndex": 77,
+						"itemHash": 2642052567,
 						"quantity": 1,
 						"failureIndexes": [
 							3,
@@ -26955,7 +27016,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -26967,7 +27028,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"68": {
+									"77": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -27012,12 +27073,12 @@
 							},
 							"objectives": {
 								"data": {
-									"68": {
+									"77": {
 										"objectives": [
 											{
-												"objectiveHash": 2182732590,
+												"objectiveHash": 1145295268,
 												"progress": 0,
-												"completionValue": 20,
+												"completionValue": 25,
 												"complete": false,
 												"visible": true
 											}
@@ -27204,13 +27265,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Get Super kills on Nessus.",
-							"name": "Super Powerful",
+							"description": "Get Power weapon multikills on Nessus.",
+							"name": "War Machine",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 35,
-						"itemHash": 3921551053,
+						"vendorItemIndex": 37,
+						"itemHash": 1288676952,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -27253,7 +27314,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -27265,7 +27326,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"35": {
+									"37": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -27310,12 +27371,12 @@
 							},
 							"objectives": {
 								"data": {
-									"35": {
+									"37": {
 										"objectives": [
 											{
-												"objectiveHash": 3597481944,
+												"objectiveHash": 2299566751,
 												"progress": 0,
-												"completionValue": 20,
+												"completionValue": 3,
 												"complete": false,
 												"visible": true
 											}
@@ -27332,13 +27393,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Get grenade kills on Nessus.",
-							"name": "To Smithereens",
+							"description": "Create Orbs of Power on Nessus.",
+							"name": "Lightbringer",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 36,
-						"itemHash": 438027978,
+						"vendorItemIndex": 38,
+						"itemHash": 4237572676,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -27381,7 +27442,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -27393,7 +27454,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"36": {
+									"38": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -27438,12 +27499,12 @@
 							},
 							"objectives": {
 								"data": {
-									"36": {
+									"38": {
 										"objectives": [
 											{
-												"objectiveHash": 1495231712,
+												"objectiveHash": 3826248423,
 												"progress": 0,
-												"completionValue": 20,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -27460,13 +27521,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Acquire cache codes in Lost Sectors on Nessus.",
-							"name": "Vicarious Exploration",
+							"description": "Defeat Fallen on Nessus.",
+							"name": "Friend or Foe",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 42,
-						"itemHash": 3909982964,
+						"vendorItemIndex": 40,
+						"itemHash": 553469003,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -27509,7 +27570,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -27521,7 +27582,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"42": {
+									"40": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -27566,140 +27627,140 @@
 							},
 							"objectives": {
 								"data": {
-									"42": {
+									"40": {
 										"objectives": [
 											{
-												"objectiveHash": 870849207,
-												"progress": 0,
-												"completionValue": 2,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Get Solar kills on Nessus.",
-							"name": "Sol Sure",
-							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 48,
-						"itemHash": 756469295,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 4,
-						"seedOverride": 0,
-						"categoryIndex": 10,
-						"originalCategoryIndex": 10,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"48": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"48": {
-										"objectives": [
-											{
-												"objectiveHash": 1087508430,
+												"objectiveHash": 2270904592,
 												"progress": 0,
 												"completionValue": 30,
+												"complete": false,
+												"visible": true
+											}
+										]
+									}
+								},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Loot chests on Nessus.",
+							"name": "Cache Out",
+							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 45,
+						"itemHash": 4060319896,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 10,
+						"originalCategoryIndex": 10,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {
+									"45": {
+										"damageType": 0,
+										"itemLevel": 0,
+										"quality": 0,
+										"isEquipped": false,
+										"canEquip": false,
+										"equipRequiredLevel": 0,
+										"unlockHashesRequiredToEquip": [
+											0
+										],
+										"cannotEquipReason": 0
+									}
+								},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {
+									"45": {
+										"objectives": [
+											{
+												"objectiveHash": 4070458559,
+												"progress": 0,
+												"completionValue": 5,
 												"complete": false,
 												"visible": true
 											}
@@ -32869,13 +32930,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete patrol activities on the Moon.",
-							"name": "Lunar Patrol",
+							"description": "Collect Phantasmal Fragments by defeating Nightmares.\n\nNightmares can be found in Sorrow's Harbor and Lost Sectors.",
+							"name": "I Said What I Fragment",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 35,
-						"itemHash": 3540140709,
+						"vendorItemIndex": 39,
+						"itemHash": 3540140705,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -32920,7 +32981,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -32932,7 +32993,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"35": {
+									"39": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -32977,12 +33038,12 @@
 							},
 							"objectives": {
 								"data": {
-									"35": {
+									"39": {
 										"objectives": [
 											{
-												"objectiveHash": 2092558770,
+												"objectiveHash": 611060730,
 												"progress": 0,
-												"completionValue": 3,
+												"completionValue": 2,
 												"complete": false,
 												"visible": true
 											}
@@ -32999,13 +33060,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Use finishers to defeat Vex on the Moon.",
-							"name": "Final Termination",
+							"description": "Use finishers to defeat Fallen on the Moon.",
+							"name": "Knock Down, Drag Out",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 54,
-						"itemHash": 3597986949,
+						"vendorItemIndex": 50,
+						"itemHash": 3597986945,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -33050,7 +33111,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -33062,7 +33123,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"54": {
+									"50": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -33107,10 +33168,10 @@
 							},
 							"objectives": {
 								"data": {
-									"54": {
+									"50": {
 										"objectives": [
 											{
-												"objectiveHash": 226799504,
+												"objectiveHash": 4114466884,
 												"progress": 0,
 												"completionValue": 7,
 												"complete": false,
@@ -33180,7 +33241,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -33259,13 +33320,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Using a Hand Cannon, rapidly defeat combatants in groups of 2 or more.",
-							"name": "Double Draw",
+							"description": "Using any Power weapon, defeat combatants in streaks of 3 or more without taking damage in between.",
+							"name": "Unscathed Deathdealer",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 45,
-						"itemHash": 709535750,
+						"vendorItemIndex": 44,
+						"itemHash": 709535751,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -33310,7 +33371,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -33322,7 +33383,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"45": {
+									"44": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -33367,12 +33428,12 @@
 							},
 							"objectives": {
 								"data": {
-									"45": {
+									"44": {
 										"objectives": [
 											{
-												"objectiveHash": 1155133670,
+												"objectiveHash": 3325070401,
 												"progress": 0,
-												"completionValue": 15,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -35819,7 +35880,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -35898,135 +35959,6 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants within the Cosmodrome with precision damage.",
-							"name": "Target Practice",
-							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 40,
-						"itemHash": 1961641735,
-						"quantity": 1,
-						"failureIndexes": [
-							3,
-							4
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 11,
-						"seedOverride": 0,
-						"categoryIndex": 16,
-						"originalCategoryIndex": 16,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 4,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"40": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"40": {
-										"objectives": [
-											{
-												"objectiveHash": 3692192468,
-												"progress": 0,
-												"completionValue": 20,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
 							"description": "Defeat combatants within the Cosmodrome using your melee attack or finisher.",
 							"name": "Spitting Distance",
 							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
@@ -36077,7 +36009,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -36206,7 +36138,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -36285,6 +36217,135 @@
 					},
 					{
 						"displayProperties": {
+							"description": "Defeat combatants in the Cosmodrome using any Power weapon.",
+							"name": "Leave Nothing Behind",
+							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 45,
+						"itemHash": 1961641740,
+						"quantity": 1,
+						"failureIndexes": [
+							3,
+							4
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 11,
+						"seedOverride": 0,
+						"categoryIndex": 16,
+						"originalCategoryIndex": 16,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 4,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {
+									"45": {
+										"damageType": 0,
+										"itemLevel": 0,
+										"quality": 0,
+										"isEquipped": false,
+										"canEquip": false,
+										"equipRequiredLevel": 0,
+										"unlockHashesRequiredToEquip": [
+											0
+										],
+										"cannotEquipReason": 0
+									}
+								},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {
+									"45": {
+										"objectives": [
+											{
+												"objectiveHash": 3558137681,
+												"progress": 0,
+												"completionValue": 5,
+												"complete": false,
+												"visible": true
+											}
+										]
+									}
+								},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
 							"description": "Defeat combatants in the Cosmodrome using any Kinetic weapon.",
 							"name": "Bread and Butter",
 							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
@@ -36335,7 +36396,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -36414,135 +36475,6 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete a patrol in the Cosmodrome.",
-							"name": "Working Remotely",
-							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 48,
-						"itemHash": 351522030,
-						"quantity": 1,
-						"failureIndexes": [
-							3,
-							4
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 11,
-						"seedOverride": 0,
-						"categoryIndex": 16,
-						"originalCategoryIndex": 16,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 4,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"48": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"48": {
-										"objectives": [
-											{
-												"objectiveHash": 4268836879,
-												"progress": 0,
-												"completionValue": 1,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
 							"description": "Complete public events in the Cosmodrome. Heroic public events contribute the most progress.",
 							"name": "Eventful Moments",
 							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
@@ -36593,7 +36525,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -36950,278 +36882,6 @@
 			2537374699
 		],
 		"categories": [
-			{
-				"index": 4,
-				"identifier": "category_pursuits",
-				"displayCategoryHash": 3491680089,
-				"displayProperties": {
-					"description": "",
-					"name": "Quests",
-					"hasIcon": false
-				},
-				"displayInBanner": false,
-				"sortOrder": 0,
-				"items": [
-					{
-						"displayProperties": {
-							"description": "\"We've got strange reports coming in from the Corsairs. I need a sitrep.\" —Petra Venj",
-							"name": "Dark Monastery",
-							"icon": "/common/destiny2_content/icons/6837ad026301110c21a48fa153ac58e8.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 15,
-						"itemHash": 942111489,
-						"quantity": 1,
-						"failureIndexes": [
-							0,
-							1,
-							1,
-							2
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 2500,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 4,
-						"seedOverride": 0,
-						"categoryIndex": 10,
-						"originalCategoryIndex": 10,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Quests",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 6,
-						"purchasableScope": 6,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 2500,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"15": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"15": {
-										"objectives": [
-											{
-												"objectiveHash": 3235539908,
-												"destinationHash": 1416096592,
-												"activityHash": 1313738982,
-												"progress": 0,
-												"completionValue": 1,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "\"Thank you for coming, my friend. I'm always glad to see you.\" —Petra Venj",
-							"name": "War for the Dreaming City",
-							"icon": "/common/destiny2_content/icons/6837ad026301110c21a48fa153ac58e8.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 16,
-						"itemHash": 328725000,
-						"quantity": 1,
-						"failureIndexes": [
-							0,
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 2500,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 4,
-						"seedOverride": 0,
-						"categoryIndex": 10,
-						"originalCategoryIndex": 10,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Quests",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 6,
-						"purchasableScope": 6,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 2500,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {
-									"16": {
-										"damageType": 0,
-										"itemLevel": 0,
-										"quality": 0,
-										"isEquipped": false,
-										"canEquip": false,
-										"equipRequiredLevel": 0,
-										"unlockHashesRequiredToEquip": [
-											0
-										],
-										"cannotEquipReason": 0
-									}
-								},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {
-									"16": {
-										"objectives": [
-											{
-												"objectiveHash": 1796852549,
-												"progress": 0,
-												"completionValue": 8,
-												"complete": false,
-												"visible": true
-											}
-										]
-									}
-								},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					}
-				]
-			},
 			{
 				"index": 5,
 				"identifier": "category_city_bounty",
@@ -37744,13 +37404,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "\"The Taken have infected the City at its core. Every kill helps ease the pressure.\" —Petra Venj",
-							"name": "Scourge of the Taken",
+							"description": "\"The Scorn seek revenge for the death of the Fanatic. They will never willingly leave the Dreaming City.\" —Petra Venj",
+							"name": "Scourge of the Scorn",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 29,
-						"itemHash": 1940788333,
+						"vendorItemIndex": 30,
+						"itemHash": 3531980021,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -37804,7 +37464,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"29": {
+									"30": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -37849,12 +37509,12 @@
 							},
 							"objectives": {
 								"data": {
-									"29": {
+									"30": {
 										"objectives": [
 											{
-												"objectiveHash": 2863617001,
+												"objectiveHash": 1907766109,
 												"progress": 0,
-												"completionValue": 65,
+												"completionValue": 70,
 												"complete": false,
 												"visible": true
 											}
@@ -37871,13 +37531,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Explore the Chamber of Starlight in the Dreaming City.",
-							"name": "Lost in Rheasilvia",
+							"description": "Explore Aphelion's Rest in the Dreaming City.",
+							"name": "Lost in the Strand",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 32,
-						"itemHash": 973983247,
+						"vendorItemIndex": 33,
+						"itemHash": 973983256,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -37931,7 +37591,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"32": {
+									"33": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -37976,10 +37636,10 @@
 							},
 							"objectives": {
 								"data": {
-									"32": {
+									"33": {
 										"objectives": [
 											{
-												"objectiveHash": 3180654737,
+												"objectiveHash": 2527302267,
 												"progress": 0,
 												"completionValue": 1,
 												"complete": false,
@@ -37998,13 +37658,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "\"For every enemy commander that steps forward, we need to destroy two.\" —Petra Venj",
-							"name": "Challenge: Headhunter",
+							"description": "\"The Dreaming City is rich with secrets. Seek them out and be enlightened.\" —Techeun Kalli",
+							"name": "Challenge: Secret Secrets",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 34,
-						"itemHash": 1391363409,
+						"vendorItemIndex": 36,
+						"itemHash": 4095766153,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -38058,7 +37718,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"34": {
+									"36": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -38103,12 +37763,12 @@
 							},
 							"objectives": {
 								"data": {
-									"34": {
+									"36": {
 										"objectives": [
 											{
-												"objectiveHash": 1843128883,
+												"objectiveHash": 482450739,
 												"progress": 0,
-												"completionValue": 4,
+												"completionValue": 2,
 												"complete": false,
 												"visible": true
 											}
@@ -41384,17 +41044,17 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 3661387068,
+												"plugHash": 3250034553,
 												"isEnabled": false,
 												"isVisible": true
 											},
 											{
-												"plugHash": 2420895100,
+												"plugHash": 1431678320,
 												"isEnabled": false,
 												"isVisible": true
 											},
 											{
-												"plugHash": 1354429876,
+												"plugHash": 3700496672,
 												"isEnabled": false,
 												"isVisible": true
 											},
@@ -41458,31 +41118,31 @@
 										"plugs": {
 											"1": [
 												{
-													"plugItemHash": 3661387068,
+													"plugItemHash": 3250034553,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 1840239774,
+													"plugItemHash": 1482024992,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"2": [
 												{
-													"plugItemHash": 2420895100,
+													"plugItemHash": 1431678320,
 													"canInsert": true,
 													"enabled": true
 												},
 												{
-													"plugItemHash": 1431678320,
+													"plugItemHash": 1968497646,
 													"canInsert": true,
 													"enabled": true
 												}
 											],
 											"3": [
 												{
-													"plugItemHash": 1354429876,
+													"plugItemHash": 3700496672,
 													"canInsert": true,
 													"enabled": true
 												}
@@ -43224,13 +42884,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants with Void damage. Scorn grant additional progress.",
-							"name": "Of Static and Scorn",
+							"description": "In the Throne World, defeat combatants. Lucent Hive grant additional progress.",
+							"name": "High-Velocity Recalibration",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 47,
-						"itemHash": 2808722825,
+						"vendorItemIndex": 37,
+						"itemHash": 1164306024,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -43275,7 +42935,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -43287,7 +42947,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"47": {
+									"37": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -43332,12 +42992,12 @@
 							},
 							"objectives": {
 								"data": {
-									"47": {
+									"37": {
 										"objectives": [
 											{
-												"objectiveHash": 2124951530,
+												"objectiveHash": 3675181253,
 												"progress": 0,
-												"completionValue": 60,
+												"completionValue": 90,
 												"complete": false,
 												"visible": true
 											}
@@ -43354,13 +43014,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants affected by Stasis. Scorn grant additional progress.",
-							"name": "Deeper Darkness",
+							"description": "In the Throne World, defeat combatants with finishers. Challenging combatants grant additional progress.",
+							"name": "The Biggest and the Baddest",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 48,
-						"itemHash": 2808722826,
+						"vendorItemIndex": 49,
+						"itemHash": 2808722827,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -43398,14 +43058,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
+						"visibilityScope": 0,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -43417,7 +43077,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"48": {
+									"49": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -43462,12 +43122,12 @@
 							},
 							"objectives": {
 								"data": {
-									"48": {
+									"49": {
 										"objectives": [
 											{
-												"objectiveHash": 4129513139,
+												"objectiveHash": 732787536,
 												"progress": 0,
-												"completionValue": 60,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -43484,13 +43144,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants with Energy weapons.",
-							"name": "Field Trials",
+							"description": "In a single life, defeat combatants in the Throne World with Sniper Rifles, Linear Fusion Rifles, Scout Rifles, or Rocket Launchers.",
+							"name": "Never Saw It Coming",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 56,
-						"itemHash": 2893357938,
+						"vendorItemIndex": 54,
+						"itemHash": 2893357936,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -43535,7 +43195,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -43547,7 +43207,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"56": {
+									"54": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -43592,12 +43252,12 @@
 							},
 							"objectives": {
 								"data": {
-									"56": {
+									"54": {
 										"objectives": [
 											{
-												"objectiveHash": 42460811,
+												"objectiveHash": 4146992029,
 												"progress": 0,
-												"completionValue": 25,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -43614,13 +43274,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants while in Lost Sectors.",
-							"name": "High-Stakes Hide-and-Seek",
+							"description": "In the Throne World, rapidly defeat combatants in groups of 2 or more while in Lost Sectors.",
+							"name": "Rapid Response",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 72,
-						"itemHash": 609421553,
+						"vendorItemIndex": 73,
+						"itemHash": 609421552,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -43665,7 +43325,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -43677,7 +43337,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"72": {
+									"73": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -43722,12 +43382,12 @@
 							},
 							"objectives": {
 								"data": {
-									"72": {
+									"73": {
 										"objectives": [
 											{
-												"objectiveHash": 4176067298,
+												"objectiveHash": 3044270109,
 												"progress": 0,
-												"completionValue": 25,
+												"completionValue": 15,
 												"complete": false,
 												"visible": true
 											}
@@ -44277,13 +43937,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Fallen on Europa with finishers.",
-							"name": "Europan Finish",
+							"description": "Defeat Fallen on Europa with precision final blows.",
+							"name": "Europan Precision",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 21,
-						"itemHash": 1190558124,
+						"vendorItemIndex": 20,
+						"itemHash": 1190558125,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -44328,7 +43988,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -44340,7 +44000,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"21": {
+									"20": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -44385,12 +44045,12 @@
 							},
 							"objectives": {
 								"data": {
-									"21": {
+									"20": {
 										"objectives": [
 											{
-												"objectiveHash": 3734127729,
+												"objectiveHash": 46731558,
 												"progress": 0,
-												"completionValue": 10,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -44407,13 +44067,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Vex on Europa.",
-							"name": "Vex on Ice",
+							"description": "Defeat Vex on Europa with Solar damage.",
+							"name": "Vex Combustion",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 28,
-						"itemHash": 1606160568,
+						"vendorItemIndex": 30,
+						"itemHash": 1606160572,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -44451,14 +44111,14 @@
 						},
 						"displayCategory": "Europa Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -44470,7 +44130,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"28": {
+									"30": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -44515,12 +44175,12 @@
 							},
 							"objectives": {
 								"data": {
-									"28": {
+									"30": {
 										"objectives": [
 											{
-												"objectiveHash": 2997822997,
+												"objectiveHash": 1670064833,
 												"progress": 0,
-												"completionValue": 25,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -44537,13 +44197,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Using a Pulse Rifle, defeat combatants with precision final blows in Europa Lost Sectors.",
-							"name": "Quick Pulse",
+							"description": "Using a Sword, defeat combatants in groups of 2 or more in Europa Lost Sectors.",
+							"name": "By the Sword",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 33,
-						"itemHash": 1131956142,
+						"vendorItemIndex": 44,
+						"itemHash": 3831027416,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -44588,7 +44248,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -44600,7 +44260,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"33": {
+									"44": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -44645,12 +44305,12 @@
 							},
 							"objectives": {
 								"data": {
-									"33": {
+									"44": {
 										"objectives": [
 											{
-												"objectiveHash": 4280112847,
+												"objectiveHash": 2768730805,
 												"progress": 0,
-												"completionValue": 25,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -44667,13 +44327,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Loot chests in Cadmus Ridge.",
-							"name": "Treasures of the Past",
+							"description": "Complete a Heroic public event in Cadmus Ridge.",
+							"name": "Hero of Europa",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 57,
-						"itemHash": 2833790085,
+						"vendorItemIndex": 58,
+						"itemHash": 1921694151,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -44718,7 +44378,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -44730,7 +44390,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"57": {
+									"58": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -44775,12 +44435,12 @@
 							},
 							"objectives": {
 								"data": {
-									"57": {
+									"58": {
 										"objectives": [
 											{
-												"objectiveHash": 3911730190,
+												"objectiveHash": 1028419220,
 												"progress": 0,
-												"completionValue": 5,
+												"completionValue": 1,
 												"complete": false,
 												"visible": true
 											}
@@ -72626,7 +72286,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -72689,8 +72349,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -72812,7 +72472,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -72875,8 +72535,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -72998,7 +72658,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -73061,8 +72721,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -73184,7 +72844,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -73247,8 +72907,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -73370,7 +73030,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -73433,8 +73093,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -73556,7 +73216,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -73619,8 +73279,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -73742,7 +73402,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -73805,8 +73465,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -73928,7 +73588,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -73991,8 +73651,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -74114,7 +73774,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -74177,8 +73837,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -74300,7 +73960,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -74363,8 +74023,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -74486,7 +74146,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -74549,8 +74209,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -74672,7 +74332,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -74735,8 +74395,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -74858,7 +74518,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -74921,8 +74581,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -75044,7 +74704,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -75107,8 +74767,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -75230,7 +74890,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -75293,8 +74953,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -75416,7 +75076,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -75479,8 +75139,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -75602,7 +75262,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -75665,8 +75325,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -75788,7 +75448,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -75851,8 +75511,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -75974,7 +75634,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -76037,8 +75697,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -76160,7 +75820,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -76223,8 +75883,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -76346,7 +76006,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -76409,8 +76069,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -76532,7 +76192,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -76595,8 +76255,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -76718,7 +76378,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -76781,8 +76441,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -76904,7 +76564,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -76967,8 +76627,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -77095,7 +76755,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											}
@@ -77159,8 +76819,8 @@
 												"visible": true
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											}
@@ -121430,7 +121090,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -121493,8 +121153,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -121616,7 +121276,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -121679,8 +121339,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -121802,7 +121462,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -121865,8 +121525,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -121988,7 +121648,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -122051,8 +121711,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -127089,7 +126749,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -127152,8 +126812,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -128070,7 +127730,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -128133,8 +127793,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -128746,7 +128406,7 @@
 												"isVisible": true
 											},
 											{
-												"plugHash": 1662439581,
+												"plugHash": 1890164722,
 												"isEnabled": true,
 												"isVisible": true
 											},
@@ -128809,8 +128469,8 @@
 												"visible": false
 											},
 											{
-												"perkHash": 1662439581,
-												"iconPath": "/common/destiny2_content/icons/f294ca64a09f2c8fdd00d1b16b757edd.png",
+												"perkHash": 1890164722,
+												"iconPath": "/common/destiny2_content/icons/ab8bbccc5b56d6501336447153883083.png",
 												"isActive": true,
 												"visible": true
 											},
@@ -131611,13 +131271,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants with grenades in Nightmare Hunts.",
-							"name": "Security Blanket",
+							"description": "Defeat combatants in Nightmare Hunts with Solar damage.",
+							"name": "Pyrophantasmic",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 21,
-						"itemHash": 400298587,
+						"vendorItemIndex": 18,
+						"itemHash": 400298584,
 						"quantity": 1,
 						"failureIndexes": [
 							1,
@@ -131662,7 +131322,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -131674,7 +131334,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"21": {
+									"18": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -131719,12 +131379,12 @@
 							},
 							"objectives": {
 								"data": {
-									"21": {
+									"18": {
 										"objectives": [
 											{
-												"objectiveHash": 182771863,
+												"objectiveHash": 1275191266,
 												"progress": 0,
-												"completionValue": 10,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -131741,13 +131401,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants with melee in Nightmare Hunts.",
-							"name": "Courageous Strike",
+							"description": "Defeat combatants in Nightmare Hunts with Void damage.",
+							"name": "Nothing to Fear",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 22,
-						"itemHash": 400298588,
+						"vendorItemIndex": 20,
+						"itemHash": 400298586,
 						"quantity": 1,
 						"failureIndexes": [
 							1,
@@ -131792,7 +131452,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -131804,7 +131464,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"22": {
+									"20": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -131849,12 +131509,12 @@
 							},
 							"objectives": {
 								"data": {
-									"22": {
+									"20": {
 										"objectives": [
 											{
-												"objectiveHash": 1791999794,
+												"objectiveHash": 1376502976,
 												"progress": 0,
-												"completionValue": 15,
+												"completionValue": 20,
 												"complete": false,
 												"visible": true
 											}
@@ -131922,7 +131582,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -132001,13 +131661,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Nightmares in Lost Sectors on Nessus.",
-							"name": "Curse of the Centaur",
+							"description": "Defeat Nightmares in Lost Sectors in the European Dead Zone.",
+							"name": "Deadzone Dreams",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 31,
-						"itemHash": 3993430445,
+						"vendorItemIndex": 30,
+						"itemHash": 3993430447,
 						"quantity": 1,
 						"failureIndexes": [
 							1,
@@ -132052,7 +131712,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -132064,7 +131724,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"31": {
+									"30": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -132109,10 +131769,10 @@
 							},
 							"objectives": {
 								"data": {
-									"31": {
+									"30": {
 										"objectives": [
 											{
-												"objectiveHash": 3318191417,
+												"objectiveHash": 3953827087,
 												"progress": 0,
 												"completionValue": 8,
 												"complete": false,
@@ -134438,7 +134098,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -134524,13 +134184,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Trace Rifle final blows or rapidly defeat combatants. Combatants rapidly defeated with Trace Rifles grant the most efficient progress.\n\nComplete the activity with a decent score.",
-							"name": "Laser Tag",
+							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Auto Rifle final blows or rapidly defeat combatants. Combatants rapidly defeated with Auto Rifles grant the most efficient progress.\n\nComplete the activity with a decent score.",
+							"name": "75M Sprint",
 							"icon": "/common/destiny2_content/icons/54786b9ee6f44d2cd4cc041e59c306df.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 15,
-						"itemHash": 1136139768,
+						"vendorItemIndex": 14,
+						"itemHash": 1136139771,
 						"quantity": 1,
 						"failureIndexes": [
 							10,
@@ -134574,7 +134234,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -134586,7 +134246,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"15": {
+									"14": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -134631,17 +134291,17 @@
 							},
 							"objectives": {
 								"data": {
-									"15": {
+									"14": {
 										"objectives": [
 											{
-												"objectiveHash": 3388132693,
+												"objectiveHash": 2201452992,
 												"progress": 0,
 												"completionValue": 160,
 												"complete": false,
 												"visible": true
 											},
 											{
-												"objectiveHash": 3388132692,
+												"objectiveHash": 2201452993,
 												"progress": 0,
 												"completionValue": 1,
 												"complete": false,
@@ -134710,7 +134370,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -136383,13 +136043,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Complete the Dares of Eternity activity.",
-							"name": "Neigh of Victory",
+							"description": "Collect Orbs of Power in Dares of Eternity.",
+							"name": "Orbs of Eternity",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 48,
-						"itemHash": 3539440755,
+						"vendorItemIndex": 36,
+						"itemHash": 1475436128,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -136432,7 +136092,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -136444,7 +136104,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"48": {
+									"36": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -136489,12 +136149,12 @@
 							},
 							"objectives": {
 								"data": {
-									"48": {
+									"36": {
 										"objectives": [
 											{
-												"objectiveHash": 267725672,
+												"objectiveHash": 62478650,
 												"progress": 0,
-												"completionValue": 1,
+												"completionValue": 10,
 												"complete": false,
 												"visible": true
 											}
@@ -136511,13 +136171,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants as a fireteam in Dares of Eternity. Assists and final blows grant additional progress.",
-							"name": "For the Horse Commands It",
+							"description": "Defeat encounter or final bosses in Dares of Eternity.",
+							"name": "Memories of Eternity",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 33,
-						"itemHash": 1475436131,
+						"vendorItemIndex": 35,
+						"itemHash": 1475436129,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -136560,7 +136220,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -136572,7 +136232,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"33": {
+									"35": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -136617,12 +136277,12 @@
 							},
 							"objectives": {
 								"data": {
-									"33": {
+									"35": {
 										"objectives": [
 											{
-												"objectiveHash": 3770217880,
+												"objectiveHash": 633064727,
 												"progress": 0,
-												"completionValue": 800,
+												"completionValue": 2,
 												"complete": false,
 												"visible": true
 											}
@@ -136639,13 +136299,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants with Swords in Dares of Eternity.",
-							"name": "Blade of Eternity",
+							"description": "Defeat combatants with weapons in the Kinetic slot in Dares of Eternity.",
+							"name": "Bullets of Eternity",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 37,
-						"itemHash": 1475436135,
+						"vendorItemIndex": 47,
+						"itemHash": 3539440754,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -136681,14 +136341,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
+						"visibilityScope": 0,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -136700,7 +136360,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"37": {
+									"47": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -136745,12 +136405,12 @@
 							},
 							"objectives": {
 								"data": {
-									"37": {
+									"47": {
 										"objectives": [
 											{
-												"objectiveHash": 3671790132,
+												"objectiveHash": 940204427,
 												"progress": 0,
-												"completionValue": 7,
+												"completionValue": 30,
 												"complete": false,
 												"visible": true
 											}
@@ -136767,13 +136427,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants with Solar damage in Dares of Eternity. Final blows with Solar grenade abilities grant additional progress.",
-							"name": "Paraversal Sunsinger",
+							"description": "Defeat combatants with Arc damage in Dares of Eternity. Final blows with Arc melee abilities grant additional progress.",
+							"name": "Paraversal Bladedancer",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 53,
-						"itemHash": 3522663042,
+						"vendorItemIndex": 52,
+						"itemHash": 3522663043,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -136816,7 +136476,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -136828,7 +136488,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"53": {
+									"52": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -136873,10 +136533,10 @@
 							},
 							"objectives": {
 								"data": {
-									"53": {
+									"52": {
 										"objectives": [
 											{
-												"objectiveHash": 3457159515,
+												"objectiveHash": 188959416,
 												"progress": 0,
 												"completionValue": 40,
 												"complete": false,
@@ -136944,7 +136604,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -137930,13 +137590,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Complete matches in any Crucible playlist.",
-							"name": "Sparring Grounds",
+							"description": "Cast your Super.",
+							"name": "Burn Bright",
 							"icon": "/common/destiny2_content/icons/773773ceac924d818ea605f6b7dd6365.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 149,
-						"itemHash": 3144456305,
+						"vendorItemIndex": 148,
+						"itemHash": 171761468,
 						"quantity": 1,
 						"failureIndexes": [
 							26
@@ -137979,7 +137639,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -137991,7 +137651,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"149": {
+									"148": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -138036,10 +137696,10 @@
 							},
 							"objectives": {
 								"data": {
-									"149": {
+									"148": {
 										"objectives": [
 											{
-												"objectiveHash": 2668893538,
+												"objectiveHash": 2180749889,
 												"progress": 0,
 												"completionValue": 2,
 												"complete": false,
@@ -138058,13 +137718,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat opponents with Solar ignition damage.",
-							"name": "Calm Like a Bomb",
+							"description": "Defeat opponents by severing or unraveling them with Strand.",
+							"name": "Threadripper",
 							"icon": "/common/destiny2_content/icons/773773ceac924d818ea605f6b7dd6365.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 158,
-						"itemHash": 2755859940,
+						"vendorItemIndex": 160,
+						"itemHash": 3442628158,
 						"quantity": 1,
 						"failureIndexes": [
 							26,
@@ -138101,14 +137761,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 4,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -138120,7 +137780,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"158": {
+									"160": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -138165,12 +137825,12 @@
 							},
 							"objectives": {
 								"data": {
-									"158": {
+									"160": {
 										"objectives": [
 											{
-												"objectiveHash": 1433319641,
+												"objectiveHash": 192968991,
 												"progress": 0,
-												"completionValue": 1,
+												"completionValue": 6,
 												"complete": false,
 												"visible": true
 											}
@@ -138187,13 +137847,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat opponents with grenades.",
-							"name": "Area of Effect",
+							"description": "Defeat opponents with melee.",
+							"name": "Knockout Round",
 							"icon": "/common/destiny2_content/icons/773773ceac924d818ea605f6b7dd6365.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 167,
-						"itemHash": 3693294824,
+						"vendorItemIndex": 166,
+						"itemHash": 3286744862,
 						"quantity": 1,
 						"failureIndexes": [
 							26
@@ -138236,7 +137896,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -138248,7 +137908,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"167": {
+									"166": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -138293,10 +137953,10 @@
 							},
 							"objectives": {
 								"data": {
-									"167": {
+									"166": {
 										"objectives": [
 											{
-												"objectiveHash": 3127427141,
+												"objectiveHash": 3522034687,
 												"progress": 0,
 												"completionValue": 1,
 												"complete": false,
@@ -138315,13 +137975,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Control, capture zones.",
-							"name": "In the Zone",
+							"description": "In Control, defeat opponents while holding Zone Advantage.",
+							"name": "Push the Advantage",
 							"icon": "/common/destiny2_content/icons/773773ceac924d818ea605f6b7dd6365.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 172,
-						"itemHash": 1028832205,
+						"vendorItemIndex": 173,
+						"itemHash": 1559535719,
 						"quantity": 1,
 						"failureIndexes": [
 							26
@@ -138364,7 +138024,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-02-22T17:00:00Z",
+						"overrideNextRefreshDate": "2024-02-23T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -138376,7 +138036,7 @@
 						"itemComponent": {
 							"instances": {
 								"data": {
-									"172": {
+									"173": {
 										"damageType": 0,
 										"itemLevel": 0,
 										"quality": 0,
@@ -138421,10 +138081,10 @@
 							},
 							"objectives": {
 								"data": {
-									"172": {
+									"173": {
 										"objectives": [
 											{
-												"objectiveHash": 2981998278,
+												"objectiveHash": 2771003444,
 												"progress": 0,
 												"completionValue": 3,
 												"complete": false,
