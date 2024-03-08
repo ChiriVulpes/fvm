@@ -679,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 20,
-			"next": "2024-03-05T17:00:00Z"
+			"current": 21,
+			"next": "2024-03-12T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -840,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 21,
-			"next": "2024-03-05T17:00:00Z"
+			"current": 22,
+			"next": "2024-03-12T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -998,6 +998,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-03-12T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1417,8 +1419,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1429,11 +1430,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 48,
-			"next": "2024-03-05T17:00:00Z"
+			"current": 49,
+			"next": "2024-03-12T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-03-05T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1908,8 +1907,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 19,
-			"next": "2024-03-05T17:00:00Z"
+			"current": 20,
+			"next": "2024-03-12T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2086,14 +2085,14 @@
 					"description": "Confront the Phalanx Echo, a part of the Nine's answer to your question."
 				},
 				"dropTable": {
+					"435821041": {},
 					"1219883244": {},
-					"1476654960": {},
 					"1717940633": {},
 					"1900280383": {},
 					"2022923313": {},
 					"2966633380": {},
 					"3155320806": {},
-					"3326850591": {}
+					"3483591058": {}
 				}
 			},
 			{
@@ -2127,10 +2126,10 @@
 					"description": "Find a way forward."
 				},
 				"dropTable": {
-					"507038823": {},
 					"818644818": {},
+					"1013434963": {},
 					"1406846351": {},
-					"1626503676": {},
+					"4097972038": {},
 					"4194072668": {}
 				}
 			},
@@ -2167,6 +2166,7 @@
 				"dropTable": {
 					"100226755": {},
 					"178689419": {},
+					"435821040": {},
 					"508076356": {},
 					"1361912510": {},
 					"1571337215": {},
@@ -2178,14 +2178,13 @@
 					"2234240008": {},
 					"2288398391": {},
 					"2295111683": {},
-					"2481758391": {},
 					"2487240821": {},
 					"2570653206": {},
 					"2602907742": {},
 					"2623956730": {},
 					"2701727616": {},
-					"2855157553": {},
 					"2966633380": {},
+					"2969415423": {},
 					"3075372781": {},
 					"3242850062": {},
 					"3976073347": {},
@@ -2202,7 +2201,7 @@
 			}
 		],
 		"availability": "rotator",
-		"endTime": "2024-03-05T17:00:00Z",
+		"endTime": "2024-03-12T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2346,8 +2345,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 19,
-			"next": "2024-03-05T17:00:00Z"
+			"current": 20,
+			"next": "2024-03-12T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2359,21 +2358,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-03-05T17:00:00Z",
+		"endTime": "2024-03-12T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2381,48 +2380,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1960008274,
-		"displayProperties": {
-			"name": "Endless Vale",
-			"description": "Arcadian Valley, Nessus",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"1401300690": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1973107014": {},
-			"2059255495": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"2738601016": {},
-			"3403647252": {},
-			"3658188704": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"4005780578": {},
-			"4248997900": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-03-05T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 144485114,
+		"hash": 55186263,
 		"displayProperties": {
-			"name": "Scavenger's Den",
-			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Solar] Solar\n\nShields: [Arc] Arc\n\nModifiers: Scorched Earth",
+			"name": "Skydock IV",
+			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Void] Void\n\nModifiers: Pestilence",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"rotations": {
@@ -2458,11 +2420,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 97,
-			"next": "2024-03-05T17:00:00Z"
+			"current": 100,
+			"next": "2024-03-08T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-03-05T17:00:00Z",
+		"endTime": "2024-03-08T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2471,24 +2433,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 1682266665,
+		"hash": 808496216,
 		"displayProperties": {
-			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
-			"name": "Birthplace of the Vile",
+			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
+			"name": "HyperNet Current",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"3125454907": {}
+			"1332123064": {}
 		},
 		"master": {
-			"activityHash": 2766844306,
+			"activityHash": 2039642510,
 			"dropTable": {
-				"2914913838": {}
+				"959037361": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-03-05T17:00:00Z",
+		"endTime": "2024-03-12T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",

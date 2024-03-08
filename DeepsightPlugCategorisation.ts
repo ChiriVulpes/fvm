@@ -24,6 +24,7 @@ export enum DeepsightPlugTypeIntrinsic {
 	Origin,
 	Exotic,
 	SparrowEngine,
+	Controls,
 }
 
 export enum DeepsightPlugTypePerk {
