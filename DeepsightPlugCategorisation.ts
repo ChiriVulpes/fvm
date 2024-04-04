@@ -25,6 +25,9 @@ export enum DeepsightPlugTypeIntrinsic {
 	Exotic,
 	SparrowEngine,
 	Controls,
+	Armor,
+	ArmorArtifice,
+	ArmorLegacy,
 }
 
 export enum DeepsightPlugTypePerk {
@@ -115,6 +118,11 @@ export enum DeepsightPlugTypeCosmetic {
 	OrnamentWeaponExotic,
 	OrnamentMask,
 	ShaderDefault,
+	GhostProjectionEmpty,
+	TransmatEffectEmpty,
+	TransmatEffectRandom,
+	WeaponEffects,
+	WeaponEffectsDefault,
 }
 
 export enum DeepsightPlugTypeMasterwork {
@@ -132,6 +140,15 @@ export enum DeepsightPlugTypeMasterwork {
 	Authorization,
 	EnhancementEmpty,
 	Enhancement,
+	ArmorEmpty,
+	Legacy,
+	AuthorizationEmpty,
+	EventSolsticeEmbers,
+	EventSolsticeEmbersEmpty,
+	EventSolsticeKindling,
+	EventSolsticeKindlingEmpty,
+	ShapedWeaponEmpty,
+	WeaponEmpty,
 }
 
 export enum DeepsightPlugTypeVendor {
