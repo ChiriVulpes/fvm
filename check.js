@@ -192,7 +192,7 @@ class Time {
 // Check time!
 
 const ESTIMATED_PGCRS_PER_SECOND = 69; // technically it's closer to 70 but this is nicer
-const REFERENCE_PGCR_RETRIEVAL_DELAY = Time.minutes(30);
+const REFERENCE_PGCR_RETRIEVAL_DELAY = Time.minutes(45);
 
 void (async () => {
 	let versions;
@@ -236,7 +236,7 @@ void (async () => {
 			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 20;
 		}
 
-		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(20), searchStart, searchEnd);
+		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(35), searchStart, searchEnd);
 		if (recentPGCR) {
 			needsUpdate = true;
 			versions.deepsight++;
