@@ -330,3 +330,7 @@ export declare interface DeepsightVendorItemDefinition extends DestinyVendorItem
 	costs?: DestinyItemQuantity[];
 	itemComponent: DestinyItemComponentSetOfint32;
 }
+
+export declare interface DeepsightStats {
+	powerFloor: number;
+}
