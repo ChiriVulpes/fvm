@@ -1,4 +1,5 @@
 export declare const enum AchievementHashes {
+	Invalid = 2166136261,
 	BellyOfTheBeast = 141262511,
 	LestYeBeJudged = 194761580,
 	VanguardMaxRank = 243067690,
@@ -158,6 +159,7 @@ export declare const enum AchievementHashes {
 }
 
 export declare const enum ActivityHashes {
+	Invalid = 2166136261,
 	SalvageLegend283043 = 283043,
 	EmpireHuntTheTechnocratMaster_Tier1 = 5517242,
 	EmpireHuntTheTechnocratHero_Tier1 = 5517244,
@@ -2511,6 +2513,7 @@ export declare const enum ActivityHashes {
 }
 
 export declare const enum ActivityModeHashes {
+	Invalid = 2166136261,
 	LostSector = 103143560,
 	PrivateMatchesMayhem = 116827562,
 	PrivateMatches = 122250361,
@@ -2587,6 +2590,7 @@ export declare const enum ActivityModeHashes {
 }
 
 export declare const enum ActivityModifierHashes {
+	Invalid = 2166136261,
 	AChallengeAwaits22073894 = 22073894,
 	DominionRules22487155 = 22487155,
 	WrathbornReinforcements = 28684414,
@@ -2899,6 +2903,7 @@ export declare const enum ActivityModifierHashes {
 }
 
 export declare const enum ActivityTypeHashes {
+	Invalid = 2166136261,
 	Supremacy = 96396597,
 	SeasonalArena102866517 = 102866517,
 	LostSector = 103143560,
@@ -2967,16 +2972,19 @@ export declare const enum ActivityTypeHashes {
 }
 
 export declare const enum ArtifactHashes {
+	Invalid = 2166136261,
 	QueensfoilCenser = 2894222926,
 }
 
 export declare const enum BreakerTypeHashes {
+	Invalid = 2166136261,
 	ShieldPiercing = 485622768,
 	Disruption = 2611060930,
 	Stagger = 3178805705,
 }
 
 export declare const enum CharacterCustomizationCategoryHashes {
+	Invalid = 2166136261,
 	Face31451163 = 31451163,
 	Marking168272702 = 168272702,
 	Marking395013175 = 395013175,
@@ -3004,6 +3012,7 @@ export declare const enum CharacterCustomizationCategoryHashes {
 }
 
 export declare const enum CharacterCustomizationOptionHashes {
+	Invalid = 2166136261,
 	BodyType2_RaceHash3887404748 = 1079606758,
 	BodyType1_RaceHash898834093 = 1150953194,
 	BodyType1_RaceHash2803282938 = 1504419503,
@@ -3013,6 +3022,7 @@ export declare const enum CharacterCustomizationOptionHashes {
 }
 
 export declare const enum ChecklistHashes {
+	Invalid = 2166136261,
 	ApogeeRepeaters = 703136805,
 	PenguinSouvenirs = 817948795,
 	AhamkaraBones = 1297424116,
@@ -3031,12 +3041,14 @@ export declare const enum ChecklistHashes {
 }
 
 export declare const enum ClassHashes {
+	Invalid = 2166136261,
 	Hunter = 671679327,
 	Warlock = 2271682572,
 	Titan = 3655393761,
 }
 
 export declare const enum CollectibleHashes {
+	Invalid = 2166136261,
 	HelmOfTheGreatHunt = 28595,
 	IronWillSteps = 259041,
 	HoodOfTheGreatHunt = 637236,
@@ -11480,6 +11492,7 @@ export declare const enum CollectibleHashes {
 }
 
 export declare const enum DamageTypeHashes {
+	Invalid = 2166136261,
 	Stasis = 151347233,
 	Raid = 1067729826,
 	Solar = 1847026933,
@@ -11490,6 +11503,7 @@ export declare const enum DamageTypeHashes {
 }
 
 export declare const enum DestinationHashes {
+	Invalid = 2166136261,
 	DeepSix = 1590276,
 	NeptuneOrbit = 115307718,
 	LegionsFolly = 123491860,
@@ -11568,6 +11582,7 @@ export declare const enum DestinationHashes {
 }
 
 export declare const enum EnergyTypeHashes {
+	Invalid = 2166136261,
 	Solar = 591714140,
 	Arc = 728351493,
 	Any = 1198124803,
@@ -11578,6 +11593,7 @@ export declare const enum EnergyTypeHashes {
 }
 
 export declare const enum EquipmentSlotHashes {
+	Invalid = 2166136261,
 	ChestArmor = 14239492,
 	Shaders = 18606351,
 	LegArmor = 20886954,
@@ -11599,6 +11615,7 @@ export declare const enum EquipmentSlotHashes {
 }
 
 export declare const enum EventCardHashes {
+	Invalid = 2166136261,
 	TheDawning = 2302439334,
 	FestivalOfTheLost = 3265920761,
 	GuardianGames = 3461628897,
@@ -11606,6 +11623,7 @@ export declare const enum EventCardHashes {
 }
 
 export declare const enum FactionHashes {
+	Invalid = 2166136261,
 	ArmorSynthesis = 18889211,
 	Leviathan = 24856709,
 	ResonanceRank_ProgressionHash185244751 = 185244751,
@@ -11669,6 +11687,7 @@ export declare const enum FactionHashes {
 }
 
 export declare const enum FireteamFinderActivityGraphHashes {
+	Invalid = 2166136261,
 	OnTheVerge = 4546304,
 	Breakneck = 4546305,
 	Headlong = 4546306,
@@ -11847,10 +11866,12 @@ export declare const enum FireteamFinderActivityGraphHashes {
 }
 
 export declare const enum FireteamFinderConstantsHashes {
+	Invalid = 2166136261,
 	FireteamFinderBeta = 1,
 }
 
 export declare const enum FireteamFinderLabelHashes {
+	Invalid = 2166136261,
 	WatchingCutscenes = 4212375,
 	PublicEvents = 83899475,
 	NeedUnstoppableStagger = 84528348,
@@ -11989,6 +12010,7 @@ export declare const enum FireteamFinderLabelHashes {
 }
 
 export declare const enum FireteamFinderLabelGroupHashes {
+	Invalid = 2166136261,
 	Fireteam = 185750656,
 	Buildcraft = 646984645,
 	Goals = 1442852733,
@@ -11998,6 +12020,7 @@ export declare const enum FireteamFinderLabelGroupHashes {
 }
 
 export declare const enum FireteamFinderOptionHashes {
+	Invalid = 2166136261,
 	ListingTitle = 41817931,
 	Tags = 596184710,
 	ReselectActivity = 659460014,
@@ -12011,6 +12034,7 @@ export declare const enum FireteamFinderOptionHashes {
 }
 
 export declare const enum FireteamFinderOptionGroupHashes {
+	Invalid = 2166136261,
 	ListingTitle = 507358802,
 	MinimumGuardianRank = 1081843287,
 	CommunicationLanguage = 1657872321,
@@ -12021,15 +12045,18 @@ export declare const enum FireteamFinderOptionGroupHashes {
 }
 
 export declare const enum GenderHashes {
+	Invalid = 2166136261,
 	BodyType2 = 2204441813,
 	BodyType1 = 3111576190,
 }
 
 export declare const enum GuardianRankConstantsHashes {
+	Invalid = 2166136261,
 	GuardianRanks = 1,
 }
 
 export declare const enum GuardianRankHashes {
+	Invalid = 2166136261,
 	NewLight = 1,
 	Explorer = 2,
 	Initiate = 3,
@@ -12044,6 +12071,7 @@ export declare const enum GuardianRankHashes {
 }
 
 export declare const enum InventoryBucketHashes {
+	Invalid = 2166136261,
 	ChestArmor = 14239492,
 	Shaders = 18606351,
 	LegArmor = 20886954,
@@ -12094,6 +12122,7 @@ export declare const enum InventoryBucketHashes {
 }
 
 export declare const enum InventoryItemHashes {
+	Invalid = 2166136261,
 	Plug73015 = 73015,
 	TransmatEffectsDummy236588 = 236588,
 	MythosHack41Gauntlets423789 = 423789,
@@ -38312,6 +38341,7 @@ export declare const enum PlugCategoryHashes {
 }
 
 export declare const enum ItemCategoryHashes {
+	Invalid = 2166136261,
 	Weapon = 1,
 	KineticWeapon = 2,
 	EnergyWeapon = 3,
@@ -38437,6 +38467,7 @@ export declare const enum ItemCategoryHashes {
 }
 
 export declare const enum ItemTierTypeHashes {
+	Invalid = 2166136261,
 	BasicQuest = 1801258597,
 	Rare = 2127292149,
 	Uncommon = 2395677314,
@@ -38447,10 +38478,12 @@ export declare const enum ItemTierTypeHashes {
 }
 
 export declare const enum LoadoutConstantsHashes {
+	Invalid = 2166136261,
 	Loadouts = 1,
 }
 
 export declare const enum LoadoutNameHashes {
+	Invalid = 2166136261,
 	Gambit = 752612096,
 	Crucible = 752612097,
 	Vanguard = 752612098,
@@ -38474,6 +38507,7 @@ export declare const enum LoadoutNameHashes {
 }
 
 export declare const enum LocationHashes {
+	Invalid = 2166136261,
 	TheInvestigationMars = 2006135,
 	TheLastCityHauntedForest12852182 = 12852182,
 	AGuardianRisesCosmodrome = 15713599,
@@ -39201,6 +39235,7 @@ export declare const enum LocationHashes {
 }
 
 export declare const enum LoreHashes {
+	Invalid = 2166136261,
 	SeedOfSilverWings = 165763,
 	CinderPinionGreaves = 6622258,
 	LongArm = 8293111,
@@ -41638,6 +41673,7 @@ export declare const enum LoreHashes {
 }
 
 export declare const enum MedalTierHashes {
+	Invalid = 2166136261,
 	Tier5 = 802673296,
 	Tier4 = 802673297,
 	Tier7 = 802673298,
@@ -41648,6 +41684,7 @@ export declare const enum MedalTierHashes {
 }
 
 export declare const enum MetricHashes {
+	Invalid = 2166136261,
 	DeepStoneCryptTimeTrial_TrackingObjectiveHash1251782502 = 546319,
 	NightmareHuntCompletions = 9217563,
 	TotalFishCaught = 24768693,
@@ -42002,6 +42039,7 @@ export declare const enum MetricHashes {
 }
 
 export declare const enum MilestoneHashes {
+	Invalid = 2166136261,
 	TheLegionsCalling = 67076417,
 	MetropolitanDefense = 213479068,
 	KingsFall = 292102995,
@@ -42091,6 +42129,7 @@ export declare const enum MilestoneHashes {
 }
 
 export declare const enum NodeStepSummaryHashes {
+	Invalid = 2166136261,
 	BurstGlide = 19519556,
 	GamblersDodge = 32651606,
 	BallisticSlam = 71216177,
@@ -42248,6 +42287,7 @@ export declare const enum NodeStepSummaryHashes {
 }
 
 export declare const enum ObjectiveHashes {
+	Invalid = 2166136261,
 	LostSectorCache93596823 = 93596823,
 	Neptune_ProgressDescription = 165452029,
 	ArxArcanusI = 209458417,
@@ -42347,6 +42387,7 @@ export declare const enum ObjectiveHashes {
 }
 
 export declare const enum PlaceHashes {
+	Invalid = 2166136261,
 	DeepSix = 1590276,
 	Gambit248695599 = 248695599,
 	PrisonOfElders251989860 = 251989860,
@@ -42404,6 +42445,7 @@ export declare const enum PlaceHashes {
 }
 
 export declare const enum PlugSetHashes {
+	Invalid = 2166136261,
 	ForgeACabalRune738564153 = 738564153,
 	TrackingGhostMod = 989920847,
 	AuthorizationProtocol = 1403449020,
@@ -42424,6 +42466,7 @@ export declare const enum PlugSetHashes {
 }
 
 export declare const enum PowerCapHashes {
+	Invalid = 2166136261,
 	"999980" = 723350001,
 	"999970" = 1031089514,
 	"10601862490583" = 1862490583,
@@ -42444,6 +42487,7 @@ export declare const enum PowerCapHashes {
 }
 
 export declare const enum PresentationNodeHashes {
+	Invalid = 2166136261,
 	Warlock5678666 = 5678666,
 	Warlock7761993 = 7761993,
 	DawningCookies = 12380736,
@@ -44193,6 +44237,7 @@ export declare const enum PresentationNodeHashes {
 }
 
 export declare const enum ProgressionHashes {
+	Invalid = 2166136261,
 	WarTableReputation = 47964159,
 	Classified71851446 = 71851446,
 	ResonanceRank_FactionHash185244751 = 185244751,
@@ -44276,6 +44321,7 @@ export declare const enum ProgressionHashes {
 }
 
 export declare const enum ProgressionMappingHashes {
+	Invalid = 2166136261,
 	Xp755281862 = 755281862,
 	NeomunaRank = 1021220385,
 	Classified2318284751 = 2318284751,
@@ -44286,12 +44332,14 @@ export declare const enum ProgressionMappingHashes {
 }
 
 export declare const enum RaceHashes {
+	Invalid = 2166136261,
 	Exo = 898834093,
 	Awoken = 2803282938,
 	Human = 3887404748,
 }
 
 export declare const enum RecordHashes {
+	Invalid = 2166136261,
 	NeomuniSouvenirs_RecordTypeName = 1418003,
 	CookieDeliveryVanguard = 4119834,
 	K1LogisticsFlawlessSoloMastery = 6245488,
@@ -48413,6 +48461,7 @@ export declare const enum RecordHashes {
 }
 
 export declare const enum ReportReasonCategoryHashes {
+	Invalid = 2166136261,
 	Quitting = 1053168648,
 	AbusiveChat = 1225860615,
 	BadConnection = 1480507937,
@@ -48425,6 +48474,7 @@ export declare const enum ReportReasonCategoryHashes {
 }
 
 export declare const enum SandboxPerkHashes {
+	Invalid = 2166136261,
 	HotSwap = 2566539,
 	EnduringSnare = 5305303,
 	DeprecatedPerk6243759 = 6243759,
@@ -51297,6 +51347,7 @@ export declare const enum SandboxPerkHashes {
 }
 
 export declare const enum SeasonHashes {
+	Invalid = 2166136261,
 	SeasonOfTheUndying = 1743682818,
 	SeasonOfDawn = 1743682819,
 	SeasonOfTheOutlaw = 2026773320,
@@ -51323,6 +51374,7 @@ export declare const enum SeasonHashes {
 }
 
 export declare const enum SeasonPassHashes {
+	Invalid = 2166136261,
 	SeasonOfTheUndying = 155514181,
 	SeasonOfTheWorthy = 297907150,
 	SeasonOfTheHunt = 348169624,
@@ -51342,6 +51394,7 @@ export declare const enum SeasonPassHashes {
 }
 
 export declare const enum SocialCommendationHashes {
+	Invalid = 2166136261,
 	Selfless = 354527503,
 	BestDressed = 357212819,
 	PrimevalInstinct = 363818544,
@@ -51361,6 +51414,7 @@ export declare const enum SocialCommendationHashes {
 }
 
 export declare const enum SocialCommendationNodeHashes {
+	Invalid = 2166136261,
 	Ally = 154475713,
 	Fun = 1341823550,
 	Leadership = 1390663518,
@@ -51368,6 +51422,7 @@ export declare const enum SocialCommendationNodeHashes {
 }
 
 export declare const enum SocketCategoryHashes {
+	Invalid = 2166136261,
 	Fragments193371309 = 193371309,
 	EmblemCustomization = 279738248,
 	Abilities309722977 = 309722977,
@@ -51414,6 +51469,7 @@ export declare const enum SocketCategoryHashes {
 }
 
 export declare const enum SocketTypeHashes {
+	Invalid = 2166136261,
 	ForgeACabalRune231115588 = 231115588,
 	ActivityGhostMod_PlugWhitelist0CategoryHash623624742 = 456763785,
 	ForgeACabalRune473876112 = 473876112,
@@ -51446,6 +51502,7 @@ export declare const enum SocketTypeHashes {
 }
 
 export declare const enum StatHashes {
+	Invalid = 2166136261,
 	ArmorEnergyCapacity16120457 = 16120457,
 	FragmentCost = 119204074,
 	Intellect = 144602215,
@@ -51509,6 +51566,7 @@ export declare const enum StatHashes {
 }
 
 export declare const enum UnlockHashes {
+	Invalid = 2166136261,
 	HunterClass218917 = 218917,
 	SunshotAcquired = 70263609,
 	RequiresObjectiveCompletion127001753 = 127001753,
@@ -51620,6 +51678,7 @@ export declare const enum UnlockHashes {
 }
 
 export declare const enum VendorHashes {
+	Invalid = 2166136261,
 	BeyondLightArmorDecryption = 5961373,
 	DeepEngramDecoding = 8721509,
 	LighthouseEngram10653108 = 10653108,
@@ -52548,6 +52607,7 @@ export declare const enum VendorHashes {
 }
 
 export declare const enum VendorGroupHashes {
+	Invalid = 2166136261,
 	Seasonal = 427939601,
 	Tower = 679769104,
 	Lightfall = 1767960256,
@@ -52558,6 +52618,7 @@ export declare const enum VendorGroupHashes {
 }
 
 export declare const enum TraitHashes {
+	Invalid = 2166136261,
 	ItemWeaponScoutRifle = 12026609,
 	KeywordsBuffsSolarFlareBauble = 37177486,
 	KeywordsDebuffsStasisShatter = 37938188,
@@ -52680,6 +52741,7 @@ export declare const enum TraitHashes {
 }
 
 export declare const enum MomentHashes {
+	Invalid = 2166136261,
 	TheDawning = 0,
 	CrimsonDays = 1,
 	GuardianGames = 2,
