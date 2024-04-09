@@ -667,7 +667,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +680,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 25,
-			"next": "2024-04-09T17:00:00Z"
+			"current": 26,
+			"next": "2024-04-16T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-04-16T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +832,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +843,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 26,
-			"next": "2024-04-09T17:00:00Z"
+			"current": 27,
+			"next": "2024-04-16T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-04-09T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1431,8 +1431,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 53,
-			"next": "2024-04-09T17:00:00Z"
+			"current": 54,
+			"next": "2024-04-16T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1908,8 +1908,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 24,
-			"next": "2024-04-09T17:00:00Z"
+			"current": 25,
+			"next": "2024-04-16T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2054,8 +2054,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203
+			"activityHash": 1112917203,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-04-16T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2201,8 +2204,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-04-09T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2346,8 +2347,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 24,
-			"next": "2024-04-09T17:00:00Z"
+			"current": 25,
+			"next": "2024-04-16T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2359,21 +2360,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 3883295757,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"2188764214": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 4201846671,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-09T17:00:00Z",
+		"endTime": "2024-04-16T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2421,11 +2422,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 132,
-			"next": "2024-04-09T17:00:00Z"
+			"current": 133,
+			"next": "2024-04-10T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-09T17:00:00Z",
+		"endTime": "2024-04-10T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2434,24 +2435,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 1859320492,
+		"hash": 1682266665,
 		"displayProperties": {
-			"description": "The Lucent Hive are using stolen Guardian Light for some wicked purpose. Breach their stronghold and uncover their plot.",
-			"name": "Legend PsiOps Battleground: Cosmodrome",
+			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
+			"name": "Birthplace of the Vile",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2450917538": {}
+			"3667553455": {}
 		},
 		"master": {
-			"activityHash": 968118631,
+			"activityHash": 2766844306,
 			"dropTable": {
-				"1891996599": {}
+				"1064132738": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-09T17:00:00Z",
+		"endTime": "2024-04-16T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
