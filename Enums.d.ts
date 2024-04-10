@@ -53479,6 +53479,7 @@ export declare const enum MomentHashes {
 	SeasonOfTheDeep = 31,
 	SeasonOfTheWitch = 32,
 	SeasonOfTheWish = 33,
+	IntoTheLight = 34,
 }
 
 /*
