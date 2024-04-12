@@ -273,6 +273,14 @@ export declare interface DeepsightWallpaperDefinition {
 	 * Wallpaper URLs. Each is an absolute (full) URL.
 	 */
 	wallpapers: string[];
+	/**
+	 * Wallpaper URLs. Each is an absolute (full) URL.
+	 * 
+	 * Secondary wallpapers are generally Bungie's press screenshots, 
+	 * but some other wallpapers are curated into or out of this list by deepsight.gg.  
+	 * If you want wallpapers that are good for displaying behind application UI, you want `wallpapers`, not `secondaryWallpapers`.
+	 */
+	secondaryWallpapers: string[];
 }
 
 export declare interface DeepsightTierTypeDefinition {
