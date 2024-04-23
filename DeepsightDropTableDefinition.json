@@ -132,11 +132,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2024-04-23T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -682,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 27,
-			"next": "2024-04-23T17:00:00Z"
+			"current": 28,
+			"next": "2024-04-30T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -843,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 28,
-			"next": "2024-04-23T17:00:00Z"
+			"current": 29,
+			"next": "2024-04-30T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1001,6 +998,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-04-30T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1420,8 +1419,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1432,11 +1430,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 55,
-			"next": "2024-04-23T17:00:00Z"
+			"current": 56,
+			"next": "2024-04-30T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-04-23T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1730,8 +1726,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-04-30T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1911,8 +1910,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 26,
-			"next": "2024-04-23T17:00:00Z"
+			"current": 27,
+			"next": "2024-04-30T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2347,8 +2346,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 26,
-			"next": "2024-04-23T17:00:00Z"
+			"current": 27,
+			"next": "2024-04-30T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2360,65 +2359,26 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-23T17:00:00Z",
+		"endTime": "2024-04-30T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
-		}
-	},
-	"trials": {
-		"hash": 1960008274,
-		"displayProperties": {
-			"name": "Endless Vale",
-			"description": "Arcadian Valley, Nessus",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"1401300690": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"1973107014": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"2738601016": {},
-			"3019024381": {},
-			"3403647252": {},
-			"3658188704": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"4005780578": {},
-			"4248997900": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-04-23T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
 		}
 	},
 	"lostSector": {
@@ -2461,11 +2421,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 146,
-			"next": "2024-04-23T17:00:00Z"
+			"current": 147,
+			"next": "2024-04-24T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-23T17:00:00Z",
+		"endTime": "2024-04-24T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2474,24 +2434,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 808496216,
+		"hash": 661855681,
 		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
+			"description": "Stem the tide of Taken flowing into the European Dead Zone from beneath the waves.",
+			"name": "Lake of Shadows",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"1821529912": {}
+			"3125454907": {}
 		},
 		"master": {
-			"activityHash": 2039642510,
+			"activityHash": 3109193568,
 			"dropTable": {
-				"267089201": {}
+				"2914913838": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-23T17:00:00Z",
+		"endTime": "2024-04-30T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
