@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-05-07T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,8 +510,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-05-07T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -679,8 +684,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 28,
-			"next": "2024-04-30T17:00:00Z"
+			"current": 29,
+			"next": "2024-05-07T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -840,8 +845,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 29,
-			"next": "2024-04-30T17:00:00Z"
+			"current": 30,
+			"next": "2024-05-07T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -998,8 +1003,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-04-30T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1430,8 +1433,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 56,
-			"next": "2024-04-30T17:00:00Z"
+			"current": 57,
+			"next": "2024-05-07T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1726,11 +1729,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2024-04-30T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1910,8 +1910,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 27,
-			"next": "2024-04-30T17:00:00Z"
+			"current": 28,
+			"next": "2024-05-07T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2346,8 +2346,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 27,
-			"next": "2024-04-30T17:00:00Z"
+			"current": 28,
+			"next": "2024-05-07T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2359,65 +2359,26 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 3883295757,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"2188764214": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 4201846671,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-30T17:00:00Z",
+		"endTime": "2024-05-07T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
-		}
-	},
-	"trials": {
-		"hash": 4241102524,
-		"displayProperties": {
-			"name": "Cauldron",
-			"description": "Ocean of Storms, Moon",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"874623537": {},
-			"1401300690": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"1973107014": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"2738601016": {},
-			"3403647252": {},
-			"3658188704": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"4005780578": {},
-			"4248997900": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-04-30T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
 		}
 	},
 	"lostSector": {
@@ -2460,11 +2421,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 153,
-			"next": "2024-04-30T17:00:00Z"
+			"current": 154,
+			"next": "2024-05-01T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-30T17:00:00Z",
+		"endTime": "2024-05-01T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2473,24 +2434,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 661855681,
+		"hash": 224295651,
 		"displayProperties": {
-			"description": "Stem the tide of Taken flowing into the European Dead Zone from beneath the waves.",
-			"name": "Lake of Shadows",
+			"description": "Hunt down one of Queen Mara's most trusted advisors and free her from Taken possession.",
+			"name": "The Corrupted",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"3125454907": {}
+			"1332123064": {}
 		},
 		"master": {
-			"activityHash": 3109193568,
+			"activityHash": 2416314393,
 			"dropTable": {
-				"2914913838": {}
+				"959037361": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-04-30T17:00:00Z",
+		"endTime": "2024-05-07T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
