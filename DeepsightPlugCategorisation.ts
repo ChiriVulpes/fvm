@@ -28,6 +28,7 @@ export enum DeepsightPlugTypeIntrinsic {
 	Armor,
 	ArmorArtifice,
 	ArmorLegacy,
+	Shaped,
 }
 
 export enum DeepsightPlugTypePerk {
@@ -241,3 +242,16 @@ export type DeepsightPlugFullName<CATEGORY extends DeepsightPlugCategory = Deeps
 	DeepsightPlugCategory extends CATEGORY ? ({ [CATEGORY in DeepsightPlugCategory]: DeepsightPlugFullName<CATEGORY> } extends infer ALL_CATEGORIES ? ALL_CATEGORIES[keyof ALL_CATEGORIES] : never)
 	: (/*<*/typeof /*>*/DeepsightPlugTypeMap)[CATEGORY] extends infer TYPE_ENUM ? TYPE_ENUM extends null ? `${ReverseCategoryMap[CATEGORY]}`
 	: `${ReverseCategoryMap[CATEGORY]}/${Extract<keyof TYPE_ENUM, string>}` : never;
+
+export declare interface DeepsightSocketCategorisationDefinition {
+	hash: number;
+	categorisation: DeepsightSocketCategorisation[];
+}
+
+export declare interface DeepsightSocketCategorisation<CATEGORY extends DeepsightPlugCategory = DeepsightPlugCategory> {
+	category: CATEGORY;
+	categoryName: string;
+	type?: DeepsightPlugType<CATEGORY>;
+	typeName?: string;
+	fullName: DeepsightPlugFullName<CATEGORY>;
+}
