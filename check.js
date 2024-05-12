@@ -150,11 +150,15 @@ class PGCR {
 			return undefined;
 		}
 
+		console.log(`[PGCR Search] Approximate last valid PGCR is ${lastValid}.`);
+
 		searchStart = lastValid - ESTIMATED_PGCRS_PER_SECOND * 60 * 5; // approximately 5 minutes ago
 
 		for (let i = 0; i < 100; i++) {
 			const response = await this.getPGCR(searchStart + i).then(response => response.json());
-			if (new Date(response?.Response?.period ?? 0).getTime() > targetTime)
+			const date = new Date(response?.Response?.period ?? 0);
+			console.log(`[PGCR Search] ${searchStart + i} is ${date.toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}.`);
+			if (date.getTime() > targetTime)
 				return response.Response;
 		}
 
