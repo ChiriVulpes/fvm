@@ -1,122 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires, no-undef, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-assignment */
 const fs = require("fs/promises");
 
-const ENDPOINT_PGCR = "https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport";
-
-const apiKey = process.env.DEEPSIGHT_MANIFEST_API_KEY;
-if (!apiKey)
-	throw new Error("No API key set");
-
-async function getDestinyManifestVersion () {
-	return apiRequest("Manifest/").then(response => response?.version);
-}
-
-async function hasProfileCharacter () {
-	return apiRequest("3/Profile/4611686018494087946/Character/2305843009532315461/?components=200").then(response => !!response?.character?.data);
-}
-
-/**
- * @param {string} endpoint
- */
-async function apiRequest (endpoint) {
-	let response;
-	const maxAttempts = 1;
-	for (let attempts = 0; !response && attempts < maxAttempts; attempts++) {
-		const abortController = new AbortController();
-		setTimeout(() => abortController.abort(), 20000); // 20 seconds max for a request
-		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, {
-			signal: abortController.signal,
-			headers: {
-				"X-API-Key": /** @type {string} */(apiKey),
-			},
-		})
-			.then(response => response.status === 200 ? response.json()
-				: { type: "error", code: response.status, message: response.statusText })
-			.catch(err => ({ type: "error", message: err.message }))
-			.then(json => {
-				const response = json.Response;
-				if (!response)
-					console.warn(`/${endpoint} did not return a valid response: ${JSON.stringify(json)}`);
-				return json.Response;
-			});
-
-		if (!response)
-			await sleep(1000);
-	}
-
-	return response;
-}
-
-class PGCR {
-
-	/**
-	 * @typedef {`${bigint}-${bigint}-${bigint}T${bigint}:${bigint}:${bigint}Z`} Iso
-	 */
-
-	/**
-	 * @typedef PGCRActivityDetails
-	 * @property {`${bigint}`} instanceId
-	 */
-
-	/**
-	 * @typedef PGCRResponse
-	 * @property {Iso} period
-	 * @property {PGCRActivityDetails} activityDetails
-	 */
-
-	/**
-	 * Binary searches over the PGCRs looking for any PGCR more recent than the target time.
-	 * @param {number} targetTime The time that the returned PGCR must be newer than
-	 * @param {number} searchStart The PGCR ID that the search should use as its start
-	 * @param {number} searchEnd The PGCR ID that the search should use as its end
-	 * @returns {Promise<PGCRResponse | undefined>} A PGCR ID newer than the target time
-	 */
-	static async getNewerThan (targetTime, searchStart = 14008975359, searchEnd = 137438953470) {
-		let attempts = 0;
-		let lastMid = 0;
-		while (true) {
-			attempts++;
-			const mid = Math.floor((searchStart + searchEnd) / 2);
-			if (mid === lastMid) {
-				console.log("[PGCR Search] Failed to find a recent PGCR, range was invalid.");
-				return undefined;
-			}
-
-			lastMid = mid;
-
-			console.log("[PGCR Search] Query:", mid, "Current range:", searchStart, searchEnd, "Query count:", attempts);
-			const response = await this.getPGCR(mid).then(response => response.json());
-
-			if (response?.Response?.period) {
-				if (new Date(response.Response.period).getTime() > targetTime)
-					return response.Response;
-
-				searchStart = mid + 1;
-			} else {
-				searchEnd = mid - 1;
-			}
-
-			if (attempts >= 100) {
-				console.log("[PGCR Search] Failed to find a recent PGCR, too many attempts.");
-				return undefined;
-			}
-
-			await sleep(100);
-		}
-	}
-
-	/**
-	 * @param {number} id
-	 */
-	static async getPGCR (id) {
-		return fetch(`${ENDPOINT_PGCR}/${id}/`, {
-			headers: {
-				"X-API-Key": /** @type {string} */(apiKey),
-			},
-		});
-	}
-}
-
 /**
  * @param {number} time
  */
@@ -187,12 +71,147 @@ class Time {
 	}
 }
 
+const ENDPOINT_PGCR = "https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport";
+const ESTIMATED_PGCRS_PER_SECOND = 69; // technically it's closer to 70 but this is nicer
+const REFERENCE_PGCR_RETRIEVAL_DELAY = Time.minutes(45);
+
+const apiKey = process.env.DEEPSIGHT_MANIFEST_API_KEY;
+if (!apiKey)
+	throw new Error("No API key set");
+
+async function getDestinyManifestVersion () {
+	return apiRequest("Manifest/").then(response => response?.version);
+}
+
+async function hasProfileCharacter () {
+	return apiRequest("3/Profile/4611686018494087946/Character/2305843009532315461/?components=200").then(response => !!response?.character?.data);
+}
+
+/**
+ * @param {string} endpoint
+ */
+async function apiRequest (endpoint) {
+	let response;
+	const maxAttempts = 1;
+	for (let attempts = 0; !response && attempts < maxAttempts; attempts++) {
+		const abortController = new AbortController();
+		setTimeout(() => abortController.abort(), 20000); // 20 seconds max for a request
+		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, {
+			signal: abortController.signal,
+			headers: {
+				"X-API-Key": /** @type {string} */(apiKey),
+			},
+		})
+			.then(response => response.status === 200 ? response.json()
+				: { type: "error", code: response.status, message: response.statusText })
+			.catch(err => ({ type: "error", message: err.message }))
+			.then(json => {
+				const response = json.Response;
+				if (!response)
+					console.warn(`/${endpoint} did not return a valid response: ${JSON.stringify(json)}`);
+				return json.Response;
+			});
+
+		if (!response)
+			await sleep(1000);
+	}
+
+	return response;
+}
+
+class PGCR {
+
+	/**
+	 * @typedef {`${bigint}-${bigint}-${bigint}T${bigint}:${bigint}:${bigint}Z`} Iso
+	 */
+
+	/**
+	 * @typedef PGCRActivityDetails
+	 * @property {`${bigint}`} instanceId
+	 */
+
+	/**
+	 * @typedef PGCRResponse
+	 * @property {Iso} period
+	 * @property {PGCRActivityDetails} activityDetails
+	 */
+
+	/**
+	 * Binary searches over the PGCRs looking for any PGCR more recent than the target time.
+	 * @param {number} targetTime The time that the returned PGCR must be newer than
+	 * @param {number} searchStart The PGCR ID that the search should use as its start
+	 * @param {number} searchEnd The PGCR ID that the search should use as its end
+	 * @returns {Promise<PGCRResponse | undefined>} A PGCR ID newer than the target time
+	 */
+	static async getNewerThan (targetTime, searchStart = 14008975359, searchEnd = 137438953470) {
+		let lastValid = await this.getLastValidID(searchStart, searchEnd);
+		if (lastValid === undefined) {
+			console.log("[PGCR Search] Failed to find a recent PGCR, unable to find approximate most recent PGCR.");
+			return undefined;
+		}
+
+		searchStart = lastValid - ESTIMATED_PGCRS_PER_SECOND * 60 * 5; // approximately 5 minutes ago
+
+		for (let i = 0; i < 100; i++) {
+			const response = await this.getPGCR(searchStart + i).then(response => response.json());
+			if (new Date(response?.Response?.period ?? 0).getTime() > targetTime)
+				return response.Response;
+		}
+
+		console.log("[PGCR Search] Failed to find a recent PGCR, unable to find recent PGCR of correct time.");
+		return undefined;
+	}
+
+	/**
+	 * Binary searches over the PGCRs looking for the last valid PGCR.
+	 * @param {number} searchStart The PGCR ID that the search should use as its start
+	 * @param {number} searchEnd The PGCR ID that the search should use as its end
+	 * @returns {Promise<number | undefined>} The last valid PGCR
+	 */
+	static async getLastValidID (searchStart = 14008975359, searchEnd = 137438953470) {
+		let attempts = 0;
+		let lastMid = 0;
+		while (true) {
+			attempts++;
+			const mid = Math.floor((searchStart + searchEnd) / 2);
+			if (Math.abs(mid - lastMid) < ESTIMATED_PGCRS_PER_SECOND)
+				return mid;
+
+			lastMid = mid;
+
+			console.log("[PGCR Search] Query:", mid, "Current range:", searchStart, searchEnd, "Query count:", attempts);
+			const response = await this.getPGCR(mid).then(response => response.json());
+
+			if (response?.Response) {
+				searchStart = mid + 1;
+			} else {
+				searchEnd = mid - 1;
+			}
+
+			if (attempts >= 100) {
+				console.log("[PGCR Search] Failed to find a recent PGCR, too many attempts.");
+				return undefined;
+			}
+
+			await sleep(100);
+		}
+	}
+
+	/**
+	 * @param {number} id
+	 */
+	static async getPGCR (id) {
+		return fetch(`${ENDPOINT_PGCR}/${id}/`, {
+			headers: {
+				"X-API-Key": /** @type {string} */(apiKey),
+			},
+		});
+	}
+}
+
 
 ////////////////////////////////////
 // Check time!
-
-const ESTIMATED_PGCRS_PER_SECOND = 69; // technically it's closer to 70 but this is nicer
-const REFERENCE_PGCR_RETRIEVAL_DELAY = Time.minutes(45);
 
 void (async () => {
 	let versions;
