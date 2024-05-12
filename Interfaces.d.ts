@@ -1,5 +1,5 @@
 import type { DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from "bungie-api-ts/destiny2";
-import type { ActivityHashes, ActivityModifierHashes, EventCardHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
+import type { ActivityHashes, ActivityModifierHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
 
 export declare type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
 
@@ -342,3 +342,9 @@ export declare interface DeepsightVendorItemDefinition extends DestinyVendorItem
 export declare interface DeepsightStats {
 	powerFloor: number;
 }
+
+export declare interface DeepsightCollectionsDefinition {
+	hash: MomentHashes;
+	buckets: Partial<Record<InventoryBucketHashes, InventoryItemHashes[]>>;
+}
+export declare type DeepsightCollectionsDefinitionManifest = Partial<Record<MomentHashes, DeepsightCollectionsDefinition>>;
