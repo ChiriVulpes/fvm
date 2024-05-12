@@ -144,6 +144,8 @@ class PGCR {
 	 * @returns {Promise<PGCRResponse | undefined>} A PGCR ID newer than the target time
 	 */
 	static async getNewerThan (targetTime, searchStart = 14008975359, searchEnd = 137438953470) {
+		console.log(`[PGCR Search] Looking for PGCR newer than ${new Date(targetTime).toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}.`);
+
 		let lastValid = await this.getLastValidID(searchStart, searchEnd);
 		if (lastValid === undefined) {
 			console.log("[PGCR Search] Failed to find a recent PGCR, unable to find approximate most recent PGCR.");
