@@ -264,8 +264,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-05-14T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -681,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 30,
-			"next": "2024-05-14T17:00:00Z"
+			"current": 31,
+			"next": "2024-05-21T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -842,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 31,
-			"next": "2024-05-14T17:00:00Z"
+			"current": 32,
+			"next": "2024-05-21T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1253,6 +1251,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-05-21T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1430,8 +1430,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 58,
-			"next": "2024-05-14T17:00:00Z"
+			"current": 59,
+			"next": "2024-05-21T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1586,8 +1586,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-05-14T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1890,7 +1888,8 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -1909,9 +1908,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 29,
-			"next": "2024-05-14T17:00:00Z"
+			"current": 30,
+			"next": "2024-05-21T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-05-21T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2345,8 +2346,8 @@
 				3523029182
 			],
 			"interval": "weekly",
-			"current": 29,
-			"next": "2024-05-14T17:00:00Z"
+			"current": 30,
+			"next": "2024-05-21T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2358,21 +2359,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-05-14T17:00:00Z",
+		"endTime": "2024-05-21T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2380,77 +2381,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 457172842,
-		"displayProperties": {
-			"name": "Chamber of Starlight",
-			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Epitaph",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"5159537": {},
-					"176055472": {},
-					"867154247": {},
-					"2767393525": {},
-					"3678653083": {}
-				},
-				{
-					"222606050": {},
-					"358788212": {},
-					"1387420892": {},
-					"1456017061": {},
-					"2673925403": {}
-				},
-				{
-					"664109750": {},
-					"1106635211": {},
-					"2099894368": {},
-					"2850782006": {},
-					"3998080529": {}
-				},
-				{
-					"355382946": {},
-					"1331824604": {},
-					"1572351682": {},
-					"1606497639": {},
-					"3637669759": {}
-				}
-			],
-			"current": 167,
-			"next": "2024-05-14T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-05-14T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 1278918650,
+		"hash": 1859320492,
 		"displayProperties": {
-			"description": "Infiltrate the Seraph bunker tucked under the dust of the Moon to reclaim fragments of the submind Malahayati's code.",
-			"name": "Heist Battleground: Moon",
+			"description": "The Lucent Hive are using stolen Guardian Light for some wicked purpose. Breach their stronghold and uncover their plot.",
+			"name": "Legend PsiOps Battleground: Cosmodrome",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"192784503": {}
+			"2889501828": {}
 		},
 		"master": {
-			"activityHash": 1639515809,
+			"activityHash": 968118631,
 			"dropTable": {
-				"496556698": {}
+				"1354727549": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-05-14T17:00:00Z",
+		"endTime": "2024-05-21T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
