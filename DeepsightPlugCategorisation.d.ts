@@ -124,6 +124,7 @@ export declare const enum DeepsightPlugTypeCosmetic {
 	TransmatEffectRandom,
 	WeaponEffects,
 	WeaponEffectsDefault,
+	Ornament,
 }
 
 export declare const enum DeepsightPlugTypeMasterwork {
