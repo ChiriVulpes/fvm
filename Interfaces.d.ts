@@ -348,3 +348,8 @@ export declare interface DeepsightCollectionsDefinition {
 	buckets: Partial<Record<InventoryBucketHashes, InventoryItemHashes[]>>;
 }
 export declare type DeepsightCollectionsDefinitionManifest = Partial<Record<MomentHashes, DeepsightCollectionsDefinition>>;
+
+export interface DeepsightAdeptDefinition {
+	hash: InventoryItemHashes;
+	base: InventoryItemHashes;
+}
