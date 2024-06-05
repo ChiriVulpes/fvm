@@ -667,8 +667,7 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -680,11 +679,9 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 33,
-			"next": "2024-06-04T17:00:00Z"
+			"current": 34,
+			"next": "2024-06-11T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-06-04T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -843,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 34,
-			"next": "2024-06-04T17:00:00Z"
+			"current": 35,
+			"next": "2024-06-11T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1001,6 +998,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-06-11T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1431,8 +1430,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 61,
-			"next": "2024-06-04T17:00:00Z"
+			"current": 62,
+			"next": "2024-06-11T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1727,8 +1726,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-06-11T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1908,8 +1910,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 32,
-			"next": "2024-06-04T17:00:00Z"
+			"current": 33,
+			"next": "2024-06-11T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2054,11 +2056,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2024-06-04T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2335,22 +2334,8 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			},
-			"availability": "repeatable"
+			}
 		},
-		"rotations": {
-			"anchor": "2023-10-17T17:00:00Z",
-			"challenges": [
-				3636591526,
-				2768385440,
-				732074628,
-				3523029182
-			],
-			"interval": "weekly",
-			"current": 32,
-			"next": "2024-06-04T17:00:00Z"
-		},
-		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2374,7 +2359,7 @@
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-06-04T17:00:00Z",
+		"endTime": "2024-06-11T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2382,116 +2367,17 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1579576831,
-		"displayProperties": {
-			"name": "Cirrus Plaza",
-			"description": "Neomuna, Neptune",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"1401300690": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"1973107014": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"2738601016": {},
-			"3019024381": {},
-			"3403647252": {},
-			"3658188704": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"4005780578": {},
-			"4248997900": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-06-04T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 2571435841,
-		"displayProperties": {
-			"name": "Aphelion's Rest",
-			"description": "Legend Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Stasis] Stasis\n\nShields: [Void] Void\n\nModifiers: Epitaph",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"5159537": {},
-					"176055472": {},
-					"867154247": {},
-					"2767393525": {},
-					"3678653083": {}
-				},
-				{
-					"222606050": {},
-					"358788212": {},
-					"1387420892": {},
-					"1456017061": {},
-					"2673925403": {}
-				},
-				{
-					"664109750": {},
-					"1106635211": {},
-					"2099894368": {},
-					"2850782006": {},
-					"3998080529": {}
-				},
-				{
-					"355382946": {},
-					"1331824604": {},
-					"1572351682": {},
-					"1606497639": {},
-					"3637669759": {}
-				}
-			],
-			"current": 187,
-			"next": "2024-06-03T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-06-03T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 808496216,
+		"hash": 376759502,
 		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
+			"description": "Eramis activated the Vex portal once built by Clovis Bray. The Exo Stranger asks for your help in stopping the Vex incursion to Europa.",
+			"name": "The Glassway",
 			"icon": "./image/png/activity/strike.png",
-			"hasIcon": true
+			"hasIcon": false
 		},
-		"dropTable": {
-			"2450917538": {}
-		},
-		"master": {
-			"activityHash": 2039642510,
-			"dropTable": {
-				"1891996599": {}
-			}
-		},
+		"dropTable": {},
 		"availability": "rotator",
-		"endTime": "2024-06-04T17:00:00Z",
+		"endTime": "2024-06-11T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",

@@ -1,5 +1,5 @@
-import type { DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from "bungie-api-ts/destiny2";
-import type { ActivityHashes, ActivityModifierHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
+import type { DestinyColor, DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from "bungie-api-ts/destiny2";
+import type { ActivityHashes, ActivityModifierHashes, CollectibleHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
 
 export declare type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
 
@@ -352,4 +352,14 @@ export declare type DeepsightCollectionsDefinitionManifest = Partial<Record<Mome
 export interface DeepsightAdeptDefinition {
 	hash: InventoryItemHashes;
 	base: InventoryItemHashes;
+}
+
+export interface DeepsightEmblemDefinition {
+	hash: InventoryItemHashes;
+	displayProperties: DestinyDisplayPropertiesDefinition;
+	secondaryIcon: string;
+	secondaryOverlay: string;
+	secondarySpecial: string;
+	backgroundColor: DestinyColor;
+	collectibleHash?: CollectibleHashes;
 }

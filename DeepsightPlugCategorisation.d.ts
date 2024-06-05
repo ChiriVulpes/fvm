@@ -15,6 +15,8 @@ export declare const enum DeepsightPlugCategory {
 	Unknown,
 	Extractable,
 	Infusion,
+	Destination,
+	Information,
 }
 
 export declare const enum DeepsightPlugTypeIntrinsic {
@@ -94,6 +96,8 @@ export declare const enum DeepsightPlugTypeSubclass {
 	MeleeEmpty,
 	ClassAbilityEmpty,
 	MovementEmpty,
+	PrismaticGrenade,
+	Transcendence,
 }
 
 export declare const enum DeepsightPlugTypeCosmetic {
@@ -164,6 +168,13 @@ export declare const enum DeepsightPlugTypeExtractable {
 	DeepsightActivation,
 }
 
+export declare const enum DeepsightPlugTypeDestination {
+	None,
+	TravelersBlessings,
+	TravelersBlessingsEfficiency,
+	TravelersBlessingsPlaystyle,
+}
+
 export declare type DeepsightPlugTypeMap = {
 	[DeepsightPlugCategory.None]: null,
 	[DeepsightPlugCategory.Classified]: null,
@@ -179,6 +190,8 @@ export declare type DeepsightPlugTypeMap = {
 	[DeepsightPlugCategory.StatusEffect]: null,
 	[DeepsightPlugCategory.Infusion]: null,
 	[DeepsightPlugCategory.Extractable]: typeof DeepsightPlugTypeExtractable,
+	[DeepsightPlugCategory.Destination]: typeof DeepsightPlugTypeDestination,
+	[DeepsightPlugCategory.Information]: null,
 };
 
 export declare type DeepsightPlugType<CATEGORY extends DeepsightPlugCategory = DeepsightPlugCategory> =
