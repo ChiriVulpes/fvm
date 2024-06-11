@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-06-18T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,8 +510,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-06-18T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -679,8 +684,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 34,
-			"next": "2024-06-11T17:00:00Z"
+			"current": 35,
+			"next": "2024-06-18T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -840,8 +845,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 35,
-			"next": "2024-06-11T17:00:00Z"
+			"current": 36,
+			"next": "2024-06-18T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -998,8 +1003,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-06-11T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1430,8 +1433,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 62,
-			"next": "2024-06-11T17:00:00Z"
+			"current": 63,
+			"next": "2024-06-18T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1726,11 +1729,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2024-06-11T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1910,8 +1910,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 33,
-			"next": "2024-06-11T17:00:00Z"
+			"current": 34,
+			"next": "2024-06-18T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2345,21 +2345,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-06-11T17:00:00Z",
+		"endTime": "2024-06-18T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2368,10 +2368,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 2310698352,
+		"hash": 2504276275,
 		"displayProperties": {
-			"name": "Veles Labyrinth",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Fire Pit",
+			"name": "Exodus Garden 2A",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2408,11 +2408,11 @@
 					"3637669759": {}
 				}
 			],
-			"current": 195,
-			"next": "2024-06-11T17:00:00Z"
+			"current": 196,
+			"next": "2024-06-12T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-06-11T17:00:00Z",
+		"endTime": "2024-06-12T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2421,18 +2421,18 @@
 		}
 	},
 	"nightfall": {
-		"hash": 376759502,
+		"hash": 896593727,
 		"displayProperties": {
-			"description": "Eramis activated the Vex portal once built by Clovis Bray. The Exo Stranger asks for your help in stopping the Vex incursion to Europa.",
-			"name": "The Glassway",
+			"description": "Help the Drifter restore order at the Prison of Elders.",
+			"name": "Warden of Nothing",
 			"icon": "./image/png/activity/strike.png",
-			"hasIcon": false
+			"hasIcon": true
 		},
 		"dropTable": {
-			"233423981": {}
+			"2932922810": {}
 		},
 		"availability": "rotator",
-		"endTime": "2024-06-11T17:00:00Z",
+		"endTime": "2024-06-18T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
