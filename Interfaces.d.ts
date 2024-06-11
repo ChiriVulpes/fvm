@@ -349,12 +349,12 @@ export declare interface DeepsightCollectionsDefinition {
 }
 export declare type DeepsightCollectionsDefinitionManifest = Partial<Record<MomentHashes, DeepsightCollectionsDefinition>>;
 
-export interface DeepsightAdeptDefinition {
+export declare interface DeepsightAdeptDefinition {
 	hash: InventoryItemHashes;
 	base: InventoryItemHashes;
 }
 
-export interface DeepsightEmblemDefinition {
+export declare interface DeepsightEmblemDefinition {
 	hash: InventoryItemHashes;
 	displayProperties: DestinyDisplayPropertiesDefinition;
 	secondaryIcon: string;
@@ -362,4 +362,17 @@ export interface DeepsightEmblemDefinition {
 	secondarySpecial: string;
 	backgroundColor: DestinyColor;
 	collectibleHash?: CollectibleHashes;
+}
+
+export declare interface DeepsightSocketExtendedDefinition {
+	hash: InventoryItemHashes;
+	sockets: Record<number, DeepsightSocketExtendedEntryDefinition>;
+}
+
+export declare interface DeepsightSocketExtendedEntryDefinition {
+	reusablePlugItems: DeepsightSocketExtendedPlugItemDefinition[];
+}
+
+export declare interface DeepsightSocketExtendedPlugItemDefinition {
+	plugItemHash: InventoryItemHashes;
 }
