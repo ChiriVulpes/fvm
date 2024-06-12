@@ -370,7 +370,7 @@ export declare interface DeepsightSocketExtendedDefinition {
 }
 
 export declare interface DeepsightSocketExtendedEntryDefinition {
-	reusablePlugItems: DeepsightSocketExtendedPlugItemDefinition[];
+	rewardPlugItems: DeepsightSocketExtendedPlugItemDefinition[];
 }
 
 export declare interface DeepsightSocketExtendedPlugItemDefinition {
