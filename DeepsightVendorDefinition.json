@@ -7690,102 +7690,14 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "An engram with complex markers.\n\nContains a random Legendary weapon or armor piece.",
-							"name": "Powerful Gear",
-							"icon": "/common/destiny2_content/icons/3f3dd2345e79f296bd06cc960642a1ba.png",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 39,
-						"itemHash": 1826190357,
-						"quantity": 1,
-						"failureIndexes": [
-							6
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 1,
-						"seedOverride": 0,
-						"categoryIndex": 34,
-						"originalCategoryIndex": 34,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 375726501,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
 							"description": "Required for purchasing Upgrade Modules and forging Masterwork gear. Chance to obtain from Legendary gear, some activities, and bounties, or purchasable from the Cryptarch in the Tower.",
 							"name": "Enhancement Core",
 							"icon": "/common/destiny2_content/icons/0a4eb695ed55b4e720ddc401460cc0f9.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 40,
+						"vendorItemIndex": 41,
 						"itemHash": 3853748946,
-						"quantity": 3,
+						"quantity": 2,
 						"failureIndexes": [
 							7
 						],
@@ -7866,23 +7778,14 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Required for forging Masterwork gear. Obtained from challenging activities or purchasable from the Cryptarch in the Tower.",
-							"name": "Enhancement Prism",
-							"icon": "/common/destiny2_content/icons/dea2a35badf7466d4c2c2697ce6e8d87.jpg",
-							"iconSequences": [
-								{
-									"frames": [
-										"/common/destiny2_content/icons/dea2a35badf7466d4c2c2697ce6e8d87.jpg",
-										"/common/destiny2_content/icons/8db228d141f151d08bd1e6793cf1222f.png",
-										"/common/destiny2_content/icons/e54ad6ba5b917394ead2092d9c424e5c.png"
-									]
-								}
-							],
+							"description": "A collection of universal components that can be used to infuse power between gear items. Can be purchased from the Gunsmith or acquired from special reward sources.",
+							"name": "Upgrade Module",
+							"icon": "/common/destiny2_content/icons/1796d5500378821f90d0883adf5dc167.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 42,
-						"itemHash": 4257549984,
-						"quantity": 1,
+						"vendorItemIndex": 43,
+						"itemHash": 2979281381,
+						"quantity": 3,
 						"failureIndexes": [
 							8
 						],
@@ -7968,9 +7871,9 @@
 							"icon": "/common/destiny2_content/icons/0a4eb695ed55b4e720ddc401460cc0f9.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 44,
+						"vendorItemIndex": 45,
 						"itemHash": 3853748946,
-						"quantity": 5,
+						"quantity": 4,
 						"failureIndexes": [
 							9
 						],
@@ -8065,9 +7968,9 @@
 							],
 							"hasIcon": true
 						},
-						"vendorItemIndex": 46,
+						"vendorItemIndex": 47,
 						"itemHash": 4257549984,
-						"quantity": 2,
+						"quantity": 1,
 						"failureIndexes": [
 							10
 						],
@@ -8162,7 +8065,7 @@
 							],
 							"hasIcon": true
 						},
-						"vendorItemIndex": 48,
+						"vendorItemIndex": 49,
 						"itemHash": 353704689,
 						"quantity": 1,
 						"failureIndexes": [
@@ -8245,27 +8148,17 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Reset Rank, allowing you to earn additional Rank rewards. \n\nYou will also receive an Ascendant Shard.",
+							"description": "Reset Rank, allowing you to earn additional Rank rewards.  \n\nYou will also receive an Exotic engram with a predestined outcome.\n\nEngram contains a new Exotic if any remain to be collected; otherwise contains a random Exotic armor item.",
 							"name": "Reset Rank",
-							"icon": "/common/destiny2_content/icons/0271d214fc3ec91b3def799a4b286b46.jpg",
-							"iconSequences": [
-								{
-									"frames": [
-										"/common/destiny2_content/icons/0271d214fc3ec91b3def799a4b286b46.jpg",
-										"/common/destiny2_content/icons/d6a190c8b2724a9b2e3d5b2d9e31a8f9.png",
-										"/common/destiny2_content/icons/618cf741ad121756c6361cfe71638c24.png"
-									]
-								}
-							],
+							"icon": "/common/destiny2_content/icons/3e6a698e1a8a5fb446fdcbf1e63c5269.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 50,
-						"itemHash": 2133694745,
+						"vendorItemIndex": 51,
+						"itemHash": 1514009869,
 						"quantity": 1,
 						"failureIndexes": [
 							12,
-							13,
-							14
+							13
 						],
 						"priceOverrideEnabled": false,
 						"currencies": [],
@@ -8290,7 +8183,7 @@
 							"isPositive": true
 						},
 						"displayCategory": "",
-						"inventoryBucketHash": 2422292810,
+						"inventoryBucketHash": 375726501,
 						"visibilityScope": 3,
 						"purchasableScope": 6,
 						"exclusivity": -1,
