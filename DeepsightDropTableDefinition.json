@@ -264,8 +264,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-06-25T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -681,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 36,
-			"next": "2024-06-25T17:00:00Z"
+			"current": 37,
+			"next": "2024-07-02T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -842,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 37,
-			"next": "2024-06-25T17:00:00Z"
+			"current": 38,
+			"next": "2024-07-02T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -997,8 +995,10 @@
 				"2001697739": {},
 				"3123651616": {},
 				"3951511045": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1584,8 +1584,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 64,
-			"next": "2024-06-25T17:00:00Z"
+			"current": 65,
+			"next": "2024-07-02T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1740,8 +1740,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-06-25T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2044,7 +2042,8 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2063,9 +2062,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 35,
-			"next": "2024-06-25T17:00:00Z"
+			"current": 36,
+			"next": "2024-07-02T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-07-02T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2356,6 +2357,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-07-02T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2497,109 +2500,48 @@
 			"hasIcon": true
 		}
 	},
-	"trials": {
-		"hash": 1960008274,
+	"exoticMission": {
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "Endless Vale",
-			"description": "Arcadian Valley, Nessus",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"297586990": {},
-			"627188188": {},
-			"806374817": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1711056134": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"3332125295": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
+			"2910326942": {}
+		},
+		"master": {
+			"activityHash": 3214480871,
+			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-06-25T17:00:00Z",
-		"type": "trials",
+		"endTime": "2024-07-02T17:00:00Z",
+		"type": "exotic-mission",
 		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 3995113176,
-		"displayProperties": {
-			"name": "The Blooming Deep",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Epitaph, Chaff",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"5159537": {},
-					"867154247": {},
-					"2767393525": {},
-					"3678653083": {}
-				},
-				{
-					"222606050": {},
-					"358788212": {},
-					"1456017061": {},
-					"2673925403": {}
-				},
-				{
-					"664109750": {},
-					"1106635211": {},
-					"2099894368": {},
-					"3998080529": {}
-				},
-				{
-					"355382946": {},
-					"1331824604": {},
-					"1606497639": {},
-					"3637669759": {}
-				}
-			],
-			"current": 209,
-			"next": "2024-06-25T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-06-25T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
 	"nightfall": {
-		"hash": 174131855,
+		"hash": 376759502,
 		"displayProperties": {
-			"description": "Defeat the shamed Hive Wizard Navôta in the Cosmodrome.",
-			"name": "The Disgraced",
+			"description": "Eramis activated the Vex portal once built by Clovis Bray. The Exo Stranger asks for your help in stopping the Vex incursion to Europa.",
+			"name": "The Glassway",
 			"icon": "./image/png/activity/strike.png",
-			"hasIcon": true
+			"hasIcon": false
 		},
 		"dropTable": {
-			"3686538757": {}
+			"2591257541": {}
+		},
+		"master": {
+			"activityHash": 3812135451,
+			"dropTable": {
+				"1492522228": {}
+			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-06-25T17:00:00Z",
+		"endTime": "2024-07-02T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",

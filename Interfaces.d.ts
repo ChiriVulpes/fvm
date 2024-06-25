@@ -118,11 +118,13 @@ export declare interface DeepsightDropTableDefinition {
 	 * If challenges or drops rotate, this field will be filled.
 	 */
 	rotations?: DeepsightDropTableRotationsDefinition;
-
 	/**
-	 * If this activity is only available for a certain period of time, this specifies whether it's available as a rotator or whether it's a repeatable activity (IE, the most recent ones)
+	 * If this activity is only available for a certain period of time, this specifies what it provides while available:
+	 * - "rotator" (ie, repeatable)
+	 * - "repeatable" (ie, the newest dungeon)
+	 * - "new" (ie, not repeatable, ie, the newest raid)
 	 */
-	availability?: "rotator" | "repeatable";
+	availability?: "rotator" | "repeatable" | "new";
 	/**
 	 * A datetime string in the ISO format, yyyy-mm-ddThh:mm:ssZ, representing the time when this activity will no longer be available
 	 */
@@ -178,9 +180,12 @@ export declare interface DeepsightDropTableMasterDefinition {
 	 */
 	dropTable?: Partial<Record<InventoryItemHashes, DeepsightDropTableDropDefinition>>;
 	/**
-	 * If this activity is only available for a certain period of time, this specifies whether it's available as a rotator or whether it's a repeatable activity (IE, the most recent ones)
+	 * If this activity is only available for a certain period of time, this specifies what it provides while available:
+	 * - "rotator" (ie, repeatable)
+	 * - "repeatable" (ie, the newest dungeon)
+	 * - "new" (ie, not repeatable, ie, the newest raid)
 	 */
-	availability?: "rotator" | "repeatable";
+	availability?: "rotator" | "repeatable" | "new";
 }
 
 export declare interface DeepsightDropTableDropDefinition {
