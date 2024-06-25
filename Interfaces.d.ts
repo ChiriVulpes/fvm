@@ -1,5 +1,5 @@
 import type { DestinyColor, DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from "bungie-api-ts/destiny2";
-import type { ActivityHashes, ActivityModifierHashes, CollectibleHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
+import type { ActivityHashes, ActivityModifierHashes, CollectibleHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, ObjectiveHashes, RecordHashes, SeasonHashes, VendorGroupHashes, VendorHashes } from "./Enums";
 
 export declare type ISOString = `${bigint}-${"0" | ""}${bigint}-${"0" | ""}${bigint}T${"0" | ""}${bigint}:${"0" | ""}${bigint}:${"0" | ""}${bigint}Z`;
 
@@ -375,4 +375,11 @@ export declare interface DeepsightSocketExtendedEntryDefinition {
 
 export declare interface DeepsightSocketExtendedPlugItemDefinition {
 	plugItemHash: InventoryItemHashes;
+}
+
+export declare interface DeepsightCatalystDefinition {
+	hash: InventoryItemHashes;
+	record: RecordHashes;
+	primaryObjectiveHashes: ObjectiveHashes[];
+	progressDescription: string;
 }
