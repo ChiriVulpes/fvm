@@ -667,7 +667,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +680,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 38,
-			"next": "2024-07-09T17:00:00Z"
+			"current": 39,
+			"next": "2024-07-16T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-07-16T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +832,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +843,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 39,
-			"next": "2024-07-09T17:00:00Z"
+			"current": 40,
+			"next": "2024-07-16T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-07-09T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -999,8 +999,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 1,
-			"next": "2024-07-09T17:00:00Z"
+			"current": 2,
+			"next": "2024-07-16T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1423,8 +1423,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-07-09T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1602,8 +1600,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 66,
-			"next": "2024-07-09T17:00:00Z"
+			"current": 67,
+			"next": "2024-07-16T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2079,8 +2077,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 37,
-			"next": "2024-07-09T17:00:00Z"
+			"current": 38,
+			"next": "2024-07-16T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2225,8 +2223,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203
+			"activityHash": 1112917203,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-07-16T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2514,21 +2515,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-07-09T17:00:00Z",
+		"endTime": "2024-07-16T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2537,10 +2538,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 3981864036,
+		"hash": 4044885806,
 		"displayProperties": {
-			"name": "Bunker E15",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Shocker",
+			"name": "Concealed Void",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Arach-NO!",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2571,11 +2572,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 223,
-			"next": "2024-07-09T17:00:00Z"
+			"current": 224,
+			"next": "2024-07-10T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-07-09T17:00:00Z",
+		"endTime": "2024-07-10T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2584,24 +2585,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 896593727,
+		"hash": 174131855,
 		"displayProperties": {
-			"description": "Help the Drifter restore order at the Prison of Elders.",
-			"name": "Warden of Nothing",
+			"description": "Defeat the shamed Hive Wizard Navôta in the Cosmodrome.",
+			"name": "The Disgraced",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2322926844": {}
+			"42874240": {}
 		},
 		"master": {
-			"activityHash": 4196944364,
+			"activityHash": 2136458560,
 			"dropTable": {
-				"1056103557": {}
+				"3610521673": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-07-09T17:00:00Z",
+		"endTime": "2024-07-16T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
