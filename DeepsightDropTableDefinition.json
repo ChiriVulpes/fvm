@@ -132,11 +132,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2024-07-23T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -682,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 40,
-			"next": "2024-07-23T17:00:00Z"
+			"current": 41,
+			"next": "2024-07-30T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -843,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 41,
-			"next": "2024-07-23T17:00:00Z"
+			"current": 42,
+			"next": "2024-07-30T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -999,8 +996,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 3,
-			"next": "2024-07-23T17:00:00Z"
+			"current": 4,
+			"next": "2024-07-30T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1589,8 +1586,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1601,11 +1597,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 68,
-			"next": "2024-07-23T17:00:00Z"
+			"current": 69,
+			"next": "2024-07-30T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-07-23T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1899,8 +1893,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-07-30T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2080,8 +2077,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 39,
-			"next": "2024-07-23T17:00:00Z"
+			"current": 40,
+			"next": "2024-07-30T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2504,8 +2501,10 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2515,21 +2514,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 509188661,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "//node.ovrd.AVALON//",
+			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"3118061005": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 3951571983,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-07-23T17:00:00Z",
+		"endTime": "2024-07-30T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2537,109 +2536,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 105227112,
-		"displayProperties": {
-			"name": "Altar of Flame",
-			"description": "Caloris Basin, Mercury",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"627188188": {},
-			"806374817": {},
-			"1292594730": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1711056134": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-07-23T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 584726931,
-		"displayProperties": {
-			"name": "Thrilladrome",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 237,
-			"next": "2024-07-23T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-07-23T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 3597990372,
+		"hash": 2924990176,
 		"displayProperties": {
-			"description": "Enter Rasputin's bunker in the Cosmodrome and discover the source of the security breach.",
-			"name": "Fallen S.A.B.E.R.",
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"1332123064": {}
+			"2889501828": {}
 		},
 		"master": {
-			"activityHash": 3293630132,
+			"activityHash": 2099835168,
 			"dropTable": {
-				"959037361": {}
+				"1354727549": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-07-23T17:00:00Z",
+		"endTime": "2024-07-30T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
