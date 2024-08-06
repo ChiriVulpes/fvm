@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-08-13T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,11 +510,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662,
-			"availability": "rotator"
+			"activityHash": 2296818662
 		},
-		"availability": "rotator",
-		"endTime": "2024-08-06T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -682,8 +681,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 42,
-			"next": "2024-08-06T17:00:00Z"
+			"current": 43,
+			"next": "2024-08-13T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -843,8 +842,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 43,
-			"next": "2024-08-06T17:00:00Z"
+			"current": 44,
+			"next": "2024-08-13T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -999,8 +998,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 5,
-			"next": "2024-08-06T17:00:00Z"
+			"current": 6,
+			"next": "2024-08-13T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1170,8 +1169,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-08-06T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1602,8 +1599,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 70,
-			"next": "2024-08-06T17:00:00Z"
+			"current": 71,
+			"next": "2024-08-13T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1758,6 +1755,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-08-13T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2079,8 +2078,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 41,
-			"next": "2024-08-06T17:00:00Z"
+			"current": 42,
+			"next": "2024-08-13T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2514,21 +2513,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 196691221,
+		"hash": 3883295757,
 		"displayProperties": {
-			"name": "Starcrossed",
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2910326942": {}
+			"2188764214": {}
 		},
 		"master": {
-			"activityHash": 3214480871,
+			"activityHash": 4201846671,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-06T17:00:00Z",
+		"endTime": "2024-08-13T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2536,109 +2535,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 176316743,
-		"displayProperties": {
-			"name": "Javelin-4",
-			"description": "Warsat Launch Facility, Io",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"627188188": {},
-			"806374817": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1711056134": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"2839600459": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-08-06T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 2504276275,
-		"displayProperties": {
-			"name": "Exodus Garden 2A",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 251,
-			"next": "2024-08-06T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-08-06T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 1236031537,
+		"hash": 3597990372,
 		"displayProperties": {
-			"description": "Purge the Vex and Fallen, who have overrun the Exodus Black crash site.",
-			"name": "Exodus Crash",
+			"description": "Enter Rasputin's bunker in the Cosmodrome and discover the source of the security breach.",
+			"name": "Fallen S.A.B.E.R.",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"233423981": {}
+			"2932922810": {}
 		},
 		"master": {
-			"activityHash": 2823591786,
+			"activityHash": 3293630132,
 			"dropTable": {
-				"3250744600": {}
+				"2063217087": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-06T17:00:00Z",
+		"endTime": "2024-08-13T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
