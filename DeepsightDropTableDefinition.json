@@ -264,6 +264,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-08-20T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -377,8 +379,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-08-13T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -681,8 +681,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 43,
-			"next": "2024-08-13T17:00:00Z"
+			"current": 44,
+			"next": "2024-08-20T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -842,8 +842,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 44,
-			"next": "2024-08-13T17:00:00Z"
+			"current": 45,
+			"next": "2024-08-20T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -998,8 +998,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 6,
-			"next": "2024-08-13T17:00:00Z"
+			"current": 7,
+			"next": "2024-08-20T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1422,6 +1422,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-08-20T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1599,8 +1601,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 71,
-			"next": "2024-08-13T17:00:00Z"
+			"current": 72,
+			"next": "2024-08-20T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1755,8 +1757,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-08-13T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2078,8 +2078,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 42,
-			"next": "2024-08-13T17:00:00Z"
+			"current": 43,
+			"next": "2024-08-20T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2513,21 +2513,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-13T17:00:00Z",
+		"endTime": "2024-08-20T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2535,48 +2535,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 2795317697,
-		"displayProperties": {
-			"name": "Distant Shore",
-			"description": "Arcadian Strand, Nessus",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"627188188": {},
-			"806374817": {},
-			"1321626661": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1711056134": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-08-13T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 4269987985,
+		"hash": 584726931,
 		"displayProperties": {
-			"name": "The Conflux",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
+			"name": "Thrilladrome",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2607,11 +2570,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 258,
-			"next": "2024-08-13T17:00:00Z"
+			"current": 259,
+			"next": "2024-08-14T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-13T17:00:00Z",
+		"endTime": "2024-08-14T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2620,24 +2583,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 3597990372,
+		"hash": 2924990176,
 		"displayProperties": {
-			"description": "Enter Rasputin's bunker in the Cosmodrome and discover the source of the security breach.",
-			"name": "Fallen S.A.B.E.R.",
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2932922810": {}
+			"3686538757": {}
 		},
 		"master": {
-			"activityHash": 3293630132,
+			"activityHash": 2099835168,
 			"dropTable": {
-				"2063217087": {}
+				"817909300": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-13T17:00:00Z",
+		"endTime": "2024-08-20T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
