@@ -264,8 +264,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-08-20T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -681,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 44,
-			"next": "2024-08-20T17:00:00Z"
+			"current": 45,
+			"next": "2024-08-27T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -842,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 45,
-			"next": "2024-08-20T17:00:00Z"
+			"current": 46,
+			"next": "2024-08-27T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -998,8 +996,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 7,
-			"next": "2024-08-20T17:00:00Z"
+			"current": 8,
+			"next": "2024-08-27T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1422,8 +1420,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-08-20T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1601,8 +1597,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 72,
-			"next": "2024-08-20T17:00:00Z"
+			"current": 73,
+			"next": "2024-08-27T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2059,7 +2055,8 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2078,9 +2075,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 43,
-			"next": "2024-08-20T17:00:00Z"
+			"current": 44,
+			"next": "2024-08-27T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-08-27T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2371,6 +2370,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-08-27T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2513,21 +2514,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-20T17:00:00Z",
+		"endTime": "2024-08-27T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2535,109 +2536,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 185468233,
-		"displayProperties": {
-			"name": "Dissonance",
-			"description": "Essence, Earth Orbit",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"627188188": {},
-			"806374817": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1711056134": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"3332125295": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-08-20T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 699527783,
-		"displayProperties": {
-			"name": "The Forgotten Deep",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc\n\nModifiers: Firepit, Chaff",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 265,
-			"next": "2024-08-20T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-08-20T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 2924990176,
+		"hash": 1236031537,
 		"displayProperties": {
-			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
-			"name": "Liminality",
+			"description": "Purge the Vex and Fallen, who have overrun the Exodus Black crash site.",
+			"name": "Exodus Crash",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"3686538757": {}
+			"2591257541": {}
 		},
 		"master": {
-			"activityHash": 2099835168,
+			"activityHash": 2823591786,
 			"dropTable": {
-				"817909300": {}
+				"1492522228": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-08-20T17:00:00Z",
+		"endTime": "2024-08-27T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
