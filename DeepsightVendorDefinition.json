@@ -5117,7 +5117,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"costs": [
 							{
 								"itemHash": 3159615086,
@@ -5265,7 +5265,110 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Get Super kills in the EDZ.",
+							"name": "Super Destructive",
+							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 35,
+						"itemHash": 685751430,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 5,
+						"seedOverride": 0,
+						"categoryIndex": 10,
+						"originalCategoryIndex": 10,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -5368,7 +5471,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -5422,13 +5525,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Create Orbs of Power in the EDZ.",
-							"name": "Generator",
+							"description": "Defeat Fallen in the EDZ.",
+							"name": "Exterminator",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 38,
-						"itemHash": 1202425489,
+						"vendorItemIndex": 40,
+						"itemHash": 3954920295,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -5471,110 +5574,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Get Sniper Rifle kills in the EDZ.",
-							"name": "Marc's Man",
-							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 43,
-						"itemHash": 2500308040,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 5,
-						"seedOverride": 0,
-						"categoryIndex": 10,
-						"originalCategoryIndex": 10,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -8445,13 +8445,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Calibrate Sniper Rifles against any target. Earn bonus progress with precision and against opposing Guardians.",
-							"name": "Sniper Rifle Calibration",
+							"description": "Calibrate Fusion Rifles against any target. Opposing Guardians and rapidly defeated targets grant the most efficient progress.",
+							"name": "Fusion Rifle Calibration",
 							"icon": "/common/destiny2_content/icons/d7515897c31ba1bfc5fa699054bafaf4.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 63,
-						"itemHash": 1405646104,
+						"vendorItemIndex": 61,
+						"itemHash": 1008565805,
 						"quantity": 1,
 						"failureIndexes": [
 							15
@@ -8649,13 +8649,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Calibrate Kinetic weapons against any target. Earn bonus progress with precision and against opposing Guardians.",
-							"name": "Kinetic Calibration",
+							"description": "Calibrate Arc weapons against any target. Earn bonus progress using Power weapons and against opposing Guardians.",
+							"name": "Arc Calibration",
 							"icon": "/common/destiny2_content/icons/d7515897c31ba1bfc5fa699054bafaf4.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 72,
-						"itemHash": 1869653095,
+						"vendorItemIndex": 71,
+						"itemHash": 1759191326,
 						"quantity": 1,
 						"failureIndexes": [
 							15
@@ -8691,7 +8691,7 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
@@ -9070,12 +9070,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Scathelocke",
-							"icon": "/common/destiny2_content/icons/7c6941e445fa980991ab3c05d5dd2b7f.jpg",
+							"name": "Chrysura Melo",
+							"icon": "/common/destiny2_content/icons/52f79ce87b2041391ea2e33af8ee0906.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 30,
-						"itemHash": 602618796,
+						"vendorItemIndex": 29,
+						"itemHash": 1337707096,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -9114,7 +9114,7 @@
 							"isPositive": true
 						},
 						"displayCategory": "Featured",
-						"inventoryBucketHash": 1498876634,
+						"inventoryBucketHash": 2465295065,
 						"visibilityScope": 0,
 						"purchasableScope": 0,
 						"exclusivity": -1,
@@ -9180,12 +9180,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Nature of the Beast",
-							"icon": "/common/destiny2_content/icons/b1eb3c2695e3dfc07f224bc3de468cc7.jpg",
+							"name": "Dire Promise",
+							"icon": "/common/destiny2_content/icons/705612129fc13e9f6815b1e9cc635345.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 33,
-						"itemHash": 1835747805,
+						"vendorItemIndex": 31,
+						"itemHash": 2742838701,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -9224,7 +9224,7 @@
 							"isPositive": true
 						},
 						"displayCategory": "Featured",
-						"inventoryBucketHash": 2465295065,
+						"inventoryBucketHash": 1498876634,
 						"visibilityScope": 0,
 						"purchasableScope": 0,
 						"exclusivity": -1,
@@ -9400,12 +9400,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Shepherd's Watch",
-							"icon": "/common/destiny2_content/icons/33f1ad0d62716355acf8e0ac9ae151f1.jpg",
+							"name": "Sole Survivor",
+							"icon": "/common/destiny2_content/icons/5c0add624d949376e044cf6b70ef213b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 19,
-						"itemHash": 3743729616,
+						"vendorItemIndex": 20,
+						"itemHash": 1150492185,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -9444,7 +9444,7 @@
 							"isPositive": true
 						},
 						"displayCategory": "Featured",
-						"inventoryBucketHash": 1498876634,
+						"inventoryBucketHash": 2465295065,
 						"visibilityScope": 0,
 						"purchasableScope": 0,
 						"exclusivity": -1,
@@ -9510,12 +9510,12 @@
 					{
 						"displayProperties": {
 							"description": "",
-							"name": "Falling Guillotine",
-							"icon": "/common/destiny2_content/icons/84d0e560209551999cdde82172dfc619.jpg",
+							"name": "Honor's Edge",
+							"icon": "/common/destiny2_content/icons/16c176622dfa89b9e79c068dedf4d53c.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 23,
-						"itemHash": 614426548,
+						"vendorItemIndex": 21,
+						"itemHash": 2857348871,
 						"quantity": 1,
 						"failureIndexes": [],
 						"priceOverrideEnabled": false,
@@ -9686,7 +9686,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"costs": [
 							{
 								"itemHash": 3159615086,
@@ -10597,6 +10597,1057 @@
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
 						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 2,
+				"identifier": "display_category_trials_mechanics_name",
+				"displayCategoryHash": 890336766,
+				"displayProperties": {
+					"description": "",
+					"name": "Passages",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "Grants access to this week's Trials of Osiris tournament. Teams of three compete and earn reputation based on the number of rounds won on the passage. \n\nEach victory at seven match wins grants significantly improved rewards.\n\nEach match completed with a full fireteam grants a bonus chance for additional rewards.",
+							"name": "Passage of Persistence",
+							"icon": "/common/destiny2_content/icons/e5ec345631ca88a62ce5d62cded47049.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1,
+						"itemHash": 2001563200,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 1500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 2,
+						"seedOverride": 0,
+						"categoryIndex": 3,
+						"originalCategoryIndex": 3,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 3,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 1500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Grants access to this week's Trials of Osiris tournament. Teams of three compete and earn reputation based on the number of rounds won on the passage. \n\nEach victory at seven match wins grants significantly improved rewards.\n\nEach match completed with a full fireteam grants a bonus chance for additional rewards.",
+							"name": "Passage of Ferocity",
+							"icon": "/common/destiny2_content/icons/e80ca1903814dfbcd2dae45ad54edb7c.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 3,
+						"itemHash": 7665310,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 1500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 2,
+						"seedOverride": 0,
+						"categoryIndex": 3,
+						"originalCategoryIndex": 3,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 3,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 1500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Grants access to this week's Trials of Osiris tournament. Teams of three compete and earn reputation based on the number of rounds won on the passage. \n\nEach victory at seven match wins grants significantly improved rewards.\n\nEach match completed with a full fireteam grants a bonus chance for additional rewards.",
+							"name": "Passage of Mercy",
+							"icon": "/common/destiny2_content/icons/b95d25bda97119e53682c9da6e9316c4.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 5,
+						"itemHash": 1600065451,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 1500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 2,
+						"seedOverride": 0,
+						"categoryIndex": 3,
+						"originalCategoryIndex": 3,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 3,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 1500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Grants access to this week's Trials of Osiris tournament. Teams of three compete and earn reputation based on the number of rounds won on the passage. \n\nEach victory at seven match wins grants significantly improved rewards.\n\nEach match completed with a full fireteam grants a bonus chance for additional rewards.",
+							"name": "Passage of Wealth",
+							"icon": "/common/destiny2_content/icons/ab060a6aefcbee1a7200050afea4a5c6.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 7,
+						"itemHash": 2879309661,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1,
+							2,
+							3
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 2500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 2,
+						"seedOverride": 0,
+						"categoryIndex": 3,
+						"originalCategoryIndex": 3,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 3,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 2500,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Grants access to this week's Trials of Osiris tournament. Teams of three compete and earn reputation based on the number of rounds won on the passage. \n\nEach victory at seven match wins grants significantly improved rewards.\n\nEach match completed with a full fireteam grants a bonus chance for additional rewards.",
+							"name": "Passage of Confidence",
+							"icon": "/common/destiny2_content/icons/1e9e962d7c01ad1f940d526b4d7412d4.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 9,
+						"itemHash": 1181381245,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1,
+							4
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 5000,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 2,
+						"seedOverride": 0,
+						"categoryIndex": 3,
+						"originalCategoryIndex": 3,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 3,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 5000,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 6,
+				"identifier": "category_bounties",
+				"displayCategoryHash": 1780344149,
+				"displayProperties": {
+					"description": "",
+					"name": "Bounties",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "As a fireteam, defeat opponents using grenade final blows in Trials of Osiris.",
+							"name": "Orbs of Lit",
+							"icon": "/common/destiny2_content/icons/379b3a081389aadca0a28cb5b9a7ba79.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 44,
+						"itemHash": 3647168216,
+						"quantity": 1,
+						"failureIndexes": [
+							17
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 6,
+						"originalCategoryIndex": 6,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "As a fireteam, defeat opponents using Auto Rifle final blows in Trials of Osiris.",
+							"name": "Auto Fire Brigade",
+							"icon": "/common/destiny2_content/icons/379b3a081389aadca0a28cb5b9a7ba79.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 47,
+						"itemHash": 2849007504,
+						"quantity": 1,
+						"failureIndexes": [
+							17
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 7,
+						"originalCategoryIndex": 7,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "As a fireteam, defeat opponents using Grenade Launcher final blows in Trials of Osiris.",
+							"name": "Light up the House",
+							"icon": "/common/destiny2_content/icons/379b3a081389aadca0a28cb5b9a7ba79.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 53,
+						"itemHash": 4126111451,
+						"quantity": 1,
+						"failureIndexes": [
+							17
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 8,
+						"originalCategoryIndex": 8,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "As a fireteam, defeat opponents with Void weapon final blows in Trials of Osiris.",
+							"name": "Voidswept Precipice",
+							"icon": "/common/destiny2_content/icons/379b3a081389aadca0a28cb5b9a7ba79.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 57,
+						"itemHash": 1244906310,
+						"quantity": 1,
+						"failureIndexes": [
+							17
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 9,
+						"originalCategoryIndex": 9,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Obtain an additional random Trials Bounty.",
+							"name": "Additional Bounties",
+							"icon": "/common/destiny2_content/icons/84ece74ac454f57d1f42bc480e6d271a.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 11,
+						"itemHash": 4012365506,
+						"quantity": 1,
+						"failureIndexes": [
+							5
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 3000,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 6,
+						"seedOverride": 0,
+						"categoryIndex": 10,
+						"originalCategoryIndex": 10,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 3000,
+								"hasConditionalVisibility": false
+							}
+						],
 						"itemComponent": {
 							"instances": {
 								"data": {},
@@ -13341,13 +14392,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Terminal Overload, rapidly defeat combatants in groups of 2 or more.",
-							"name": "Top Speed Stunts",
+							"description": "Complete waves in Terminal Overload.",
+							"name": "Hacker's Paradise",
 							"icon": "/common/destiny2_content/icons/8825fc274662c2f058174ee85e1eb507.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 82,
-						"itemHash": 1403685364,
+						"vendorItemIndex": 81,
+						"itemHash": 1403685365,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -13392,7 +14443,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -13446,13 +14497,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Neomuna, defeat combatants with Solar final blows. Vex combatants grant additional progress.",
-							"name": "Cybernetic Meltdown",
+							"description": "In Neomuna, defeat combatants affected by Stasis. Vex combatants grant additional progress.",
+							"name": "Cryogenic Hardening",
 							"icon": "/common/destiny2_content/icons/d42e6ab4c9ca22b6a8b63ad7181e049f.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 59,
-						"itemHash": 901575791,
+						"vendorItemIndex": 62,
+						"itemHash": 4269063331,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -13497,7 +14548,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -13551,13 +14602,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Neomuna, defeat combatants with Void damage. Vex combatants grant additional progress.",
-							"name": "Vexing Void",
+							"description": "In Neomuna, defeat combatants with finishers. Powerful combatants grant additional progress.",
+							"name": "Finish Majeure",
 							"icon": "/common/destiny2_content/icons/d42e6ab4c9ca22b6a8b63ad7181e049f.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 61,
-						"itemHash": 4269063330,
+						"vendorItemIndex": 63,
+						"itemHash": 4269063328,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -13602,7 +14653,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -13656,13 +14707,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Neomuna, rapidly defeat combatants in groups of 2 or more with Auto Rifles, Submachine Guns, Pulse Rifles, or Machine Guns.",
-							"name": "Party Time",
+							"description": "In a single life, defeat combatants in Neomuna using Sidearms, Submachine Guns, Shotguns, or Swords.",
+							"name": "Flawless Dance",
 							"icon": "/common/destiny2_content/icons/d42e6ab4c9ca22b6a8b63ad7181e049f.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 73,
-						"itemHash": 3846956462,
+						"vendorItemIndex": 65,
+						"itemHash": 3846956454,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -13707,7 +14758,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -13906,6 +14957,109 @@
 				"items": [
 					{
 						"displayProperties": {
+							"description": "Defeat enemies on Nessus.",
+							"name": "Power Fantasy",
+							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 33,
+						"itemHash": 3958224565,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 10,
+						"originalCategoryIndex": 10,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
 							"description": "Get Super kills on Nessus.",
 							"name": "Super Powerful",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
@@ -13955,7 +15109,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14058,7 +15212,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14112,13 +15266,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Cabal on Nessus.",
-							"name": "Cabal or Nothing",
+							"description": "Complete public events on Nessus. Heroic public events contribute the most progress.",
+							"name": "Public Performance",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 41,
-						"itemHash": 1329813266,
+						"vendorItemIndex": 44,
+						"itemHash": 1041451527,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -14161,110 +15315,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Get sniper kills on Nessus.",
-							"name": "Shot Through the Heart",
-							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 43,
-						"itemHash": 2587962933,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 4,
-						"seedOverride": 0,
-						"categoryIndex": 10,
-						"originalCategoryIndex": 10,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -16736,13 +17787,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Gather Helium Filaments from resource nodes across the Moon.",
-							"name": "Filamentary, My Dear Ghost",
+							"description": "Collect Phantasmal Fragments by defeating Nightmares.\n\nNightmares can be found in Sorrow's Harbor and Lost Sectors.",
+							"name": "I Said What I Fragment",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 41,
-						"itemHash": 3540140711,
+						"vendorItemIndex": 43,
+						"itemHash": 3540140705,
 						"quantity": 1,
 						"failureIndexes": [
 							5,
@@ -16786,7 +17837,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -16840,13 +17891,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Use finishers to defeat Hive on the Moon.",
-							"name": "Ritualistic Finish",
+							"description": "Defeat Hive in Hellmouth on the Moon.",
+							"name": "From Whence They Came",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 57,
-						"itemHash": 3597986950,
+						"vendorItemIndex": 55,
+						"itemHash": 3597986944,
 						"quantity": 1,
 						"failureIndexes": [
 							5,
@@ -16890,7 +17941,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -16994,7 +18045,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17048,13 +18099,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Using any Power weapon, defeat combatants in streaks of 3 or more without taking damage in between.",
-							"name": "Unscathed Deathdealer",
+							"description": "Using a Hand Cannon, rapidly defeat combatants in groups of 2 or more.",
+							"name": "Double Draw",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 48,
-						"itemHash": 709535751,
+						"vendorItemIndex": 49,
+						"itemHash": 709535750,
 						"quantity": 1,
 						"failureIndexes": [
 							5,
@@ -17098,7 +18149,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17554,7 +18605,111 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Defeat combatants within the Cosmodrome with precision damage.",
+							"name": "Target Practice",
+							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 35,
+						"itemHash": 1961641735,
+						"quantity": 1,
+						"failureIndexes": [
+							3,
+							4
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 10,
+						"seedOverride": 0,
+						"categoryIndex": 16,
+						"originalCategoryIndex": 16,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 4,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17658,7 +18813,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17762,7 +18917,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17866,111 +19021,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Defeat combatants in the Cosmodrome using any Power weapon.",
-							"name": "Leave Nothing Behind",
-							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 40,
-						"itemHash": 1961641740,
-						"quantity": 1,
-						"failureIndexes": [
-							3,
-							4
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 10,
-						"seedOverride": 0,
-						"categoryIndex": 16,
-						"originalCategoryIndex": 16,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 4,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18074,7 +19125,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18178,7 +19229,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18895,13 +19946,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "\"The Scorn seek revenge for the death of the Fanatic. They will never willingly leave the Dreaming City.\" —Petra Venj",
-							"name": "Scourge of the Scorn",
+							"description": "\"We don't have the resources to repair the Well if it fails. We must defend it.\" —Petra Venj",
+							"name": "Defender of the Well",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 28,
-						"itemHash": 3531980021,
+						"vendorItemIndex": 26,
+						"itemHash": 2173508794,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -18997,13 +20048,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Explore the Bay of Drowned Wishes in the Dreaming City.",
-							"name": "Lost in the Mists",
+							"description": "Explore the Chamber of Starlight in the Dreaming City.",
+							"name": "Lost in Rheasilvia",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 29,
-						"itemHash": 1225647738,
+						"vendorItemIndex": 30,
+						"itemHash": 973983247,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -19099,13 +20150,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "\"Our enemies are drawn to the Blind Well like moths to a flame…\" —Techeun Sedia",
-							"name": "Challenge: Plaguebreaker",
+							"description": "\"Ah, I've seen how you Guardians fight. Put your back into it!\" —Paladin Kamala Rior",
+							"name": "Challenge: Heroic Public Events",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 37,
-						"itemHash": 1912981534,
+						"vendorItemIndex": 33,
+						"itemHash": 2662637005,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -19877,6 +20928,1974 @@
 								"hasConditionalVisibility": false
 							}
 						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+	"2190858386": {
+		"hash": 2190858386,
+		"displayProperties": {
+			"largeIcon": "/common/destiny2_content/icons/801c07dc080b79c7da99ac4f59db1f66.jpg",
+			"subtitle": "The Nine",
+			"originalIcon": "/common/destiny2_content/icons/17f662752d015d6e20e24a4ae474628e.png",
+			"requirementsDisplay": [],
+			"smallTransparentIcon": "/common/destiny2_content/icons/a4ff1e19f70525c85ae95b503207968b.png",
+			"mapIcon": "/common/destiny2_content/icons/0c4e426abcae67819183ec3ce6d2a68c.png",
+			"largeTransparentIcon": "/common/destiny2_content/icons/0c0cd6020d1d5ba31fa9044de5471db2.png",
+			"description": "A peddler of strange curios, Xûr's motives are not his own. He bows to his distant masters, the Nine.",
+			"name": "Xûr",
+			"icon": "/common/destiny2_content/icons/9c2eda96877ed53dceb90568ebb27f11.png",
+			"hasIcon": true
+		},
+		"background": "./image/png/vendor/background/xurtower.png",
+		"location": {
+			"destinationHash": 1737926756,
+			"backgroundImagePath": "/img/destiny_content/factions/vendors/tower_xur.jpg"
+		},
+		"moment": 23,
+		"groups": [
+			679769104,
+			3227191227
+		],
+		"categories": [
+			{
+				"index": 4,
+				"identifier": "category.rank_rewards_seasonal",
+				"displayCategoryHash": 1421533553,
+				"displayProperties": {
+					"description": "",
+					"name": "Rank Rewards",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"progressionHash": 3725990721,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "An engram with complex markers.\n\nContains a random weapon or armor piece from Xûr.",
+							"name": "Strange Engram",
+							"icon": "/common/destiny2_content/icons/1563b4c3cf617ac6011581c1c4b5f162.png",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 156,
+						"itemHash": 3690672970,
+						"quantity": 1,
+						"failureIndexes": [
+							9
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 10,
+						"originalCategoryIndex": 10,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 375726501,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Required for purchasing Upgrade Modules and forging Masterwork gear. Chance to obtain from Legendary gear, some activities, and bounties, or purchasable from the Cryptarch in the Tower.",
+							"name": "Enhancement Core",
+							"icon": "/common/destiny2_content/icons/0a4eb695ed55b4e720ddc401460cc0f9.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 157,
+						"itemHash": 3853748946,
+						"quantity": 7,
+						"failureIndexes": [
+							10
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 11,
+						"originalCategoryIndex": 11,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1469714392,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Required for forging Masterwork gear. Obtained from challenging activities or purchasable from the Cryptarch in the Tower.",
+							"name": "Enhancement Prism",
+							"icon": "/common/destiny2_content/icons/dea2a35badf7466d4c2c2697ce6e8d87.jpg",
+							"iconSequences": [
+								{
+									"frames": [
+										"/common/destiny2_content/icons/dea2a35badf7466d4c2c2697ce6e8d87.jpg",
+										"/common/destiny2_content/icons/8db228d141f151d08bd1e6793cf1222f.png",
+										"/common/destiny2_content/icons/e54ad6ba5b917394ead2092d9c424e5c.png"
+									]
+								}
+							],
+							"hasIcon": true
+						},
+						"vendorItemIndex": 158,
+						"itemHash": 4257549984,
+						"quantity": 3,
+						"failureIndexes": [
+							11
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 12,
+						"originalCategoryIndex": 12,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1469714392,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "An engram with a predestined outcome.\n\nContains a new Exotic if any of the possible rewards remain to be collected.",
+							"name": "Exotic Engram",
+							"icon": "/common/destiny2_content/icons/3e6a698e1a8a5fb446fdcbf1e63c5269.png",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 159,
+						"itemHash": 903043774,
+						"quantity": 2,
+						"failureIndexes": [
+							12
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 13,
+						"originalCategoryIndex": 13,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 375726501,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Required for forging Masterwork gear. Obtained from challenging activities or purchasable from the Cryptarch in the Tower.",
+							"name": "Ascendant Shard",
+							"icon": "/common/destiny2_content/icons/0271d214fc3ec91b3def799a4b286b46.jpg",
+							"iconSequences": [
+								{
+									"frames": [
+										"/common/destiny2_content/icons/0271d214fc3ec91b3def799a4b286b46.jpg",
+										"/common/destiny2_content/icons/d6a190c8b2724a9b2e3d5b2d9e31a8f9.png",
+										"/common/destiny2_content/icons/618cf741ad121756c6361cfe71638c24.png"
+									]
+								}
+							],
+							"hasIcon": true
+						},
+						"vendorItemIndex": 160,
+						"itemHash": 4257549985,
+						"quantity": 1,
+						"failureIndexes": [
+							13
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 14,
+						"originalCategoryIndex": 14,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1469714392,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Used in weapon shaping to enhance traits.\n\nCan be obtained from weekly campaign missions in the Throne World and The Witch Queen Offensives. Also can be purchased from the Cryptarch or Banshee-44 in the Tower.",
+							"name": "Ascendant Alloy",
+							"icon": "/common/destiny2_content/icons/b4d6dbc8eda17711bfb8fedb6e48cc80.jpg",
+							"iconSequences": [
+								{
+									"frames": [
+										"/common/destiny2_content/icons/b4d6dbc8eda17711bfb8fedb6e48cc80.jpg",
+										"/common/destiny2_content/icons/5a77d672805b5fea7a248033ad346bb9.png",
+										"/common/destiny2_content/icons/e316793306e13014f5c1c043047ce34e.png"
+									]
+								}
+							],
+							"hasIcon": true
+						},
+						"vendorItemIndex": 161,
+						"itemHash": 353704689,
+						"quantity": 1,
+						"failureIndexes": [
+							14
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 15,
+						"originalCategoryIndex": 15,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1469714392,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "If not claimed, this item will expire at the end of the current Episode.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Reset Rank, allowing you to earn additional Rank rewards. \n\nYou will also receive an Exotic Cipher and unlock access to Tier 3 Exotic focusing.",
+							"name": "Reset Rank",
+							"icon": "/common/destiny2_content/icons/9970631fe1052642c268132dfc30e16b.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 167,
+						"itemHash": 309248508,
+						"quantity": 1,
+						"failureIndexes": [
+							15,
+							16,
+							17
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 16,
+						"originalCategoryIndex": 16,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 4,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 2422292810,
+						"visibilityScope": 3,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 0,
+				"identifier": "category_xur_offers_peculiar",
+				"displayCategoryHash": 1879528777,
+				"displayProperties": {
+					"description": "",
+					"name": "Multivarious Strange Offers",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "When upgraded to a Masterwork, this weapon will obtain enhanced capabilities, such as increased stats and/or additional perks.",
+							"name": "Huckleberry Catalyst",
+							"icon": "/common/destiny2_content/icons/28355e0adda864289165854e376f86ee.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 24,
+						"itemHash": 3459475454,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1,
+							0
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 71,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 0,
+						"originalCategoryIndex": 0,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 2422292810,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 71,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Upgrades this weapon to a Masterwork. Once upgraded, the weapon will obtain enhanced capabilities, such as increased stats and/or additional perks.\n\nDefeat targets using this weapon to unlock this upgrade.",
+							"name": "Trinity Ghoul Catalyst",
+							"icon": "/common/destiny2_content/icons/b2b684b8ef316b5b16df9a2a0b3b7c66.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 29,
+						"itemHash": 3457865914,
+						"quantity": 1,
+						"failureIndexes": [
+							0,
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 71,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 0,
+						"originalCategoryIndex": 0,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 2422292810,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 71,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "",
+							"name": "Celestial Nighthawk",
+							"icon": "/common/destiny2_content/icons/a7c3ee955c5e8b1c20122206d1bf60ff.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 67,
+						"itemHash": 1321354573,
+						"quantity": 1,
+						"failureIndexes": [
+							3
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 1,
+						"originalCategoryIndex": 1,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 3448274439,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 1119034468
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 1119034469
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 3833399976
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 3833399977
+							}
+						],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "",
+							"name": "Severance Enclosure",
+							"icon": "/common/destiny2_content/icons/f2b177993acfba4c42ff771ad6801c90.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 101,
+						"itemHash": 2326396534,
+						"quantity": 1,
+						"failureIndexes": [
+							2,
+							3
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 2,
+						"originalCategoryIndex": 2,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 14239492,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 1119034468
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 1119034469
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 3833399976
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 3833399977
+							}
+						],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "",
+							"name": "Crown of Tempests",
+							"icon": "/common/destiny2_content/icons/1e807547133b3d2e1ea680858cf09176.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 107,
+						"itemHash": 3381022969,
+						"quantity": 1,
+						"failureIndexes": [
+							3
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 3,
+						"originalCategoryIndex": 3,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 3448274439,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 1119034468
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 1119034469
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 3833399976
+							},
+							{
+								"randomizedOptionsCount": 0,
+								"socketTypeHash": 3833399977
+							}
+						],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "This item comes with randomized perks.",
+							"name": "Relativism",
+							"icon": "/common/destiny2_content/icons/58ae63b773059e5bd7a4d43298f73a50.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 131,
+						"itemHash": 1540068657,
+						"quantity": 1,
+						"failureIndexes": [
+							5,
+							6
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 4,
+						"originalCategoryIndex": 4,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 3621873013,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "This item comes with randomized perks.",
+							"name": "Stoicism",
+							"icon": "/common/destiny2_content/icons/9db95c112130c018f823f394668cfb5a.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 132,
+						"itemHash": 3076343411,
+						"quantity": 1,
+						"failureIndexes": [
+							5,
+							6
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 4,
+						"originalCategoryIndex": 4,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 3621873013,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "This item comes with randomized perks.",
+							"name": "Solipsism",
+							"icon": "/common/destiny2_content/icons/7b57cd041db1987c3f566b96535daf9f.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 133,
+						"itemHash": 2705455302,
+						"quantity": 1,
+						"failureIndexes": [
+							5,
+							6
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 0,
+						"seedOverride": 0,
+						"categoryIndex": 4,
+						"originalCategoryIndex": 4,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 2,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 3621873013,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [
+							{
+								"itemHash": 800069450,
+								"quantity": 41,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 5,
+				"identifier": "xur_help_name",
+				"displayCategoryHash": 1654889442,
+				"displayProperties": {
+					"description": "",
+					"name": "Xûr",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "• Purchase items from Xûr with Strange Coins to earn Xûr Ranks. \n\n• Complete ranks to earn weapons and armor.",
+							"name": "Xûr",
+							"icon": "/common/destiny2_content/icons/52a7f94af601cf70aef26adb3759df9a.png",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 153,
+						"itemHash": 3329627384,
+						"quantity": 1,
+						"failureIndexes": [
+							7
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 5,
+						"seedOverride": 0,
+						"categoryIndex": 19,
+						"originalCategoryIndex": 19,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 3621873013,
+						"visibilityScope": 0,
+						"purchasableScope": 1,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 3,
+				"identifier": "category_xur_offer_strange",
+				"displayCategoryHash": 858680063,
+				"displayProperties": {
+					"description": "",
+					"name": "More Strange Offers",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "Take a look at what else Xûr has in store for purchase.",
+							"name": "More Strange Offers",
+							"icon": "/common/destiny2_content/icons/95bb18e6edbdc9b70ce9ffc077814f32.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 150,
+						"itemHash": 1617663696,
+						"quantity": 1,
+						"failureIndexes": [],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 3,
+						"seedOverride": 0,
+						"categoryIndex": 6,
+						"originalCategoryIndex": 6,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 2422292810,
+						"visibilityScope": 0,
+						"purchasableScope": 0,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Xûr has even more weapons and armor for sale.",
+							"name": "Strange Gear Offers",
+							"icon": "/common/destiny2_content/icons/51dcc6133effbed04c9221adbdd7d405.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 151,
+						"itemHash": 3670668729,
+						"quantity": 1,
+						"failureIndexes": [],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 3,
+						"seedOverride": 0,
+						"categoryIndex": 6,
+						"originalCategoryIndex": 6,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 2422292810,
+						"visibilityScope": 0,
+						"purchasableScope": 0,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 9,
+				"identifier": "xur_vendor_category",
+				"displayCategoryHash": 772917134,
+				"displayProperties": {
+					"description": "",
+					"name": "Exotic Ciphers",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
+					{
+						"displayProperties": {
+							"description": "Complete Vanguard or Exotic playlist activities, or win matches in Crucible or Gambit.\n\nExtra progress is awarded for more challenging activities and for succeeding with clanmates.",
+							"name": "Xenology",
+							"icon": "/common/destiny2_content/icons/8a45db3e03ace3dbc923b463d89886a3.jpg",
+							"iconSequences": [
+								{
+									"frames": [
+										"/common/destiny2_content/icons/8a45db3e03ace3dbc923b463d89886a3.jpg",
+										"/common/destiny2_content/icons/dff0dd2177736b2266553aada15f1190.png",
+										"/common/destiny2_content/icons/811e49d1979b74b7d9f0d3b02bde1a81.png",
+										"/common/destiny2_content/icons/84333c645a1eeedcf7acb490b780cfb4.png"
+									]
+								}
+							],
+							"hasIcon": true
+						},
+						"vendorItemIndex": 171,
+						"itemHash": 2125848607,
+						"quantity": 1,
+						"failureIndexes": [
+							18
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 9,
+						"seedOverride": 0,
+						"categoryIndex": 8,
+						"originalCategoryIndex": 8,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Exotic Ciphers",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 6,
+						"purchasableScope": 6,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"costs": [],
 						"itemComponent": {
 							"instances": {
 								"data": {},
@@ -22160,13 +25179,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants with Void damage. Scorn grant additional progress.",
-							"name": "Of Static and Scorn",
+							"description": "In the Throne World, defeat combatants with Void damage. Lucent Hive grant additional progress.",
+							"name": "Mushy Little Gobs",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 47,
-						"itemHash": 2808722825,
+						"vendorItemIndex": 41,
+						"itemHash": 1164306028,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -22211,7 +25230,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -22265,13 +25284,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants with finishers. Challenging combatants grant additional progress.",
-							"name": "The Biggest and the Baddest",
+							"description": "In the Throne World, defeat combatants affected by Stasis. Lucent Hive grant additional progress.",
+							"name": "Light Shade",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 49,
-						"itemHash": 2808722827,
+						"vendorItemIndex": 42,
+						"itemHash": 1164306031,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -22309,14 +25328,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -22370,13 +25389,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants with precision final blows using Sidearms, Scout Rifles, Sniper Rifles, or Linear Fusion Rifles.",
-							"name": "In Too Deep",
+							"description": "In the Throne World, defeat combatants with Void weapons.",
+							"name": "Empty Urges",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 61,
-						"itemHash": 4050047262,
+						"vendorItemIndex": 64,
+						"itemHash": 4050047259,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -22421,7 +25440,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -22475,13 +25494,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, rapidly defeat combatants in groups of 2 or more while in Lost Sectors.",
-							"name": "Rapid Response",
+							"description": "In the Throne World, earn points by defeating powerful combatants. Roaming high-value targets grant additional progress.",
+							"name": "Fynch's Most Wanted",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 73,
-						"itemHash": 609421552,
+						"vendorItemIndex": 75,
+						"itemHash": 609421566,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -22526,7 +25545,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23029,13 +26048,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Fallen on Europa with precision final blows.",
-							"name": "Europan Precision",
+							"description": "Defeat Fallen on Europa.",
+							"name": "Falling Out",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 20,
-						"itemHash": 1190558125,
+						"vendorItemIndex": 22,
+						"itemHash": 1190558127,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -23079,7 +26098,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23133,13 +26152,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Vex on Europa.",
-							"name": "Vex on Ice",
+							"description": "Defeat Vex on Europa with precision final blows.",
+							"name": "Vexing Precision",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 28,
-						"itemHash": 1606160568,
+						"vendorItemIndex": 26,
+						"itemHash": 1606160570,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -23183,7 +26202,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23237,13 +26256,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Using a Sword, defeat combatants in groups of 2 or more in Europa Lost Sectors.",
-							"name": "By the Sword",
+							"description": "Using a Sniper Rifle, defeat combatants with precision final blows in Europa Lost Sectors.",
+							"name": "Lost Sniper",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 44,
-						"itemHash": 3831027416,
+						"vendorItemIndex": 40,
+						"itemHash": 1131956135,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -23287,7 +26306,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23341,13 +26360,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete patrols in Cadmus Ridge.",
-							"name": "Ice Patrol",
+							"description": "Loot chests in Cadmus Ridge.",
+							"name": "Treasures of the Past",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 59,
-						"itemHash": 1921694150,
+						"vendorItemIndex": 57,
+						"itemHash": 2833790085,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -23391,7 +26410,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -99611,7 +102630,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -99665,13 +102684,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants in Nightmare Hunts with Void damage.",
-							"name": "Nothing to Fear",
+							"description": "Defeat combatants with melee in Nightmare Hunts.",
+							"name": "Courageous Strike",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 20,
-						"itemHash": 400298586,
+						"vendorItemIndex": 22,
+						"itemHash": 400298588,
 						"quantity": 1,
 						"failureIndexes": [
 							2
@@ -99714,7 +102733,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -99768,13 +102787,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Find the Lost Sector K1 Crew Quarters and dispel the Nightmare within.",
-							"name": "Once a Life",
+							"description": "Find the Lost Sector K1 Revelation and dispel the Nightmare within.",
+							"name": "Sorrow and Revelry",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 26,
-						"itemHash": 2305954616,
+						"vendorItemIndex": 29,
+						"itemHash": 2305954619,
 						"quantity": 1,
 						"failureIndexes": [
 							2
@@ -99817,7 +102836,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -99871,13 +102890,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Nightmares in Lost Sectors on Nessus.",
-							"name": "Curse of the Centaur",
+							"description": "Defeat Nightmares in Lost Sectors in the European Dead Zone.",
+							"name": "Deadzone Dreams",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 31,
-						"itemHash": 3993430445,
+						"vendorItemIndex": 30,
+						"itemHash": 3993430447,
 						"quantity": 1,
 						"failureIndexes": [
 							2
@@ -99920,7 +102939,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -101755,13 +104774,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Shotgun final blows or rapidly defeat combatants. Combatants rapidly defeated with Shotguns grant the most efficient progress.\n\nComplete the activity with a decent score.",
-							"name": "Double Barrel",
+							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Pulse Rifle final blows or rapidly defeat combatants. Combatants rapidly defeated with Pulse Rifles grant the most efficient progress.\n\nComplete the activity with a decent score.",
+							"name": "Pulse of Combat",
 							"icon": "/common/destiny2_content/icons/54786b9ee6f44d2cd4cc041e59c306df.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 12,
-						"itemHash": 1136139769,
+						"vendorItemIndex": 9,
+						"itemHash": 1136139770,
 						"quantity": 1,
 						"failureIndexes": [
 							9,
@@ -101805,7 +104824,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -101859,13 +104878,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Sniper Rifle final blows or rapidly defeat combatants. Combatants rapidly defeated with Sniper Rifles grant the most efficient progress.\n\nComplete the activity with a decent score.",
-							"name": "From Beyond",
+							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Auto Rifle final blows or rapidly defeat combatants. Combatants rapidly defeated with Auto Rifles grant the most efficient progress.\n\nComplete the activity with a decent score.",
+							"name": "75M Sprint",
 							"icon": "/common/destiny2_content/icons/54786b9ee6f44d2cd4cc041e59c306df.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 13,
-						"itemHash": 1136139774,
+						"vendorItemIndex": 10,
+						"itemHash": 1136139771,
 						"quantity": 1,
 						"failureIndexes": [
 							9,
@@ -101909,7 +104928,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -102013,7 +105032,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -103081,13 +106100,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Complete the Dares of Eternity activity.",
-							"name": "Neigh of Victory",
+							"description": "In Dares of Eternity, complete 1 of the 5 timed phases without dying.",
+							"name": "Immortals of Eternity",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 47,
-						"itemHash": 3539440755,
+						"vendorItemIndex": 33,
+						"itemHash": 1475436130,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -103130,7 +106149,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -103233,7 +106252,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -103287,13 +106306,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants with weapons in the Kinetic slot in Dares of Eternity.",
-							"name": "Bullets of Eternity",
+							"description": "Defeat combatants with Sniper Rifles in Dares of Eternity.",
+							"name": "Sniper of Eternity",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 46,
-						"itemHash": 3539440754,
+						"vendorItemIndex": 43,
+						"itemHash": 3539440759,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -103329,14 +106348,14 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -103439,7 +106458,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -103542,7 +106561,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-08-30T17:00:00Z",
+						"overrideNextRefreshDate": "2024-08-31T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
