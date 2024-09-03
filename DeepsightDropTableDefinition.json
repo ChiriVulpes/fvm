@@ -132,8 +132,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124
+			"activityHash": 2716998124,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-09-10T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -667,7 +670,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +683,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 46,
-			"next": "2024-09-03T17:00:00Z"
+			"current": 47,
+			"next": "2024-09-10T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-09-10T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +835,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +846,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 47,
-			"next": "2024-09-03T17:00:00Z"
+			"current": 48,
+			"next": "2024-09-10T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-09-03T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -999,8 +1002,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 9,
-			"next": "2024-09-03T17:00:00Z"
+			"current": 10,
+			"next": "2024-09-10T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1600,8 +1603,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 74,
-			"next": "2024-09-03T17:00:00Z"
+			"current": 75,
+			"next": "2024-09-10T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2077,8 +2080,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 45,
-			"next": "2024-09-03T17:00:00Z"
+			"current": 46,
+			"next": "2024-09-10T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2223,11 +2226,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2024-09-03T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2515,21 +2515,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 509188661,
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "//node.ovrd.AVALON//",
-			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"3118061005": {}
+			"2910326942": {}
 		},
 		"master": {
-			"activityHash": 3951571983,
+			"activityHash": 3214480871,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-09-03T17:00:00Z",
+		"endTime": "2024-09-10T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2537,48 +2537,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1090264270,
-		"displayProperties": {
-			"name": "Eventide Labs",
-			"description": "Rathmore Chaos, Europa",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"627188188": {},
-			"806374817": {},
-			"1292594730": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1711056134": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-09-03T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 4044885806,
+		"hash": 4269987990,
 		"displayProperties": {
-			"name": "Concealed Void",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Arach-NO!",
+			"name": "The Conflux",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2609,11 +2572,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 279,
-			"next": "2024-09-03T17:00:00Z"
+			"current": 280,
+			"next": "2024-09-04T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-09-03T17:00:00Z",
+		"endTime": "2024-09-04T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2622,24 +2585,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 1434749769,
+		"hash": 291911094,
 		"displayProperties": {
-			"description": "Brave the cold winds of Europa to reclaim fragments of a hidden submind's code from the depths of Bray Exoscience.",
-			"name": "Heist Battleground: Europa",
+			"description": "Break into the ancient Vex installation.",
+			"name": "The Insight Terminus",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2322926844": {}
+			"42874240": {}
 		},
 		"master": {
-			"activityHash": 3458527562,
+			"activityHash": 3029388704,
 			"dropTable": {
-				"1056103557": {}
+				"3610521673": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-09-03T17:00:00Z",
+		"endTime": "2024-09-10T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
