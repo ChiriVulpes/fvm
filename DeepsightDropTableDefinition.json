@@ -508,8 +508,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-09-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -679,8 +682,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 48,
-			"next": "2024-09-17T17:00:00Z"
+			"current": 49,
+			"next": "2024-09-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -840,8 +843,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 49,
-			"next": "2024-09-17T17:00:00Z"
+			"current": 50,
+			"next": "2024-09-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -996,8 +999,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 11,
-			"next": "2024-09-17T17:00:00Z"
+			"current": 12,
+			"next": "2024-09-24T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1586,8 +1589,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1598,11 +1600,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 76,
-			"next": "2024-09-17T17:00:00Z"
+			"current": 77,
+			"next": "2024-09-24T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-09-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1896,11 +1896,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2024-09-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2080,8 +2077,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 47,
-			"next": "2024-09-17T17:00:00Z"
+			"current": 48,
+			"next": "2024-09-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2504,8 +2501,10 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2515,21 +2514,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-09-17T17:00:00Z",
+		"endTime": "2024-09-24T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2538,10 +2537,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 1869786712,
+		"hash": 2310698359,
 		"displayProperties": {
-			"name": "Hydroponics Delta",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: None\n\nModifiers: Empath",
+			"name": "Veles Labyrinth",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Fire Pit",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2572,11 +2571,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 293,
-			"next": "2024-09-17T17:00:00Z"
+			"current": 294,
+			"next": "2024-09-18T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-09-17T17:00:00Z",
+		"endTime": "2024-09-18T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2585,24 +2584,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 969982762,
+		"hash": 1434749769,
 		"displayProperties": {
-			"description": "Enter into the Devils' Lair and weaken the Fallen presence within the Cosmodrome.",
-			"name": "The Devils' Lair",
+			"description": "Brave the cold winds of Europa to reclaim fragments of a hidden submind's code from the depths of Bray Exoscience.",
+			"name": "Heist Battleground: Europa",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"1332123064": {}
+			"2889501828": {}
 		},
 		"master": {
-			"activityHash": 1203950592,
+			"activityHash": 3458527562,
 			"dropTable": {
-				"959037361": {}
+				"1354727549": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-09-17T17:00:00Z",
+		"endTime": "2024-09-24T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
