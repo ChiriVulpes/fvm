@@ -17,6 +17,7 @@ export enum DeepsightPlugCategory {
 	Infusion,
 	Destination,
 	Information,
+	Tonic,
 }
 
 export enum DeepsightPlugTypeIntrinsic {
@@ -175,6 +176,15 @@ export enum DeepsightPlugTypeDestination {
 	TravelersBlessingsPlaystyle,
 }
 
+export enum DeepsightPlugTypeTonic {
+	None,
+	Placeholder,
+	Reagent,
+	Combat,
+	Loot,
+	Formula,
+}
+
 export const DeepsightPlugTypeMap = {
 	[DeepsightPlugCategory.None]: null,
 	[DeepsightPlugCategory.Classified]: null,
@@ -192,6 +202,7 @@ export const DeepsightPlugTypeMap = {
 	[DeepsightPlugCategory.Extractable]: /*%typeof*/ DeepsightPlugTypeExtractable,
 	[DeepsightPlugCategory.Destination]: /*%typeof*/ DeepsightPlugTypeDestination,
 	[DeepsightPlugCategory.Information]: null,
+	[DeepsightPlugCategory.Tonic]: /*%typeof*/ DeepsightPlugTypeTonic,
 };
 
 export type DeepsightPlugType<CATEGORY extends DeepsightPlugCategory = DeepsightPlugCategory> =
