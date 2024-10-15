@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-10-22T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,8 +510,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-10-22T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -667,7 +672,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +685,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 52,
-			"next": "2024-10-15T17:00:00Z"
+			"current": 53,
+			"next": "2024-10-22T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-10-22T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +837,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +848,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 53,
-			"next": "2024-10-15T17:00:00Z"
+			"current": 54,
+			"next": "2024-10-22T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -999,8 +1004,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 15,
-			"next": "2024-10-15T17:00:00Z"
+			"current": 16,
+			"next": "2024-10-22T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1170,8 +1175,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1425,8 +1428,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1604,8 +1605,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 80,
-			"next": "2024-10-15T17:00:00Z"
+			"current": 81,
+			"next": "2024-10-22T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1760,6 +1761,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-10-22T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1900,11 +1903,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2084,8 +2084,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 51,
-			"next": "2024-10-15T17:00:00Z"
+			"current": 52,
+			"next": "2024-10-22T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2519,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 196691221,
+		"hash": 3883295757,
 		"displayProperties": {
-			"name": "Starcrossed",
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2910326942": {}
+			"2188764214": {}
 		},
 		"master": {
-			"activityHash": 3214480871,
+			"activityHash": 4201846671,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
+		"endTime": "2024-10-22T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,66 +2541,19 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 1344654779,
-		"displayProperties": {
-			"name": "The Quarry",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Scorched Earth",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 321,
-			"next": "2024-10-15T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 1012655911,
+		"hash": 546528643,
 		"displayProperties": {
-			"description": "Recover an artifact from a monument to Oryx, located deep in the swamps of Savathûn's throne world.",
-			"name": "The Lightblade",
+			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
+			"name": "Proving Grounds",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"3686538757": {}
+			"2591257541": {}
 		},
 		"availability": "rotator",
-		"endTime": "2024-10-15T17:00:00Z",
+		"endTime": "2024-10-22T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
