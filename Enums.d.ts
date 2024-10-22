@@ -47685,7 +47685,6 @@ export declare const enum ObjectiveHashes {
 	SwordDebris3906851910 = 3906851910,
 	ShotgunFinalBlows = 3938713506,
 	VoidDeclination3944612249 = 3944612249,
-	WarlordsRuin = 3950614370,
 	Classified3956700025 = 3956700025,
 	Classified3962476395 = 3962476395,
 	Ranked3v3PlaylistChallenge3962648118 = 3962648118,
