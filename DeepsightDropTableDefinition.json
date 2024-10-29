@@ -132,11 +132,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -267,8 +264,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -684,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 54,
-			"next": "2024-10-29T17:00:00Z"
+			"current": 55,
+			"next": "2024-11-05T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -845,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 55,
-			"next": "2024-10-29T17:00:00Z"
+			"current": 56,
+			"next": "2024-11-05T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1001,8 +996,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 17,
-			"next": "2024-10-29T17:00:00Z"
+			"current": 18,
+			"next": "2024-11-05T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1310,9 +1305,10 @@
 		],
 		"master": {
 			"activityHash": 2534833093,
-			"availability": "repeatable"
+			"availability": "rotator"
 		},
-		"availability": "repeatable",
+		"availability": "rotator",
+		"endTime": "2024-11-05T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1591,8 +1587,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1603,11 +1598,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 82,
-			"next": "2024-10-29T17:00:00Z"
+			"current": 83,
+			"next": "2024-11-05T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2063,7 +2056,8 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2082,9 +2076,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 53,
-			"next": "2024-10-29T17:00:00Z"
+			"current": 54,
+			"next": "2024-11-05T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-11-05T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2228,8 +2224,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203
+			"activityHash": 1112917203,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-11-05T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2375,8 +2374,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2508,8 +2505,10 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2519,21 +2518,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
+		"endTime": "2024-11-05T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,103 +2540,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1579576831,
-		"displayProperties": {
-			"name": "Cirrus Plaza",
-			"description": "Neomuna, Neptune",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"958384347": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2300143112": {},
-			"2378785953": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 3995113183,
-		"displayProperties": {
-			"name": "The Blooming Deep",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Epitaph, Chaff",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 335,
-			"next": "2024-10-29T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 1278918650,
+		"hash": 1012655911,
 		"displayProperties": {
-			"description": "Infiltrate the Seraph bunker tucked under the dust of the Moon to reclaim fragments of the submind Malahayati's code.",
-			"name": "Heist Battleground: Moon",
+			"description": "Recover an artifact from a monument to Oryx, located deep in the swamps of Savathûn's throne world.",
+			"name": "The Lightblade",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"42874240": {}
+			"2298039571": {}
+		},
+		"master": {
+			"activityHash": 1964120205,
+			"dropTable": {
+				"3997086838": {}
+			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-10-29T17:00:00Z",
+		"endTime": "2024-11-05T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
