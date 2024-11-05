@@ -679,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 55,
-			"next": "2024-11-05T17:00:00Z"
+			"current": 56,
+			"next": "2024-11-12T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -829,7 +829,8 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -840,9 +841,11 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 56,
-			"next": "2024-11-05T17:00:00Z"
+			"current": 57,
+			"next": "2024-11-12T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-11-12T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -996,8 +999,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 18,
-			"next": "2024-11-05T17:00:00Z"
+			"current": 19,
+			"next": "2024-11-12T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1167,6 +1170,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-11-12T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1305,10 +1310,9 @@
 		],
 		"master": {
 			"activityHash": 2534833093,
-			"availability": "rotator"
+			"availability": "repeatable"
 		},
-		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
+		"availability": "repeatable",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1421,6 +1425,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-11-12T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1598,8 +1604,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 83,
-			"next": "2024-11-05T17:00:00Z"
+			"current": 84,
+			"next": "2024-11-12T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1894,8 +1900,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-11-12T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2056,8 +2065,7 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2076,11 +2084,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 54,
-			"next": "2024-11-05T17:00:00Z"
+			"current": 55,
+			"next": "2024-11-12T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2224,11 +2230,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2505,10 +2508,8 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			},
-			"availability": "new"
+			}
 		},
-		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2518,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 509188661,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "//node.ovrd.AVALON//",
+			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"3118061005": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 3951571983,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
+		"endTime": "2024-11-12T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2540,109 +2541,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1090264270,
-		"displayProperties": {
-			"name": "Eventide Labs",
-			"description": "Rathmore Chaos, Europa",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"303107619": {},
-			"806374817": {},
-			"958384347": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2300143112": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 457172845,
-		"displayProperties": {
-			"name": "Chamber of Starlight",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Epitaph",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 342,
-			"next": "2024-11-05T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 1012655911,
+		"hash": 546528643,
 		"displayProperties": {
-			"description": "Recover an artifact from a monument to Oryx, located deep in the swamps of Savathûn's throne world.",
-			"name": "The Lightblade",
+			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
+			"name": "Proving Grounds",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2298039571": {}
+			"2322926844": {}
 		},
 		"master": {
-			"activityHash": 1964120205,
+			"activityHash": 2103025315,
 			"dropTable": {
-				"3997086838": {}
+				"1056103557": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-11-05T17:00:00Z",
+		"endTime": "2024-11-12T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
