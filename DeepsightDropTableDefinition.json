@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-11-19T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,8 +510,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-11-19T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -667,7 +672,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +685,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 56,
-			"next": "2024-11-12T17:00:00Z"
+			"current": 57,
+			"next": "2024-11-19T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-11-19T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +837,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +848,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 57,
-			"next": "2024-11-12T17:00:00Z"
+			"current": 58,
+			"next": "2024-11-19T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -999,8 +1004,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 19,
-			"next": "2024-11-12T17:00:00Z"
+			"current": 20,
+			"next": "2024-11-19T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1170,8 +1175,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1425,8 +1428,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1604,8 +1605,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 84,
-			"next": "2024-11-12T17:00:00Z"
+			"current": 85,
+			"next": "2024-11-19T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1760,6 +1761,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-11-19T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1900,11 +1903,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2084,8 +2084,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 55,
-			"next": "2024-11-12T17:00:00Z"
+			"current": 56,
+			"next": "2024-11-19T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2519,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 509188661,
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "//node.ovrd.AVALON//",
-			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"3118061005": {}
+			"2910326942": {}
 		},
 		"master": {
-			"activityHash": 3951571983,
+			"activityHash": 3214480871,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
+		"endTime": "2024-11-19T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,48 +2541,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1229253616,
-		"displayProperties": {
-			"name": "The Burnout",
-			"description": "Vex Future, Infinite Forest",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"958384347": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2300143112": {},
-			"2443507405": {},
-			"3332125295": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 212477858,
+		"hash": 283251614,
 		"displayProperties": {
-			"name": "Sepulcher",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Fire Pit",
+			"name": "Metamorphosis",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2613,11 +2576,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 349,
-			"next": "2024-11-12T17:00:00Z"
+			"current": 350,
+			"next": "2024-11-13T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
+		"endTime": "2024-11-13T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2626,24 +2589,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 546528643,
+		"hash": 1278918650,
 		"displayProperties": {
-			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
-			"name": "Proving Grounds",
+			"description": "Infiltrate the Seraph bunker tucked under the dust of the Moon to reclaim fragments of the submind Malahayati's code.",
+			"name": "Heist Battleground: Moon",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2322926844": {}
+			"1289000550": {}
 		},
 		"master": {
-			"activityHash": 2103025315,
+			"activityHash": 1639515809,
 			"dropTable": {
-				"1056103557": {}
+				"534775659": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-11-12T17:00:00Z",
+		"endTime": "2024-11-19T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
