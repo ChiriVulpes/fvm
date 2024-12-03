@@ -679,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 59,
-			"next": "2024-12-03T17:00:00Z"
+			"current": 60,
+			"next": "2024-12-10T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -829,7 +829,8 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -840,9 +841,11 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 60,
-			"next": "2024-12-03T17:00:00Z"
+			"current": 61,
+			"next": "2024-12-10T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-12-10T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -996,8 +999,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 22,
-			"next": "2024-12-03T17:00:00Z"
+			"current": 23,
+			"next": "2024-12-10T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1167,6 +1170,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-12-10T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1305,10 +1310,9 @@
 		],
 		"master": {
 			"activityHash": 2534833093,
-			"availability": "rotator"
+			"availability": "repeatable"
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-03T17:00:00Z",
+		"availability": "repeatable",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1421,6 +1425,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-12-10T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1598,8 +1604,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 87,
-			"next": "2024-12-03T17:00:00Z"
+			"current": 88,
+			"next": "2024-12-10T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1894,8 +1900,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-12-10T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2056,8 +2065,7 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2076,11 +2084,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 58,
-			"next": "2024-12-03T17:00:00Z"
+			"current": 59,
+			"next": "2024-12-10T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-03T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2224,11 +2230,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-03T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2505,10 +2508,8 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			},
-			"availability": "new"
+			}
 		},
-		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2518,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-03T17:00:00Z",
+		"endTime": "2024-12-10T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,10 +2542,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 1509764575,
+		"hash": 212477861,
 		"displayProperties": {
-			"name": "Extraction",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Raider Shield",
+			"name": "Sepulcher",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Fire Pit",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2575,11 +2576,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 370,
-			"next": "2024-12-03T17:00:00Z"
+			"current": 371,
+			"next": "2024-12-04T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-03T17:00:00Z",
+		"endTime": "2024-12-04T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2588,24 +2589,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 442671778,
+		"hash": 286562305,
 		"displayProperties": {
-			"description": "Shut down the operations of an ironmonger providing weapons to the Red Legion.",
-			"name": "The Arms Dealer",
+			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
+			"name": "The Inverted Spire",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2889501828": {}
+			"3686538757": {}
 		},
 		"master": {
-			"activityHash": 1753547901,
+			"activityHash": 2426813795,
 			"dropTable": {
-				"1354727549": {}
+				"817909300": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-03T17:00:00Z",
+		"endTime": "2024-12-10T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
