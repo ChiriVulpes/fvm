@@ -26044,97 +26044,6 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Upgrade your Event Card to earn additional Dawning Rewards.",
-							"name": "Dawning Upgraded Event Card",
-							"icon": "/common/destiny2_content/icons/968e1c983c628b523d1edefbd7158201.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 785,
-						"itemHash": 2582359554,
-						"quantity": 1,
-						"failureIndexes": [
-							0,
-							1,
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 0,
-						"seedOverride": 0,
-						"categoryIndex": 25,
-						"originalCategoryIndex": 25,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 2422292810,
-						"visibilityScope": 6,
-						"purchasableScope": 6,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
 							"description": "Bundle up!",
 							"name": "Dawning Armor Ornaments",
 							"icon": "/common/destiny2_content/icons/94372ac802e76a7d9edccb2ca276ca71.jpg",
@@ -27419,12 +27328,12 @@
 				]
 			},
 			{
-				"index": 5,
-				"identifier": "categories.events",
-				"displayCategoryHash": 305205270,
+				"index": 8,
+				"identifier": "categories.campaigns",
+				"displayCategoryHash": 4105890154,
 				"displayProperties": {
 					"description": "",
-					"name": "Events",
+					"name": "Expansions",
 					"hasIcon": false
 				},
 				"displayInBanner": false,
@@ -27432,28 +27341,19 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Upgrading the Event Card unlocks the ability to spend Event Tickets to claim additional rewards (including the Instant Rewards bundle). The Upgraded Event Card expires at the end of the event.",
-							"name": "Dawning Event Card Upgrade",
-							"icon": "/common/destiny2_content/icons/9466ba9e580b52bf974691eb60510798.jpg",
+							"description": "The final shape looms—a nightmarish calcification of reality into the Witness's twisted design. Embark on an adventure into the heart of the Traveler, harness the power of three new Super abilities, and finish the War of Light and Darkness. \n\nThe Annual Pass edition includes The Final Shape story campaign, a new destination, three new Supers, new weapons and armor to collect, The Final Shape Dungeon Key, catalyst and ornament for the Tessellation Exotic, one Secret Stash delivered during each Episode, Exotic Sparrow, and all three Episodes in the year of The Final Shape.",
+							"name": "Destiny 2: The Final Shape + Annual Pass",
+							"icon": "/common/destiny2_content/icons/f83a232615d4c81098e9b306b0ca094c.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 611,
-						"itemHash": 3733058653,
+						"vendorItemIndex": 1289,
+						"itemHash": 3337947335,
 						"quantity": 1,
 						"failureIndexes": [
-							1,
-							1,
 							1
 						],
 						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3147280338,
-								"quantity": 1000,
-								"hasConditionalVisibility": false
-							}
-						],
+						"currencies": [],
 						"refundPolicy": 0,
 						"refundTimeLimit": 0,
 						"rewardAdjustorPointerHash": 0,
@@ -27462,7 +27362,7 @@
 								"level": 0
 							}
 						],
-						"displayCategoryIndex": 5,
+						"displayCategoryIndex": 8,
 						"seedOverride": 0,
 						"categoryIndex": 61,
 						"originalCategoryIndex": 61,
@@ -27471,26 +27371,20 @@
 						"maximumLevel": 0,
 						"licenseUnlockHash": 0,
 						"action": {
-							"executeSeconds": 4,
+							"executeSeconds": 0,
 							"isPositive": true
 						},
 						"displayCategory": "",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 6,
-						"purchasableScope": 6,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
 						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [
-							{
-								"itemHash": 3147280338,
-								"quantity": 1000,
-								"hasConditionalVisibility": false
-							}
-						],
+						"costs": [],
 						"itemComponent": {
 							"instances": {
 								"data": {},
@@ -27534,6 +27428,821 @@
 							}
 						}
 					},
+					{
+						"displayProperties": {
+							"description": "The Final Shape Dungeon Key provides access to two dungeons during Year 7.",
+							"name": "The Final Shape Dungeon Key",
+							"icon": "/common/destiny2_content/icons/42a20b3a92ab8b5fb97d446034d7fe29.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1293,
+						"itemHash": 35031989,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Prevent the apocalypse by racing Emperor Calus to the edge of the solar system. \n\nDiscover a new destination and master Strand, a new subclass.",
+							"name": "Destiny 2: Lightfall",
+							"icon": "/common/destiny2_content/icons/e8d984fc1dd855b0f7b8dbcf2394edf2.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1295,
+						"itemHash": 1940446964,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "The Lightfall Dungeon Key provides access to two dungeons during Year 6.",
+							"name": "Lightfall Dungeon Key",
+							"icon": "/common/destiny2_content/icons/481a5498558224d750d5e2d1e7073ea6.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1297,
+						"itemHash": 3202647208,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Delve into Savathûn's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.\n\nLearn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light.",
+							"name": "The Witch Queen",
+							"icon": "/common/destiny2_content/icons/685f1d9f78c5beecfdfb73d2babd97de.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1299,
+						"itemHash": 2041259773,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "The Witch Queen Dungeon Key provides access to two dungeons: \"Duality\" and \"Spire of the Watcher.\"",
+							"name": "The Witch Queen Dungeon Key",
+							"icon": "/common/destiny2_content/icons/9d4aba8b481a44cdca97932942cab17c.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1301,
+						"itemHash": 47843291,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Xûr invites you to the shores of Eternity where your skill will be tested… and rewarded. Celebrate 30 years of Bungie with new content that pays homage to a legendary legacy of gaming.",
+							"name": "Bungie 30th Anniversary Pack",
+							"icon": "/common/destiny2_content/icons/944a6e9d772efc9fcce49d6ba07962ec.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1303,
+						"itemHash": 3279323753,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "The Beyond Light Pack introduces over 15 Exotic weapons and armor to collect, the \"Deep Stone Crypt\" raid, as well as two Nightfalls: The Glassway and Proving Grounds. \n\nThe Beyond Light campaign and Stasis subclass are free in Destiny 2 and do not require this pack.",
+							"name": "Beyond Light Pack",
+							"icon": "/common/destiny2_content/icons/061adc24f59df688af8f65e7daaf774b.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1305,
+						"itemHash": 3752723910,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "The Shadowkeep Pack introduces over 15 Exotic weapons and armor to collect, the \"Garden of Salvation\" raid, \"Pit of Heresy\" dungeon, and Scarlet Keep Nightfall. \n\nThe Shadowkeep campaign is free in Destiny 2 and does not require this pack.",
+							"name": "Shadowkeep Pack",
+							"icon": "/common/destiny2_content/icons/5d6c9646bf1daa7aab9191cb6853093c.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1307,
+						"itemHash": 3819981545,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Upgrade your arsenal with the Forsaken Pack, which includes access to more than 20 Forsaken Exotic weapons, the \"Shattered Throne\" dungeon, and \"Last Wish\" raid. Owners also get 3 Forsaken Ciphers to instantly unlock any 3 Forsaken Exotic weapons of their choosing (raid and dungeon weapons excluded).",
+							"name": "Forsaken Pack",
+							"icon": "/common/destiny2_content/icons/8e449d50eb24ab38e9381a10be2c0a5e.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 1309,
+						"itemHash": 3853536719,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 8,
+						"seedOverride": 0,
+						"categoryIndex": 61,
+						"originalCategoryIndex": 61,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": true
+						},
+						"displayCategory": "",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 3,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
+						"costs": [],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					}
+				]
+			},
+			{
+				"index": 5,
+				"identifier": "categories.events",
+				"displayCategoryHash": 305205270,
+				"displayProperties": {
+					"description": "",
+					"name": "Events",
+					"hasIcon": false
+				},
+				"displayInBanner": false,
+				"sortOrder": 0,
+				"items": [
 					{
 						"displayProperties": {
 							"description": "Contains 3 Dawning accessories.\n\nBundle price will be reduced for each item already owned.",
@@ -38673,910 +39382,6 @@
 								"hasConditionalVisibility": false
 							}
 						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					}
-				]
-			},
-			{
-				"index": 8,
-				"identifier": "categories.campaigns",
-				"displayCategoryHash": 4105890154,
-				"displayProperties": {
-					"description": "",
-					"name": "Expansions",
-					"hasIcon": false
-				},
-				"displayInBanner": false,
-				"sortOrder": 0,
-				"items": [
-					{
-						"displayProperties": {
-							"description": "The final shape looms—a nightmarish calcification of reality into the Witness's twisted design. Embark on an adventure into the heart of the Traveler, harness the power of three new Super abilities, and finish the War of Light and Darkness. \n\nThe Annual Pass edition includes The Final Shape story campaign, a new destination, three new Supers, new weapons and armor to collect, The Final Shape Dungeon Key, catalyst and ornament for the Tessellation Exotic, one Secret Stash delivered during each Episode, Exotic Sparrow, and all three Episodes in the year of The Final Shape.",
-							"name": "Destiny 2: The Final Shape + Annual Pass",
-							"icon": "/common/destiny2_content/icons/f83a232615d4c81098e9b306b0ca094c.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1289,
-						"itemHash": 3337947335,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "The Final Shape Dungeon Key provides access to two dungeons during Year 7.",
-							"name": "The Final Shape Dungeon Key",
-							"icon": "/common/destiny2_content/icons/42a20b3a92ab8b5fb97d446034d7fe29.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1293,
-						"itemHash": 35031989,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Prevent the apocalypse by racing Emperor Calus to the edge of the solar system. \n\nDiscover a new destination and master Strand, a new subclass.",
-							"name": "Destiny 2: Lightfall",
-							"icon": "/common/destiny2_content/icons/e8d984fc1dd855b0f7b8dbcf2394edf2.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1295,
-						"itemHash": 1940446964,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "The Lightfall Dungeon Key provides access to two dungeons during Year 6.",
-							"name": "Lightfall Dungeon Key",
-							"icon": "/common/destiny2_content/icons/481a5498558224d750d5e2d1e7073ea6.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1297,
-						"itemHash": 3202647208,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Delve into Savathûn's twisted throne world to uncover the mystery of how she and her Lucent Brood stole the Light.\n\nLearn the secrets required to craft all-new weapons, a new weapon archetype, and take back the Light.",
-							"name": "The Witch Queen",
-							"icon": "/common/destiny2_content/icons/685f1d9f78c5beecfdfb73d2babd97de.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1299,
-						"itemHash": 2041259773,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "The Witch Queen Dungeon Key provides access to two dungeons: \"Duality\" and \"Spire of the Watcher.\"",
-							"name": "The Witch Queen Dungeon Key",
-							"icon": "/common/destiny2_content/icons/9d4aba8b481a44cdca97932942cab17c.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1301,
-						"itemHash": 47843291,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Xûr invites you to the shores of Eternity where your skill will be tested… and rewarded. Celebrate 30 years of Bungie with new content that pays homage to a legendary legacy of gaming.",
-							"name": "Bungie 30th Anniversary Pack",
-							"icon": "/common/destiny2_content/icons/944a6e9d772efc9fcce49d6ba07962ec.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1303,
-						"itemHash": 3279323753,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "The Beyond Light Pack introduces over 15 Exotic weapons and armor to collect, the \"Deep Stone Crypt\" raid, as well as two Nightfalls: The Glassway and Proving Grounds. \n\nThe Beyond Light campaign and Stasis subclass are free in Destiny 2 and do not require this pack.",
-							"name": "Beyond Light Pack",
-							"icon": "/common/destiny2_content/icons/061adc24f59df688af8f65e7daaf774b.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1305,
-						"itemHash": 3752723910,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "The Shadowkeep Pack introduces over 15 Exotic weapons and armor to collect, the \"Garden of Salvation\" raid, \"Pit of Heresy\" dungeon, and Scarlet Keep Nightfall. \n\nThe Shadowkeep campaign is free in Destiny 2 and does not require this pack.",
-							"name": "Shadowkeep Pack",
-							"icon": "/common/destiny2_content/icons/5d6c9646bf1daa7aab9191cb6853093c.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1307,
-						"itemHash": 3819981545,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Upgrade your arsenal with the Forsaken Pack, which includes access to more than 20 Forsaken Exotic weapons, the \"Shattered Throne\" dungeon, and \"Last Wish\" raid. Owners also get 3 Forsaken Ciphers to instantly unlock any 3 Forsaken Exotic weapons of their choosing (raid and dungeon weapons excluded).",
-							"name": "Forsaken Pack",
-							"icon": "/common/destiny2_content/icons/8e449d50eb24ab38e9381a10be2c0a5e.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 1309,
-						"itemHash": 3853536719,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 8,
-						"seedOverride": 0,
-						"categoryIndex": 61,
-						"originalCategoryIndex": 61,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": true
-						},
-						"displayCategory": "",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 3,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2024-12-17T17:00:00Z",
-						"costs": [],
 						"itemComponent": {
 							"instances": {
 								"data": {},
