@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-12-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,8 +510,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-12-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -667,7 +672,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +685,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 60,
-			"next": "2024-12-10T17:00:00Z"
+			"current": 61,
+			"next": "2024-12-17T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-12-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +837,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +848,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 61,
-			"next": "2024-12-10T17:00:00Z"
+			"current": 62,
+			"next": "2024-12-17T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -999,8 +1004,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 23,
-			"next": "2024-12-10T17:00:00Z"
+			"current": 24,
+			"next": "2024-12-17T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1170,8 +1175,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1425,8 +1428,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1604,8 +1605,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 88,
-			"next": "2024-12-10T17:00:00Z"
+			"current": 89,
+			"next": "2024-12-17T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1760,6 +1761,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-12-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1900,11 +1903,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2084,8 +2084,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 59,
-			"next": "2024-12-10T17:00:00Z"
+			"current": 60,
+			"next": "2024-12-17T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2519,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 509188661,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "//node.ovrd.AVALON//",
+			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"3118061005": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 3951571983,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
+		"endTime": "2024-12-17T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,72 +2541,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 3350278552,
-		"displayProperties": {
-			"name": "Excavation Site XII",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Arc] Arc\n\nModifiers: Scorched Earth",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 377,
-			"next": "2024-12-10T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 286562305,
+		"hash": 1682266665,
 		"displayProperties": {
-			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
-			"name": "The Inverted Spire",
+			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
+			"name": "Birthplace of the Vile",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"3686538757": {}
+			"2591257541": {}
 		},
 		"master": {
-			"activityHash": 2426813795,
+			"activityHash": 2766844306,
 			"dropTable": {
-				"817909300": {}
+				"1492522228": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-10T17:00:00Z",
+		"endTime": "2024-12-17T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
