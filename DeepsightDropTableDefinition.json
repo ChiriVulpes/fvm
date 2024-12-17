@@ -132,8 +132,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124
+			"activityHash": 2716998124,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2024-12-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -264,6 +267,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-12-24T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -377,8 +382,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -510,11 +513,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662,
-			"availability": "rotator"
+			"activityHash": 2296818662
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -672,8 +672,7 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -685,11 +684,9 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 61,
-			"next": "2024-12-17T17:00:00Z"
+			"current": 62,
+			"next": "2024-12-24T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -848,8 +845,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 62,
-			"next": "2024-12-17T17:00:00Z"
+			"current": 63,
+			"next": "2024-12-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1004,8 +1001,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 24,
-			"next": "2024-12-17T17:00:00Z"
+			"current": 25,
+			"next": "2024-12-24T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1594,7 +1591,8 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1605,9 +1603,11 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 89,
-			"next": "2024-12-17T17:00:00Z"
+			"current": 90,
+			"next": "2024-12-24T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2024-12-24T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1761,8 +1761,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2084,8 +2082,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 60,
-			"next": "2024-12-17T17:00:00Z"
+			"current": 61,
+			"next": "2024-12-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2377,6 +2375,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2024-12-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2519,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 509188661,
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "//node.ovrd.AVALON//",
-			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"3118061005": {}
+			"2910326942": {}
 		},
 		"master": {
-			"activityHash": 3951571983,
+			"activityHash": 3214480871,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
+		"endTime": "2024-12-24T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,109 +2541,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 64172690,
-		"displayProperties": {
-			"name": "Midtown",
-			"description": "The Last City, Earth",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"958384347": {},
-			"1292594730": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2300143112": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
-	"lostSector": {
-		"hash": 1174061510,
-		"displayProperties": {
-			"name": "K1 Revelation",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: [Arc] Arc\n\nModifiers: Fire Pit",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 384,
-			"next": "2024-12-17T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 1682266665,
+		"hash": 442671778,
 		"displayProperties": {
-			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
-			"name": "Birthplace of the Vile",
+			"description": "Shut down the operations of an ironmonger providing weapons to the Red Legion.",
+			"name": "The Arms Dealer",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2591257541": {}
+			"42874240": {}
 		},
 		"master": {
-			"activityHash": 2766844306,
+			"activityHash": 1753547901,
 			"dropTable": {
-				"1492522228": {}
+				"3610521673": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-17T17:00:00Z",
+		"endTime": "2024-12-24T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
