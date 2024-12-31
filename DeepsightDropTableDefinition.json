@@ -679,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 63,
-			"next": "2024-12-31T17:00:00Z"
+			"current": 64,
+			"next": "2025-01-07T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -829,7 +829,8 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -840,9 +841,11 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 64,
-			"next": "2024-12-31T17:00:00Z"
+			"current": 65,
+			"next": "2025-01-07T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-01-07T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -996,8 +999,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 26,
-			"next": "2024-12-31T17:00:00Z"
+			"current": 27,
+			"next": "2025-01-07T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1167,6 +1170,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-01-07T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1305,10 +1310,9 @@
 		],
 		"master": {
 			"activityHash": 2534833093,
-			"availability": "rotator"
+			"availability": "repeatable"
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
+		"availability": "repeatable",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1421,6 +1425,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-01-07T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1598,8 +1604,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 91,
-			"next": "2024-12-31T17:00:00Z"
+			"current": 92,
+			"next": "2025-01-07T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1894,8 +1900,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-01-07T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2056,8 +2065,7 @@
 				"631439337": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2076,11 +2084,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 62,
-			"next": "2024-12-31T17:00:00Z"
+			"current": 63,
+			"next": "2025-01-07T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2224,11 +2230,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2505,10 +2508,8 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			},
-			"availability": "new"
+			}
 		},
-		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2518,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
+		"endTime": "2025-01-07T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2540,48 +2541,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 105227112,
-		"displayProperties": {
-			"name": "Altar of Flame",
-			"description": "Caloris Basin, Mercury",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"303107619": {},
-			"806374817": {},
-			"958384347": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2300143112": {},
-			"2443507405": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 1344654780,
+		"hash": 3350278552,
 		"displayProperties": {
-			"name": "The Quarry",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Scorched Earth",
+			"name": "Excavation Site XII",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Arc] Arc\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2612,11 +2576,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 398,
-			"next": "2024-12-31T17:00:00Z"
+			"current": 399,
+			"next": "2025-01-01T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
+		"endTime": "2025-01-01T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2625,24 +2589,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 286562305,
+		"hash": 2924990176,
 		"displayProperties": {
-			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
-			"name": "The Inverted Spire",
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2298039571": {}
+			"2322926844": {}
 		},
 		"master": {
-			"activityHash": 2426813795,
+			"activityHash": 2099835168,
 			"dropTable": {
-				"3997086838": {}
+				"1056103557": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2024-12-31T17:00:00Z",
+		"endTime": "2025-01-07T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
