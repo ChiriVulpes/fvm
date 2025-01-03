@@ -2541,11 +2541,48 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 3995113176,
+	"trials": {
+		"hash": 3903167001,
 		"displayProperties": {
-			"name": "The Blooming Deep",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Epitaph, Chaff",
+			"name": "Wormhaven",
+			"description": "New Pacific Arcology, Titan",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		},
+		"dropTable": {
+			"297586990": {},
+			"806374817": {},
+			"958384347": {},
+			"1482105402": {},
+			"1602717624": {},
+			"1769846965": {},
+			"1820994983": {},
+			"1968410628": {},
+			"2022294213": {},
+			"2147175386": {},
+			"2195467472": {},
+			"2300143112": {},
+			"2443507405": {},
+			"3332125295": {},
+			"3403647252": {},
+			"3719480067": {},
+			"3824918251": {},
+			"3932952562": {},
+			"3969379530": {}
+		},
+		"availability": "rotator",
+		"endTime": "2025-01-07T17:00:00Z",
+		"type": "trials",
+		"typeDisplayProperties": {
+			"name": "Trials of Osiris",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		}
+	},
+	"lostSector": {
+		"hash": 699527776,
+		"displayProperties": {
+			"name": "The Forgotten Deep",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc\n\nModifiers: Firepit, Chaff",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2576,11 +2613,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 401,
-			"next": "2025-01-03T17:00:00Z"
+			"current": 402,
+			"next": "2025-01-04T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-01-03T17:00:00Z",
+		"endTime": "2025-01-04T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2589,20 +2626,20 @@
 		}
 	},
 	"nightfall": {
-		"hash": 2924990176,
+		"hash": 1682266665,
 		"displayProperties": {
-			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
-			"name": "Liminality",
+			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
+			"name": "Birthplace of the Vile",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2322926844": {}
+			"2298039571": {}
 		},
 		"master": {
-			"activityHash": 2099835168,
+			"activityHash": 2766844306,
 			"dropTable": {
-				"1056103557": {}
+				"3997086838": {}
 			}
 		},
 		"availability": "rotator",
