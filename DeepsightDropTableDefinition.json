@@ -377,6 +377,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-01-14T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,8 +510,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662
+			"activityHash": 2296818662,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-01-14T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -667,7 +672,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -679,9 +685,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 64,
-			"next": "2025-01-07T17:00:00Z"
+			"current": 65,
+			"next": "2025-01-14T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-01-14T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -829,8 +837,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -841,11 +848,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 65,
-			"next": "2025-01-07T17:00:00Z"
+			"current": 66,
+			"next": "2025-01-14T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -999,8 +1004,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 27,
-			"next": "2025-01-07T17:00:00Z"
+			"current": 28,
+			"next": "2025-01-14T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1170,8 +1175,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1425,8 +1428,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1604,8 +1605,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 92,
-			"next": "2025-01-07T17:00:00Z"
+			"current": 93,
+			"next": "2025-01-14T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1760,6 +1761,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-01-14T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1900,11 +1903,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626,
-			"availability": "rotator"
+			"activityHash": 3012587626
 		},
-		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2084,8 +2084,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 63,
-			"next": "2025-01-07T17:00:00Z"
+			"current": 64,
+			"next": "2025-01-14T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2519,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
+		"endTime": "2025-01-14T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2541,48 +2541,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 3903167001,
-		"displayProperties": {
-			"name": "Wormhaven",
-			"description": "New Pacific Arcology, Titan",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"297586990": {},
-			"806374817": {},
-			"958384347": {},
-			"1482105402": {},
-			"1602717624": {},
-			"1769846965": {},
-			"1820994983": {},
-			"1968410628": {},
-			"2022294213": {},
-			"2147175386": {},
-			"2195467472": {},
-			"2300143112": {},
-			"2443507405": {},
-			"3332125295": {},
-			"3403647252": {},
-			"3719480067": {},
-			"3824918251": {},
-			"3932952562": {},
-			"3969379530": {}
-		},
-		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 283251609,
+		"hash": 1174061510,
 		"displayProperties": {
-			"name": "Metamorphosis",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Scorched Earth",
+			"name": "K1 Revelation",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: [Arc] Arc\n\nModifiers: Fire Pit",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2613,11 +2576,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 405,
-			"next": "2025-01-07T17:00:00Z"
+			"current": 406,
+			"next": "2025-01-08T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
+		"endTime": "2025-01-08T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2626,24 +2589,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 1682266665,
+		"hash": 224295651,
 		"displayProperties": {
-			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
-			"name": "Birthplace of the Vile",
+			"description": "Hunt down one of Queen Mara's most trusted advisors and free her from Taken possession.",
+			"name": "The Corrupted",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2298039571": {}
+			"1289000550": {}
 		},
 		"master": {
-			"activityHash": 2766844306,
+			"activityHash": 2416314393,
 			"dropTable": {
-				"3997086838": {}
+				"534775659": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-01-07T17:00:00Z",
+		"endTime": "2025-01-14T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
