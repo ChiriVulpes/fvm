@@ -2541,11 +2541,48 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 628527324,
+	"trials": {
+		"hash": 1579576831,
 		"displayProperties": {
-			"name": "Bay of Drowned Wishes",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Void] Void\n\nModifiers: Stalker Shield",
+			"name": "Cirrus Plaza",
+			"description": "Neomuna, Neptune",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		},
+		"dropTable": {
+			"297586990": {},
+			"806374817": {},
+			"958384347": {},
+			"1482105402": {},
+			"1602717624": {},
+			"1769846965": {},
+			"1820994983": {},
+			"1968410628": {},
+			"2022294213": {},
+			"2147175386": {},
+			"2195467472": {},
+			"2300143112": {},
+			"2443507405": {},
+			"3019024381": {},
+			"3403647252": {},
+			"3719480067": {},
+			"3824918251": {},
+			"3932952562": {},
+			"3969379530": {}
+		},
+		"availability": "rotator",
+		"endTime": "2025-02-04T17:00:00Z",
+		"type": "trials",
+		"typeDisplayProperties": {
+			"name": "Trials of Osiris",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		}
+	},
+	"lostSector": {
+		"hash": 457172845,
+		"displayProperties": {
+			"name": "Chamber of Starlight",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Epitaph",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2576,11 +2613,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 429,
-			"next": "2025-01-31T17:00:00Z"
+			"current": 430,
+			"next": "2025-02-01T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-01-31T17:00:00Z",
+		"endTime": "2025-02-01T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2589,10 +2626,10 @@
 		}
 	},
 	"nightfall": {
-		"hash": 224295651,
+		"hash": 1682266665,
 		"displayProperties": {
-			"description": "Hunt down one of Queen Mara's most trusted advisors and free her from Taken possession.",
-			"name": "The Corrupted",
+			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
+			"name": "Birthplace of the Vile",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
@@ -2600,7 +2637,7 @@
 			"3686538757": {}
 		},
 		"master": {
-			"activityHash": 2416314393,
+			"activityHash": 2766844306,
 			"dropTable": {
 				"817909300": {}
 			}
