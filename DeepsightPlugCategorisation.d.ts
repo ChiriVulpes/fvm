@@ -17,7 +17,7 @@ export declare const enum DeepsightPlugCategory {
 	Infusion,
 	Destination,
 	Information,
-	Tonic,
+	Seasonal,
 }
 
 export declare const enum DeepsightPlugTypeIntrinsic {
@@ -176,13 +176,17 @@ export declare const enum DeepsightPlugTypeDestination {
 	TravelersBlessingsPlaystyle,
 }
 
-export declare const enum DeepsightPlugTypeTonic {
+export declare const enum DeepsightPlugTypeSeasonal {
 	None,
-	Placeholder,
-	Reagent,
-	Combat,
-	Loot,
-	Formula,
+	TonicPlaceholder,
+	TonicReagent,
+	TonicCombat,
+	TonicLoot,
+	TonicFormula,
+	ScrollTemporary,
+	ScrollPermanent,
+	ScrollRitual,
+	ArtifactBoost,
 }
 
 export declare type DeepsightPlugTypeMap = {
@@ -202,7 +206,7 @@ export declare type DeepsightPlugTypeMap = {
 	[DeepsightPlugCategory.Extractable]: typeof DeepsightPlugTypeExtractable,
 	[DeepsightPlugCategory.Destination]: typeof DeepsightPlugTypeDestination,
 	[DeepsightPlugCategory.Information]: null,
-	[DeepsightPlugCategory.Tonic]: typeof DeepsightPlugTypeTonic,
+	[DeepsightPlugCategory.Seasonal]: typeof DeepsightPlugTypeSeasonal,
 };
 
 export declare type DeepsightPlugType<CATEGORY extends DeepsightPlugCategory = DeepsightPlugCategory> =
