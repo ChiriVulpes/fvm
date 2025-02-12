@@ -1,0 +1,86 @@
+{
+	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
+	"short_name": "deepsight.gg",
+	"name": "deepsight.gg",
+	"description": "Manage your Destiny 2 vault in style.",
+	"background_color": "#2e2929",
+	"categories": ["entertainment", "games", "productivity", "utilities"],
+	"lang": "en-us",
+	"start_url": "./",
+	"theme_color": "#2e2929",
+	"display": "standalone",
+	"shortcuts": [
+		{
+			"name": "Kinetic Weapons",
+			"short_name": "Kinetic",
+			"url": "./#kinetic"
+		},
+		{
+			"name": "Energy Weapons",
+			"short_name": "Energy",
+			"url": "./#energy"
+		},
+		{
+			"name": "Power Weapons",
+			"short_name": "Power",
+			"url": "./#power"
+		},
+		{
+			"name": "Helmet Armor",
+			"short_name": "Helmets",
+			"url": "./#helmet"
+		},
+		{
+			"name": "Arms Armor",
+			"short_name": "Arms",
+			"url": "./#arms"
+		},
+		{
+			"name": "Chest Armor",
+			"short_name": "Chest",
+			"url": "./#chest"
+		},
+		{
+			"name": "Legs Armor",
+			"short_name": "Legs",
+			"url": "./#legs"
+		},
+		{
+			"name": "Class Items",
+			"short_name": "Class Items",
+			"url": "./#class-item"
+		}
+	],
+	"icons": [
+		{
+			"src": "./image/logo-touch-120.png",
+			"sizes": "120x120",
+			"type": "image/png"
+		},
+		{
+			"src": "./image/logo-touch-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "./image/logo-touch-152.png",
+			"sizes": "152x152",
+			"type": "image/png"
+		},
+		{
+			"src": "./image/logo-touch-167.png",
+			"sizes": "167x167",
+			"type": "image/png"
+		},
+		{
+			"src": "./image/logo-touch-180.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		},
+		{
+			"src": "./image/logo-touch-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	]
+}
