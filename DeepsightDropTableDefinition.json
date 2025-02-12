@@ -132,8 +132,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124
+			"activityHash": 2716998124,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-02-18T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -377,6 +380,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-02-18T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -508,11 +513,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662,
-			"availability": "rotator"
+			"activityHash": 2296818662
 		},
-		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -670,7 +672,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -682,9 +685,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 69,
-			"next": "2025-02-11T17:00:00Z"
+			"current": 70,
+			"next": "2025-02-18T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-02-18T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -832,8 +837,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -844,11 +848,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 70,
-			"next": "2025-02-11T17:00:00Z"
+			"current": 71,
+			"next": "2025-02-18T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1002,8 +1004,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 32,
-			"next": "2025-02-11T17:00:00Z"
+			"current": 33,
+			"next": "2025-02-18T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1173,8 +1175,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1428,8 +1428,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1607,8 +1605,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 97,
-			"next": "2025-02-11T17:00:00Z"
+			"current": 98,
+			"next": "2025-02-18T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1763,6 +1761,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-02-18T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2065,8 +2065,7 @@
 				"851296754": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2085,11 +2084,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 68,
-			"next": "2025-02-11T17:00:00Z"
+			"current": 69,
+			"next": "2025-02-18T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2522,21 +2519,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
+		"endTime": "2025-02-18T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2544,66 +2541,19 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 3995113176,
-		"displayProperties": {
-			"name": "The Blooming Deep",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Epitaph, Chaff",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 440,
-			"next": "2025-02-11T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 808496216,
+		"hash": 3213068454,
 		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
+			"description": "Blitz the BrayTech Futurescape campus on Mars to repossess fragments of the submind Charlemagne's code.",
+			"name": "Heist Battleground: Mars",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2591257541": {}
+			"2298039571": {}
 		},
 		"availability": "rotator",
-		"endTime": "2025-02-11T17:00:00Z",
+		"endTime": "2025-02-18T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
