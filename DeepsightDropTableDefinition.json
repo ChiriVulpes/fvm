@@ -264,8 +264,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -681,8 +679,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 71,
-			"next": "2025-02-25T17:00:00Z"
+			"current": 72,
+			"next": "2025-03-04T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -842,8 +840,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 72,
-			"next": "2025-02-25T17:00:00Z"
+			"current": 73,
+			"next": "2025-03-04T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -998,8 +996,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 34,
-			"next": "2025-02-25T17:00:00Z"
+			"current": 35,
+			"next": "2025-03-04T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1307,10 +1305,9 @@
 		],
 		"master": {
 			"activityHash": 2534833093,
-			"availability": "rotator"
+			"availability": "repeatable"
 		},
-		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
+		"availability": "repeatable",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1589,8 +1586,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1601,11 +1597,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 99,
-			"next": "2025-02-25T17:00:00Z"
+			"current": 100,
+			"next": "2025-03-04T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2061,7 +2055,8 @@
 				"851296754": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2080,9 +2075,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 70,
-			"next": "2025-02-25T17:00:00Z"
+			"current": 71,
+			"next": "2025-03-04T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-03-04T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2226,8 +2223,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203
+			"activityHash": 1112917203,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-03-04T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2373,8 +2373,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2506,8 +2504,10 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2517,21 +2517,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 509188661,
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "//node.ovrd.AVALON//",
-			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"3118061005": {}
+			"2910326942": {}
 		},
 		"master": {
-			"activityHash": 3951571983,
+			"activityHash": 3214480871,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
+		"endTime": "2025-03-04T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2540,10 +2540,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 2310698352,
+		"hash": 2504276275,
 		"displayProperties": {
-			"name": "Veles Labyrinth",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Fire Pit",
+			"name": "Exodus Garden 2A",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2574,11 +2574,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 454,
-			"next": "2025-02-25T17:00:00Z"
+			"current": 455,
+			"next": "2025-02-26T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
+		"endTime": "2025-02-26T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2587,18 +2587,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 1859320492,
+		"hash": 808496216,
 		"displayProperties": {
-			"description": "The Lucent Hive are using stolen Guardian Light for some wicked purpose. Breach their stronghold and uncover their plot.",
-			"name": "Legend PsiOps Battleground: Cosmodrome",
+			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
+			"name": "HyperNet Current",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2322926844": {}
+			"432476743": {}
+		},
+		"master": {
+			"activityHash": 2039642510,
+			"dropTable": {
+				"1481892490": {}
+			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-02-25T17:00:00Z",
+		"endTime": "2025-03-04T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
