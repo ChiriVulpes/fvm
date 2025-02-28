@@ -2539,11 +2539,48 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 457172842,
+	"trials": {
+		"hash": 2487439334,
 		"displayProperties": {
-			"name": "Chamber of Starlight",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Epitaph",
+			"name": "Solitude",
+			"description": "Warmind Facility Hellas, Mars",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		},
+		"dropTable": {
+			"113167959": {},
+			"155308388": {},
+			"511773064": {},
+			"548809020": {},
+			"792171868": {},
+			"958384347": {},
+			"1054377087": {},
+			"1435559164": {},
+			"1479465109": {},
+			"1661393678": {},
+			"1893967086": {},
+			"2022294213": {},
+			"2300143112": {},
+			"2641704939": {},
+			"2751189771": {},
+			"2832013173": {},
+			"3332125295": {},
+			"3969379530": {},
+			"4154074649": {}
+		},
+		"availability": "rotator",
+		"endTime": "2025-03-04T17:00:00Z",
+		"type": "trials",
+		"typeDisplayProperties": {
+			"name": "Trials of Osiris",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		}
+	},
+	"lostSector": {
+		"hash": 1869786719,
+		"displayProperties": {
+			"name": "Hydroponics Delta",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: None\n\nModifiers: Empath",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2574,11 +2611,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 457,
-			"next": "2025-02-28T17:00:00Z"
+			"current": 458,
+			"next": "2025-03-01T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-02-28T17:00:00Z",
+		"endTime": "2025-03-01T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
